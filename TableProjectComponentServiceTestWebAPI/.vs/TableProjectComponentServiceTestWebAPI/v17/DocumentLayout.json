@@ -1,25 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\asp.net_l\\tableprojectcomponentservicetestwebapi\\ticket\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\ticket\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\asp.net_l\\tableprojectcomponentservicetestwebapi\\ticket\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\asp.net_l\\tableprojectcomponentservicetestwebapi\\ticket\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\asp.net_l\\tableprojectcomponentservicetestwebapi\\ticket\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\ticket\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\asp.net_l\\tableprojectcomponentservicetestwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\ticket\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\ticket\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\ticket\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\ticket\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\photodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\ticket\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\ticket\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:ticket\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\spbws\\.net\\tableprojectcomponentservicetestwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -38,24 +58,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Photo.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\Photo.cs",
-              "RelativeDocumentMoniker": "Ticket\\Photo.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\Photo.cs",
-              "RelativeToolTip": "Ticket\\Photo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T05:24:18.163Z",
+              "WhenOpened": "2024-07-29T09:43:27.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "TicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketDto.cs",
+              "RelativeDocumentMoniker": "Ticket\\TicketDto.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketDto.cs",
+              "RelativeToolTip": "Ticket\\TicketDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T07:59:22.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketController.cs",
+              "RelativeDocumentMoniker": "Ticket\\TicketController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketController.cs",
+              "RelativeToolTip": "Ticket\\TicketController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAmwDUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T07:56:12.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\User.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\User.cs",
               "RelativeDocumentMoniker": "Ticket\\User.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\User.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\User.cs",
               "RelativeToolTip": "Ticket\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,24 +110,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TicketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketRepository.cs",
               "RelativeDocumentMoniker": "Ticket\\TicketRepository.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketRepository.cs",
               "RelativeToolTip": "Ticket\\TicketRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBAAAAAJAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T04:57:03.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\Ticket.cs",
               "RelativeDocumentMoniker": "Ticket\\Ticket.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\Ticket.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\Ticket.cs",
               "RelativeToolTip": "Ticket\\Ticket.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,20 +136,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-29T04:48:04.564Z",
+              "DocumentIndex": 6,
+              "Title": "PhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\PhotoDto.cs",
+              "RelativeDocumentMoniker": "Ticket\\PhotoDto.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\PhotoDto.cs",
+              "RelativeToolTip": "Ticket\\PhotoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T07:59:40.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\UserDto.cs",
+              "RelativeDocumentMoniker": "Ticket\\UserDto.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\UserDto.cs",
+              "RelativeToolTip": "Ticket\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T07:59:29.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\Photo.cs",
+              "RelativeDocumentMoniker": "Ticket\\Photo.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\Ticket\\Photo.cs",
+              "RelativeToolTip": "Ticket\\Photo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T05:24:18.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-29T04:48:04.564Z",
+              "EditorCaption": ""
             }
           ]
         }

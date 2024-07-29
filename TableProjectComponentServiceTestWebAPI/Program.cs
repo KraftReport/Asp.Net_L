@@ -1,4 +1,7 @@
 
+using System;
+using TableProjectComponentServiceTestWebAPI.Ticket;
+
 namespace TableProjectComponentServiceTestWebAPI
 {
     public class Program
@@ -8,6 +11,10 @@ namespace TableProjectComponentServiceTestWebAPI
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+            var configuration = builder.Configuration;
+
+            builder.Services.AddSingleton<TicketRepository>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

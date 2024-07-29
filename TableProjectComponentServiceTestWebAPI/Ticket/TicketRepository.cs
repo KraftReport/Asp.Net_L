@@ -1,6 +1,8 @@
 ﻿
 using Microsoft.Data.SqlClient;
+using QRCoder;
 using System.Data;
+using System.Drawing.Imaging;
 
 namespace TableProjectComponentServiceTestWebAPI.Ticket
 {
@@ -18,11 +20,89 @@ namespace TableProjectComponentServiceTestWebAPI.Ticket
             using(var connection = new SqlConnection(connectionString))
             {
                 await connection.OpenAsync();
-                var command = new SqlCommand("insert into Users (Name,Email) values (@Name,@Email); select SCOPE_IDENTITY();");
+                var command = new SqlCommand(
+                    "INSERT INTO Users (Name, Email) VALUES (@Name, @Email); SELECT CAST(SCOPE_IDENTITY() as int);",
+                    connection
+                );
                 command.Parameters.AddWithValue("@Name", name);
                 command.Parameters.AddWithValue("@Email", email);
-                return Convert.ToInt32(await command.ExecuteScalarAsync());
+                await command.ExecuteScalarAsync();
+                return 1;
             }
+        }
+
+        public async Task InsertPhoto(int userId,byte[] imageData)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                await connection.OpenAsync();
+                var command = new SqlCommand("insert into Photos (UserId,ImageData) values (@UserId,@ImageData);", connection);
+                command.Parameters.AddWithValue("@UserId", userId);
+                command.Parameters.AddWithValue("@ImageData", imageData);
+                await command.ExecuteNonQueryAsync();
+            }
+        }
+
+        public async Task<byte[]> GetImageData(int userId)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                await connection.OpenAsync();
+                var command = new SqlCommand("SELECT ImageData FROM Photos WHERE UserId = @UserId;", connection);
+                command.Parameters.AddWithValue("@UserId", userId);
+
+                var result = await command.ExecuteScalarAsync();
+                if (result != null && result is byte[] imageData)
+                {
+                    return imageData;
+                }
+                else
+                {
+                    throw new Exception("No image data found or data is not in expected format.");
+                }
+            }
+        }
+
+
+
+        public string generateQrCodeString(string data)
+        {
+            using(var qrCodeGenerator = new QRCodeGenerator())
+            {
+                var qrCodeData = qrCodeGenerator.CreateQrCode(data, QRCodeGenerator.ECCLevel.Q);
+                using(var qrCode = new QRCode(qrCodeData))
+                {
+                    using(var bitmap = qrCode.GetGraphic(20))
+                    {
+                        using (var stream = new MemoryStream())
+                        {
+                            bitmap.Save(stream,ImageFormat.Png);
+                            return Convert.ToBase64String(stream.ToArray());
+                        }
+                    }
+                }
+            }
+        }
+
+        public byte[] generateQrCodeByte(string data)
+        {
+            using(var qrCodeGenerator = new QRCodeGenerator())
+            {
+                var qrCodeData = qrCodeGenerator.CreateQrCode(data, QRCodeGenerator.ECCLevel.Q);
+                using (var qrCode = new QRCode(qrCodeData))
+                {
+                    using (var bitmap = qrCode.GetGraphic(20))
+                    {
+                        using(var stream = new  MemoryStream())
+                        {
+                            bitmap.Save(stream, ImageFormat.Png);
+                            return stream.ToArray();
+                        }
+                    }
+
+                }
+            }
+
         }
 
         public async Task BulkTicketInsert(DataTable ticketDataTable)
@@ -43,8 +123,7 @@ namespace TableProjectComponentServiceTestWebAPI.Ticket
             var dataTable = new DataTable();
             dataTable.Columns.Add("UserId",typeof(int));
             dataTable.Columns.Add("EventName",typeof(string));
-            dataTable.Columns.Add("EventDate",typeof(DateTime));
-            dataTable.Columns.Add("QrCode",typeof (string));
+            dataTable.Columns.Add("EventDate",typeof(DateTime)); 
             return dataTable;
         }
     }
