@@ -73,3 +73,4 @@ C:\Users\KraftWork\Desktop\SPBWS\.Net\TableProjectComponentServiceTestWebAPI\obj
 C:\Users\KraftWork\Desktop\SPBWS\.Net\TableProjectComponentServiceTestWebAPI\obj\Debug\net8.0\TableProjectComponentServiceTestWebAPI.pdb
 C:\Users\KraftWork\Desktop\SPBWS\.Net\TableProjectComponentServiceTestWebAPI\obj\Debug\net8.0\TableProjectComponentServiceTestWebAPI.genruntimeconfig.cache
 C:\Users\KraftWork\Desktop\SPBWS\.Net\TableProjectComponentServiceTestWebAPI\obj\Debug\net8.0\ref\TableProjectComponentServiceTestWebAPI.dll
+C:\Users\KraftWork\Desktop\SPBWS\.Net\TableProjectComponentServiceTestWebAPI\bin\Debug\net8.0\Dapper.dll

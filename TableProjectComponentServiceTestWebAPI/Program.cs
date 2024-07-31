@@ -1,5 +1,6 @@
 
 using System;
+using TableProjectComponentServiceTestWebAPI.Audio;
 using TableProjectComponentServiceTestWebAPI.Ticket;
 
 namespace TableProjectComponentServiceTestWebAPI
@@ -15,6 +16,12 @@ namespace TableProjectComponentServiceTestWebAPI
             var configuration = builder.Configuration;
 
             builder.Services.AddSingleton<TicketRepository>();
+
+            builder.Services.AddScoped<AudioService>();
+
+            builder.Services.AddScoped<AudioDao>();
+
+            builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
