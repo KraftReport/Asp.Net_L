@@ -1,6 +1,7 @@
 
 using System;
 using TableProjectComponentServiceTestWebAPI.Audio;
+using TableProjectComponentServiceTestWebAPI.CustomException;
 using TableProjectComponentServiceTestWebAPI.Ticket;
 
 namespace TableProjectComponentServiceTestWebAPI
@@ -20,6 +21,10 @@ namespace TableProjectComponentServiceTestWebAPI
             builder.Services.AddScoped<AudioService>();
 
             builder.Services.AddScoped<AudioDao>();
+
+            builder.Services.AddScoped<Logger>();
+
+            builder.Services.AddTransient<Handler>();
 
             builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
@@ -41,8 +46,11 @@ namespace TableProjectComponentServiceTestWebAPI
 
             app.UseAuthorization();
 
+            
 
             app.MapControllers();
+
+            app.UseMiddleware<Handler>();
 
             app.Run();
         }

@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
+using TableProjectComponentServiceTestWebAPI.CustomException;
 
 namespace TableProjectComponentServiceTestWebAPI.Audio
 {
@@ -27,7 +28,12 @@ namespace TableProjectComponentServiceTestWebAPI.Audio
             using (var connection = new SqlConnection(connectionString))
             {
                 var query = "select * from AudioFiles where Id = @Id";
-                return await connection.QuerySingleOrDefaultAsync<AudioFile>(query, new { Id = Id });
+                var mp3 = await connection.QuerySingleOrDefaultAsync<AudioFile>(query, new { Id = Id });
+                if(mp3 == null)
+                {
+                    throw new DataNotFoundException("no such audio file is exist");
+                }
+                return mp3; 
             }
         }
 

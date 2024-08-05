@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj": {}
+    "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj": {
+    "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj",
         "projectName": "TableProjectComponentServiceTestWebAPI",
-        "projectPath": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj",
+        "projectPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj",
         "packagesPath": "C:\\Users\\KraftWork\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KraftWork\\Desktop\\SPBWS\\.Net\\TableProjectComponentServiceTestWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,26 @@
             "QRCoder": {
               "target": "Package",
               "version": "[1.4.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
