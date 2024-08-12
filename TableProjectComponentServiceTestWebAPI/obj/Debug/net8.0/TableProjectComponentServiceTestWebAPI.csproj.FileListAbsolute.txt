@@ -157,3 +157,9 @@ C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTe
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTestWebAPI\obj\Debug\net8.0\TableProjectComponentServiceTestWebAPI.pdb
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTestWebAPI\obj\Debug\net8.0\TableProjectComponentServiceTestWebAPI.genruntimeconfig.cache
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTestWebAPI\obj\Debug\net8.0\ref\TableProjectComponentServiceTestWebAPI.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTestWebAPI\bin\Debug\net8.0\SkiaSharp.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTestWebAPI\bin\Debug\net8.0\SkiaSharp.QrCode.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTestWebAPI\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTestWebAPI\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTestWebAPI\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\TableProjectComponentServiceTestWebAPI\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll

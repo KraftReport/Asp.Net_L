@@ -1,0 +1,2 @@
+2024-08-12 14:19:55.632 +06:30 [INF] Unable to resolve service for type 'TableProjectComponentServiceTestWebAPI.QrCode.QrCodeService' while attempting to activate 'TableProjectComponentServiceTestWebAPI.QrCode.QrController'.
+2024-08-12 14:21:07.092 +06:30 [INF] Unable to resolve service for type 'TableProjectComponentServiceTestWebAPI.QrCode.QrCodeService' while attempting to activate 'TableProjectComponentServiceTestWebAPI.QrCode.QrController'.

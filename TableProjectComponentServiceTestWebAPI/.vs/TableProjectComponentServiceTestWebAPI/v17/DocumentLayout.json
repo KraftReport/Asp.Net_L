@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\customexception\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:customexception\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\qrcode\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:qrcode\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\audio\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:audio\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\qrcode\\qrcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:qrcode\\qrcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\audio\\audioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:audio\\audioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\customexception\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:customexception\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\customexception\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:customexception\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\customexception\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:customexception\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\log\\logfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:log\\logfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\log\\logfile20240805.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:log\\logfile20240805.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\audio\\audiodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +47,12 @@
       "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:customexception\\datanotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\customexception\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:customexception\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\log\\logfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:log\\logfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\audio\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:audio\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\audio\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:audio\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\customexception\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|solutionrelative:customexception\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E5AA50C-F7A8-4611-82CE-BE8014480E54}|TableProjectComponentServiceTestWebAPI.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tableprojectcomponentservicetestwebapi\\tableprojectcomponentservicetestwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -102,11 +114,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -115,38 +131,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AudioController.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioController.cs",
-              "RelativeDocumentMoniker": "Audio\\AudioController.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioController.cs",
-              "RelativeToolTip": "Audio\\AudioController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAcwA4AAAAIAAAA",
+              "Title": "QrCodeService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\QrCode\\QrCodeService.cs",
+              "RelativeDocumentMoniker": "QrCode\\QrCodeService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\QrCode\\QrCodeService.cs",
+              "RelativeToolTip": "QrCode\\QrCodeService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAswCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T07:43:33.426Z",
+              "WhenOpened": "2024-08-12T06:46:30.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "logFile.txt",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Log\\logFile.txt",
-              "RelativeDocumentMoniker": "Log\\logFile.txt",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Log\\logFile.txt",
-              "RelativeToolTip": "Log\\logFile.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-08-05T04:17:33.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Handler.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\Handler.cs",
               "RelativeDocumentMoniker": "CustomException\\Handler.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\Handler.cs",
               "RelativeToolTip": "CustomException\\Handler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAgwA8AAAAsAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAWwBkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T04:55:51.41Z",
               "EditorCaption": ""
@@ -159,66 +162,131 @@
               "RelativeDocumentMoniker": "Audio\\AudioService.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioService.cs",
               "RelativeToolTip": "Audio\\AudioService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T07:43:42.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AudioDao.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioDao.cs",
-              "RelativeDocumentMoniker": "Audio\\AudioDao.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioDao.cs",
-              "RelativeToolTip": "Audio\\AudioDao.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T07:37:34.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\DataNotFoundException.cs",
-              "RelativeDocumentMoniker": "CustomException\\DataNotFoundException.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\DataNotFoundException.cs",
-              "RelativeToolTip": "CustomException\\DataNotFoundException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T04:42:55.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResponseModel.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\ResponseModel.cs",
-              "RelativeDocumentMoniker": "CustomException\\ResponseModel.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\ResponseModel.cs",
-              "RelativeToolTip": "CustomException\\ResponseModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T04:18:49.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwDQAAAApAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwBkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T09:43:27.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\Logger.cs",
+              "RelativeDocumentMoniker": "CustomException\\Logger.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\Logger.cs",
+              "RelativeToolTip": "CustomException\\Logger.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIA2wBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T04:46:09.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "CustomException\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\ResponseModel.cs",
+              "RelativeToolTip": "CustomException\\ResponseModel.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T04:18:49.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QrController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\QrCode\\QrController.cs",
+              "RelativeDocumentMoniker": "QrCode\\QrController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\QrCode\\QrController.cs",
+              "RelativeToolTip": "QrCode\\QrController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA2wBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:47:51.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "logFile.txt",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Log\\logFile.txt",
+              "RelativeDocumentMoniker": "Log\\logFile.txt",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Log\\logFile.txt",
+              "RelativeToolTip": "Log\\logFile.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-05T04:17:33.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "logFile20240805.txt",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Log\\logFile20240805.txt",
+              "RelativeDocumentMoniker": "Log\\logFile20240805.txt",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Log\\logFile20240805.txt",
+              "RelativeToolTip": "Log\\logFile20240805.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-05T07:02:05.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AudioDao.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioDao.cs",
+              "RelativeDocumentMoniker": "Audio\\AudioDao.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioDao.cs",
+              "RelativeToolTip": "Audio\\AudioDao.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwCEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T07:37:34.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\DataNotFoundException.cs",
+              "RelativeDocumentMoniker": "CustomException\\DataNotFoundException.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\DataNotFoundException.cs",
+              "RelativeToolTip": "CustomException\\DataNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T04:42:55.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AudioController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioController.cs",
+              "RelativeDocumentMoniker": "Audio\\AudioController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioController.cs",
+              "RelativeToolTip": "Audio\\AudioController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T07:43:33.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\ResponseModel.cs",
               "RelativeDocumentMoniker": "Audio\\ResponseModel.cs",
@@ -226,23 +294,12 @@
               "RelativeToolTip": "Audio\\ResponseModel.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAowAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T04:43:17.776Z"
+              "WhenOpened": "2024-07-31T04:43:17.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Logger.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\Logger.cs",
-              "RelativeDocumentMoniker": "CustomException\\Logger.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\CustomException\\Logger.cs",
-              "RelativeToolTip": "CustomException\\Logger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T04:46:09.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "AudioFile.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\AudioFile.cs",
               "RelativeDocumentMoniker": "Audio\\AudioFile.cs",
@@ -250,11 +307,12 @@
               "RelativeToolTip": "Audio\\AudioFile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T04:26:24.233Z"
+              "WhenOpened": "2024-07-31T04:26:24.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ConstUtil.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Audio\\ConstUtil.cs",
               "RelativeDocumentMoniker": "Audio\\ConstUtil.cs",
@@ -262,23 +320,25 @@
               "RelativeToolTip": "Audio\\ConstUtil.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T04:45:33.002Z"
+              "WhenOpened": "2024-07-31T04:45:33.002Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "TableProjectComponentServiceTestWebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj",
               "RelativeDocumentMoniker": "TableProjectComponentServiceTestWebAPI.csproj",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\TableProjectComponentServiceTestWebAPI.csproj",
               "RelativeToolTip": "TableProjectComponentServiceTestWebAPI.csproj",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-31T06:54:55.915Z"
+              "WhenOpened": "2024-07-31T06:54:55.915Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Tokyo_Ravens_ending_1-kimi_ga_emu_yuugure_full_lyrics(128k).mp3",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Uploads\\Tokyo_Ravens_ending_1-kimi_ga_emu_yuugure_full_lyrics(128k).mp3",
               "RelativeDocumentMoniker": "Uploads\\Tokyo_Ravens_ending_1-kimi_ga_emu_yuugure_full_lyrics(128k).mp3",
@@ -289,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -297,11 +357,12 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-29T04:48:04.564Z"
+              "WhenOpened": "2024-07-29T04:48:04.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "TicketDto.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketDto.cs",
               "RelativeDocumentMoniker": "Ticket\\TicketDto.cs",
@@ -309,11 +370,12 @@
               "RelativeToolTip": "Ticket\\TicketDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:59:22.665Z"
+              "WhenOpened": "2024-07-29T07:59:22.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "TicketController.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketController.cs",
               "RelativeDocumentMoniker": "Ticket\\TicketController.cs",
@@ -321,11 +383,12 @@
               "RelativeToolTip": "Ticket\\TicketController.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAowDUAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:56:12.015Z"
+              "WhenOpened": "2024-07-29T07:56:12.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\User.cs",
               "RelativeDocumentMoniker": "Ticket\\User.cs",
@@ -333,11 +396,12 @@
               "RelativeToolTip": "Ticket\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T05:24:04.235Z"
+              "WhenOpened": "2024-07-29T05:24:04.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "TicketRepository.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\TicketRepository.cs",
               "RelativeDocumentMoniker": "Ticket\\TicketRepository.cs",
@@ -345,11 +409,12 @@
               "RelativeToolTip": "Ticket\\TicketRepository.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAIwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T04:57:03.495Z"
+              "WhenOpened": "2024-07-29T04:57:03.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\Ticket.cs",
               "RelativeDocumentMoniker": "Ticket\\Ticket.cs",
@@ -357,11 +422,12 @@
               "RelativeToolTip": "Ticket\\Ticket.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T04:52:51.102Z"
+              "WhenOpened": "2024-07-29T04:52:51.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "PhotoDto.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\PhotoDto.cs",
               "RelativeDocumentMoniker": "Ticket\\PhotoDto.cs",
@@ -369,11 +435,12 @@
               "RelativeToolTip": "Ticket\\PhotoDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:59:40.168Z"
+              "WhenOpened": "2024-07-29T07:59:40.168Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\UserDto.cs",
               "RelativeDocumentMoniker": "Ticket\\UserDto.cs",
@@ -381,11 +448,12 @@
               "RelativeToolTip": "Ticket\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:59:29.664Z"
+              "WhenOpened": "2024-07-29T07:59:29.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Photo.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TableProjectComponentServiceTestWebAPI\\Ticket\\Photo.cs",
               "RelativeDocumentMoniker": "Ticket\\Photo.cs",
@@ -393,7 +461,8 @@
               "RelativeToolTip": "Ticket\\Photo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T05:24:18.163Z"
+              "WhenOpened": "2024-07-29T05:24:18.163Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -2,6 +2,7 @@
 using System;
 using TableProjectComponentServiceTestWebAPI.Audio;
 using TableProjectComponentServiceTestWebAPI.CustomException;
+using TableProjectComponentServiceTestWebAPI.QrCode;
 using TableProjectComponentServiceTestWebAPI.Ticket;
 
 namespace TableProjectComponentServiceTestWebAPI
@@ -20,6 +21,8 @@ namespace TableProjectComponentServiceTestWebAPI
 
             builder.Services.AddScoped<AudioService>();
 
+            builder.Services.AddScoped<QrCodeService>();
+            
             builder.Services.AddScoped<AudioDao>();
 
             builder.Services.AddScoped<Logger>();

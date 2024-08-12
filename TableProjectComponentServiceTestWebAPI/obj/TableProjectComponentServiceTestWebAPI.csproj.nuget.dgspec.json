@@ -86,6 +86,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "SkiaSharp.QrCode": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
