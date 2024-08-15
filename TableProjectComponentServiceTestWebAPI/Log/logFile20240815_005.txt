@@ -1,0 +1,5 @@
+2024-08-15 14:30:21.060 +06:30 [INF] The given value 'two' of type String from the data source cannot be converted to type int for Column 1 [UserId] Row 1.
+2024-08-15 14:31:10.158 +06:30 [INF] The given value 'one' of type String from the data source cannot be converted to type int for Column 1 [UserId] Row 1.
+2024-08-15 14:32:42.978 +06:30 [INF] The given value 'one' of type String from the data source cannot be converted to type int for Column 1 [UserId] Row 1.
+2024-08-15 15:08:17.088 +06:30 [INF] Incorrect syntax near '@Offset'.
+Invalid usage of the option NEXT in the FETCH statement.

@@ -1,0 +1,1 @@
+2024-08-15 14:11:37.954 +06:30 [INF] The given value 'water flow' of type String from the data source cannot be converted to type int for Column 1 [UserId] Row 1.

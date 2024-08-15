@@ -126,5 +126,25 @@ namespace TableProjectComponentServiceTestWebAPI.Ticket
             dataTable.Columns.Add("EventDate",typeof(DateTime)); 
             return dataTable;
         }
+        
+        public async Task<List<Ticket>> GetPaginatedTickets(int pageSize, int pageNum)
+        {
+            var tickets = new List<Ticket>();
+            using(var connection = new SqlConnection(connectionString))
+            {
+                await connection.OpenAsync();
+                var query = new SqlCommand("SELECT * FROM Tickets ORDER BY Id OFFSET @Offset ROWS FETCH NEXT @PageSize ROWS ONLY", connection);
+                query.Parameters.AddWithValue("@Offset", (pageNum - 1) * pageSize);
+                query.Parameters.AddWithValue("@PageSize", pageSize);
+                var result = await query.ExecuteReaderAsync();
+                while(await result.ReadAsync())
+                { 
+                    var ticket = new Ticket();
+                    ticket.EventName = result.GetString(result.GetOrdinal("EventName"));
+                    tickets.Add(ticket);
+                }   
+            }
+            return  tickets;
+        }
     }
 }

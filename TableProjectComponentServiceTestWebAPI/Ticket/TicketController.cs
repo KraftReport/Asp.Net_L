@@ -51,6 +51,13 @@ namespace TableProjectComponentServiceTestWebAPI.Ticket
                 return StatusCode(500, ex.Message);
             }
         }
-   
+
+        [HttpGet("{pagination}")]
+        public async Task<IActionResult> GetTickets([FromQuery]int pageSize, [FromQuery]int pageNum)
+        {
+            return Ok(await ticketRepository.GetPaginatedTickets(pageSize, pageNum));
+        }
+
+
     }
 }

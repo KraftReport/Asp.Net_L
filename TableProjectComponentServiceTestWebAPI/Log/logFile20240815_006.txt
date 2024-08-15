@@ -1,0 +1,2 @@
+2024-08-15 15:09:10.105 +06:30 [INF] Incorrect syntax near '@Offset'.
+Invalid usage of the option NEXT in the FETCH statement.

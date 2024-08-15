@@ -1,0 +1,4 @@
+2024-08-15 14:11:57.351 +06:30 [INF] The given value 'water flow' of type String from the data source cannot be converted to type int for Column 1 [UserId] Row 1.
+2024-08-15 14:24:11.933 +06:30 [INF] The given value 'one' of type String from the data source cannot be converted to type int for Column 1 [UserId] Row 1.
+2024-08-15 14:28:58.480 +06:30 [INF] The given value 'two' of type String from the data source cannot be converted to type int for Column 1 [UserId] Row 1.
+2024-08-15 14:29:44.658 +06:30 [INF] The given value 'two' of type String from the data source cannot be converted to type int for Column 1 [UserId] Row 1.
