@@ -1,0 +1,11 @@
+2024-08-16 11:41:30.724 +06:30 [INF] Unable to resolve service for type 'TableProjectComponentServiceTestWebAPI.Base64Demo.CommonFileService' while attempting to activate 'TableProjectComponentServiceTestWebAPI.Base64Demo.CommonFileController'.
+2024-08-16 11:42:40.805 +06:30 [INF] Unable to resolve service for type 'TableProjectComponentServiceTestWebAPI.Base64Demo.CommonFileService' while attempting to activate 'TableProjectComponentServiceTestWebAPI.Base64Demo.CommonFileController'.
+2024-08-16 11:50:33.685 +06:30 [INF] Unable to resolve service for type 'TableProjectComponentServiceTestWebAPI.Base64Demo.CommonFileService' while attempting to activate 'TableProjectComponentServiceTestWebAPI.Base64Demo.CommonFileController'.
+2024-08-16 11:52:30.853 +06:30 [INF] Incorrect syntax near 'valuses'.
+2024-08-16 11:54:36.562 +06:30 [INF] Incorrect syntax near 'valuses'.
+2024-08-16 15:07:32.602 +06:30 [INF] Invalid column name 'Mame'.
+Invalid column name 'Date'.
+2024-08-16 15:10:06.909 +06:30 [INF] Invalid column name 'Date'.
+2024-08-16 15:10:33.296 +06:30 [INF] Invalid column name 'Date'.
+2024-08-16 15:11:47.030 +06:30 [INF] Invalid column name 'Date'.
+2024-08-16 15:12:25.259 +06:30 [INF] Invalid column name 'Date'.

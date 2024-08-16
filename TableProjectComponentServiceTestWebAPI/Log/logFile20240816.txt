@@ -1,0 +1,1 @@
+2024-08-16 11:40:16.267 +06:30 [INF] Unable to resolve service for type 'TableProjectComponentServiceTestWebAPI.Base64Demo.CommonFileService' while attempting to activate 'TableProjectComponentServiceTestWebAPI.Base64Demo.CommonFileController'.

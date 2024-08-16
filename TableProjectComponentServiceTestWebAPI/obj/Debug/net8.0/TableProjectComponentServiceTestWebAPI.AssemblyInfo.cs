@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TableProjectComponentServiceTestWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66018a25d9a96e8e277747743a9f0be4755ea76e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0ba3d65cb733b553d7915fae3f72c020a072994")]
 [assembly: System.Reflection.AssemblyProductAttribute("TableProjectComponentServiceTestWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TableProjectComponentServiceTestWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
