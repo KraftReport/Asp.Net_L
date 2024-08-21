@@ -36,16 +36,16 @@ namespace CookieBasedAuthDemo
 
             builder.Services.AddAuthorization(options =>
             {
-                options.AddPolicy("AdminOnly", p =>
+                options.AddPolicy("AdminOnly", ao =>
                 {
-                    p.RequireClaim(ClaimTypes.Role, "Admin");
+                    ao.RequireClaim(ClaimTypes.Role, "Admin");
                 });
 
                 options.AddPolicy("UserAndAdmin", ua =>
                 {
                     ua.RequireAuthenticatedUser();
                 });
-            }); 
+            });
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

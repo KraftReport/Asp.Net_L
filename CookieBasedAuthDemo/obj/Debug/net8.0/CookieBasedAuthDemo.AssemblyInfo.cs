@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CookieBasedAuthDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d36b8b50e1b347273e822a808788c95d2db3b635")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56a552447b9bdeeda9f7384f5e0e9bd1084c2c2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CookieBasedAuthDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CookieBasedAuthDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,6 @@
+@CustomCookieAuth_HostAddress = http://localhost:5022
+
+GET {{CustomCookieAuth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
