@@ -1,9 +1,11 @@
-﻿using CustomCookieAuth.Models;
+﻿using CustomCookieAuth.Attributes;
+using CustomCookieAuth.Models;
 using CustomCookieAuth.Services; 
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 namespace CustomCookieAuth.Controllers
 {
+    [LogHtokeMal("this is Authentication Controller")]
     [Route("api/[controller]")]
     [ApiController]
     public class AuthenticationController : ControllerBase
@@ -24,6 +26,7 @@ namespace CustomCookieAuth.Controllers
 
         // Login route: POST /api/Authentication/login
         [HttpPost("login")]
+        [LogHtokeMal("this is from attribute of login method ")]
         public async Task<IActionResult> loginUser([FromBody] LoginDTO dto)
         {
             if (!await _applicationUserService.ValidateUser(dto))

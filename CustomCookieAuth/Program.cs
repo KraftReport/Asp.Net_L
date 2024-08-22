@@ -1,6 +1,6 @@
-
 using CustomCookieAuth.Data;
 using CustomCookieAuth.Entities;
+using CustomCookieAuth.Filters;
 using CustomCookieAuth.Middlewares;
 using CustomCookieAuth.Repositories;
 using CustomCookieAuth.Services;
@@ -22,51 +22,76 @@ namespace CustomCookieAuth
                 ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("msp-dev"))
             ));
 
-            builder.Services.AddTransient<CustomCookieAuthMiddleware>();
-            builder.Services.AddTransient<ApplicationUserService>();
-            builder.Services.AddTransient<ApplicationUserRepository>();
-            builder.Services.AddTransient<ProductRepository>();
-            builder.Services.AddTransient<ProductService>();
+            builder.Services.AddScoped<CustomCookieAuthMiddleware>();
+
+            builder.Services.AddScoped<ApplicationUserService>();
+
+            builder.Services.AddScoped<ApplicationUserRepository>();
+
+            builder.Services.AddScoped<ProductRepository>();
+
+            builder.Services.AddScoped<ProductService>();
+
+            builder.Services.AddScoped<LoggerService>();
 
 
             // Add security configuration
-
-            builder.Services.AddAuthentication("CustomCookieAuthScheme")
-    .AddCookie("CustomCookieAuthScheme", options =>
-    {
-        options.Cookie.Name = "AuthCookie";
-        options.LoginPath = "/api/Authentication/login"; 
-    });
-
+            builder.Services.AddAuthentication("CustomCookieAuthScheme").AddCookie("CustomCookieAuthScheme", options =>
+            {
+                options.Cookie.Name = "AuthCookie";
+                options.LoginPath = "/api/Authentication/login"; 
+            });
 
             builder.Services.AddAuthorization(options =>
             {
                 options.AddPolicy("admin", p => p.RequireRole(ROLE.ADMIN.ToString()));
             });
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers(options =>
+            {
+                options.Filters.Add<LogFilter>();
+            });
+
+
+            builder.Services.AddLogging(options =>
+            {
+                options.AddConsole();
+            });
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
+
             builder.Services.AddSwaggerGen();
 
-            var app = builder.Build();
 
+            var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseDeveloperExceptionPage();
             }
 
+            // Enable Swagger for all environments (for troubleshooting purposes)
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
+
+
             app.UseHttpsRedirection();
+
             app.UseMiddleware<CustomCookieAuthMiddleware>();
+
             app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.MapControllers();
 
             app.Run();
+
         }
     }
 }

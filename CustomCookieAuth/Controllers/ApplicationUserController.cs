@@ -1,4 +1,5 @@
-﻿using CustomCookieAuth.Entities;
+﻿using CustomCookieAuth.Attributes;
+using CustomCookieAuth.Entities;
 using CustomCookieAuth.Services;
 using Microsoft.AspNetCore.Authorization; 
 using Microsoft.AspNetCore.Mvc;
@@ -36,6 +37,7 @@ namespace CustomCookieAuth.Controllers
         }
 
         [HttpGet]
+        [LogHtokeMal("get all user info")]
         public async Task<ActionResult> findAll()
         {
             return Ok(await applicationUserService.FindAll());
