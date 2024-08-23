@@ -2,6 +2,7 @@ using CustomCookieAuth.Data;
 using CustomCookieAuth.Entities;
 using CustomCookieAuth.Filters;
 using CustomCookieAuth.Middlewares;
+using CustomCookieAuth.MinimalApis;
 using CustomCookieAuth.Repositories;
 using CustomCookieAuth.Services;
 using Microsoft.EntityFrameworkCore;
@@ -45,6 +46,7 @@ namespace CustomCookieAuth
             builder.Services.AddAuthorization(options =>
             {
                 options.AddPolicy("admin", p => p.RequireRole(ROLE.ADMIN.ToString()));
+                options.AddPolicy("authenticated",p => p.RequireAuthenticatedUser());
             });
 
             builder.Services.AddControllers(options =>
@@ -89,6 +91,8 @@ namespace CustomCookieAuth
             app.UseAuthorization();
 
             app.MapControllers();
+
+            app.ProductMinimalApiRoutes();
 
             app.Run();
 
