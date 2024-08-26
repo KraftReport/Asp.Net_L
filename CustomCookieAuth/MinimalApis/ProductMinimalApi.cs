@@ -1,6 +1,7 @@
 ﻿using CustomCookieAuth.Entities;
 using CustomCookieAuth.Models;
 using CustomCookieAuth.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CustomCookieAuth.MinimalApis
 {
@@ -18,7 +19,7 @@ namespace CustomCookieAuth.MinimalApis
             productMap.MapDelete("/",DeleteProduct).RequireAuthorization("admin", "authenticated").WithName("DP");
 
             static async Task<IResult> 
-                CreateProduct(ProductDTO product, ProductService productService,LinkGenerator link) =>
+                CreateProduct([FromBody]ProductDTO product, [FromServices]ProductService productService,LinkGenerator link) =>
                 await productService.CreateProduct(product)  is int id?
                 TypedResults.Created(link.GetPathByName("FP",values:id), product) : TypedResults.BadRequest();
 

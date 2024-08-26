@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using System.Security.Cryptography;
+using System.Text;
 
 namespace CustomCookieAuth.Services
 {
@@ -9,6 +10,28 @@ namespace CustomCookieAuth.Services
         {
             var salt = GenerateSalt(); 
             return (Hasher(password, salt), Convert.ToBase64String(salt));
+        }
+
+        public static string hashForOnePay(string dataString,string secretString)
+        {
+            var encoding = new System.Text.UTF8Encoding();
+            var secretByte = encoding.GetBytes(secretString);
+            var hmac = new HMACSHA256(secretByte);
+            hmac.Key = secretByte;
+            var hashByte = hmac.ComputeHash(encoding.GetBytes(dataString));
+            return ByteArrayToHash(hashByte);
+        }
+
+        private static string ByteArrayToHash(byte[] byteArray)
+        {
+            var hashArray = "0123456789ABCDEF";
+            var sBuilder = new StringBuilder(byteArray.Length * 2);
+            foreach(var b in byteArray)
+            {
+                sBuilder.Append(hashArray[(int)b >> 4]);
+                sBuilder.Append(hashArray[(int)b & 0xF]);
+            }
+            return sBuilder.ToString();
         }
 
         public static bool VerifyPassword(string enteredPassword,string storedHash,string storedSalt)

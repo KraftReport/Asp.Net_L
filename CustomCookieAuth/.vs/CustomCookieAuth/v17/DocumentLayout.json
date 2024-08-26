@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\minimalapis\\productminimalapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:minimalapis\\productminimalapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\attributes\\loghtokemalattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:attributes\\loghtokemalattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\data\\applicationdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:data\\applicationdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,24 +87,12 @@
       "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\customcookieauth\\attributes\\loghtokemalattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE2C766D-1FE4-449C-A47F-7BADC1E11AA5}|CustomCookieAuth.csproj|solutionrelative:attributes\\loghtokemalattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\table-music-app-backend\\table-music-app-backend\\TableMusicApp\\Table.Services\\Repositories\\FestivalDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -109,7 +109,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,71 +126,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ROLE.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\ROLE.cs",
-              "RelativeDocumentMoniker": "Entities\\ROLE.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\ROLE.cs",
-              "RelativeToolTip": "Entities\\ROLE.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Title": "ApplicationUserController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Controllers\\ApplicationUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApplicationUserController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Controllers\\ApplicationUserController.cs",
+              "RelativeToolTip": "Controllers\\ApplicationUserController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:42:41.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductMinimalApi.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\MinimalApis\\ProductMinimalApi.cs",
-              "RelativeDocumentMoniker": "MinimalApis\\ProductMinimalApi.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\MinimalApis\\ProductMinimalApi.cs",
-              "RelativeToolTip": "MinimalApis\\ProductMinimalApi.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAgwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T05:09:31.574Z",
+              "WhenOpened": "2024-08-21T08:56:51.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Models\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "Models\\ProductDTO.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Models\\ProductDTO.cs",
-              "RelativeToolTip": "Models\\ProductDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowBwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T03:28:28.774Z",
+              "WhenOpened": "2024-08-21T07:27:45.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Services\\ProductService.cs",
               "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAhwCAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAADgvyAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T07:29:26.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserClaims.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\UserClaims.cs",
-              "RelativeDocumentMoniker": "Entities\\UserClaims.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\UserClaims.cs",
-              "RelativeToolTip": "Entities\\UserClaims.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwBcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T07:15:24.81Z",
+              "WhenOpened": "2024-08-21T07:29:51.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ProductMinimalApi.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\MinimalApis\\ProductMinimalApi.cs",
+              "RelativeDocumentMoniker": "MinimalApis\\ProductMinimalApi.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\MinimalApis\\ProductMinimalApi.cs",
+              "RelativeToolTip": "MinimalApis\\ProductMinimalApi.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBUAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T05:09:31.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAgwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T04:52:48.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogHtokeMalAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Attributes\\LogHtokeMalAttribute.cs",
+              "RelativeDocumentMoniker": "Attributes\\LogHtokeMalAttribute.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Attributes\\LogHtokeMalAttribute.cs",
+              "RelativeToolTip": "Attributes\\LogHtokeMalAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:05:56.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Entities\\Product.cs",
@@ -198,25 +224,47 @@
               "RelativeToolTip": "Entities\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:40:44.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T04:40:44.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAADgvzAAAABVAAAA",
+              "DocumentIndex": 8,
+              "Title": "UserClaims.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\UserClaims.cs",
+              "RelativeDocumentMoniker": "Entities\\UserClaims.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\UserClaims.cs",
+              "RelativeToolTip": "Entities\\UserClaims.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:52:48.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T07:15:24.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Models\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Models\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Models\\ProductDTO.cs",
+              "RelativeToolTip": "Models\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:28:28.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ROLE.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\ROLE.cs",
+              "RelativeDocumentMoniker": "Entities\\ROLE.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\ROLE.cs",
+              "RelativeToolTip": "Entities\\ROLE.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T04:42:41.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ApplicationDatabaseContext.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Data\\ApplicationDatabaseContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDatabaseContext.cs",
@@ -224,25 +272,11 @@
               "RelativeToolTip": "Data\\ApplicationDatabaseContext.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwBcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:44:14.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T04:44:14.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAArwBMAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T07:29:51.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Models\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Models\\LoginDTO.cs",
@@ -250,12 +284,11 @@
               "RelativeToolTip": "Models\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T07:30:11.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T07:30:11.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ApplicationUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Repositories\\ApplicationUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ApplicationUserRepository.cs",
@@ -263,12 +296,11 @@
               "RelativeToolTip": "Repositories\\ApplicationUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T07:29:39.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T07:29:39.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ApplicationUserService.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Services\\ApplicationUserService.cs",
               "RelativeDocumentMoniker": "Services\\ApplicationUserService.cs",
@@ -276,12 +308,11 @@
               "RelativeToolTip": "Services\\ApplicationUserService.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAwwAcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T07:29:01.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T07:29:01.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "PasswordHashingService.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Services\\PasswordHashingService.cs",
               "RelativeDocumentMoniker": "Services\\PasswordHashingService.cs",
@@ -289,12 +320,11 @@
               "RelativeToolTip": "Services\\PasswordHashingService.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAwwAcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:22:56.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T05:22:56.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "LoggerService.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Services\\LoggerService.cs",
               "RelativeDocumentMoniker": "Services\\LoggerService.cs",
@@ -302,12 +332,11 @@
               "RelativeToolTip": "Services\\LoggerService.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAwwD0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T05:24:03.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T05:24:03.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CustomCookieAuthMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Middlewares\\CustomCookieAuthMiddleware.cs",
               "RelativeDocumentMoniker": "Middlewares\\CustomCookieAuthMiddleware.cs",
@@ -315,12 +344,11 @@
               "RelativeToolTip": "Middlewares\\CustomCookieAuthMiddleware.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwAoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T06:59:25.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T06:59:25.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Models\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "Models\\RegisterDTO.cs",
@@ -328,12 +356,11 @@
               "RelativeToolTip": "Models\\RegisterDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T07:29:59.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T07:29:59.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "LogFilter.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Filters\\LogFilter.cs",
               "RelativeDocumentMoniker": "Filters\\LogFilter.cs",
@@ -341,36 +368,11 @@
               "RelativeToolTip": "Filters\\LogFilter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T05:11:20.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T05:11:20.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ApplicationUserController.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Controllers\\ApplicationUserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ApplicationUserController.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Controllers\\ApplicationUserController.cs",
-              "RelativeToolTip": "Controllers\\ApplicationUserController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAowCUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:56:51.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBwAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T07:27:45.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Entities\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Entities\\ApplicationUser.cs",
@@ -382,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
@@ -394,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -403,18 +405,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T08:55:25.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LogHtokeMalAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Attributes\\LogHtokeMalAttribute.cs",
-              "RelativeDocumentMoniker": "Attributes\\LogHtokeMalAttribute.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CustomCookieAuth\\Attributes\\LogHtokeMalAttribute.cs",
-              "RelativeToolTip": "Attributes\\LogHtokeMalAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T05:05:56.615Z"
             },
             {
               "$type": "Document",

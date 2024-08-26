@@ -35,7 +35,6 @@ namespace CustomCookieAuth
 
             builder.Services.AddScoped<LoggerService>();
 
-
             // Add security configuration
             builder.Services.AddAuthentication("CustomCookieAuthScheme").AddCookie("CustomCookieAuthScheme", options =>
             {
@@ -80,7 +79,6 @@ namespace CustomCookieAuth
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
-
 
             app.UseHttpsRedirection();
 
