@@ -4,7 +4,7 @@
     {
         public string Name { get; set; }
         public string Email { get; set; }
-        public int GoldPlate { get; set; }
-        public int SilverPlate { get; set; }
+        public string GoldPlate { get; set; }
+        public string SilverPlate { get; set; }
     }
 }

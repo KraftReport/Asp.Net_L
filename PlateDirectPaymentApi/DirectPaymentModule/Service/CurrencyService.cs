@@ -69,7 +69,8 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
 
             GetPlateRecord = async () =>
             {
-                return await currencyRepository.GetPlateRecords();
+                var records = await currencyRepository.GetPlateRecords();
+                return records.Select(paymentDTOMapper).ToList();
             };
 
 
@@ -78,17 +79,28 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
                 return plateType == "GOLD" ? PlateType.GOLD : PlateType.SILVER;
             };
 
+            paymentDTOMapper = (PlateCurrency) =>
+            {
+                return new PaymentDTO
+                {
+                    MemberId = PlateCurrency.MemberId,
+                    Plate = PlateCurrency.PlateCount,
+                    PlateType = PlateCurrency.PlateType.ToString()
+                };
+            };
+
         }
 
         public Func<PaymentDTO, Task<bool>> MakePayment { get; }
 
         private Func<PaymentDTO, PlateCurrency> plateCurrencyMapper { get; }
+        private Func<PlateCurrency,PaymentDTO> paymentDTOMapper { get; }
 
         private Func<PaymentDTO, Task<bool>> CheckOldRecord {get ;}
 
         private Func<PlateCurrency,Task<string>> MakeTransaction { get; }
          
-        public Func<Task<List<PlateCurrency>>> GetPlateRecord { get; }
+        public Func<Task<List<PaymentDTO>>> GetPlateRecord { get; }
 
         private Func<string,PlateType> GetPlateTypeFromString { get; }
 
