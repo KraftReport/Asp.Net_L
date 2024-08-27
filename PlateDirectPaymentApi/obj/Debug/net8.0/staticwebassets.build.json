@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+LBlYvWyd3XOwqL1O4GnvmsMQ5MeRrnr4L9nXnxKtmk=",
+  "Source": "PlateDirectPaymentApi",
+  "BasePath": "_content/PlateDirectPaymentApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
