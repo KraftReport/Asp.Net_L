@@ -136,3 +136,5 @@ C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PlateDirectPaymentApi\obj\Debu
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PlateDirectPaymentApi\obj\Debug\net8.0\PlateDirectPaymentApi.pdb
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PlateDirectPaymentApi\obj\Debug\net8.0\PlateDirectPaymentApi.genruntimeconfig.cache
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PlateDirectPaymentApi\obj\Debug\net8.0\ref\PlateDirectPaymentApi.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PlateDirectPaymentApi\bin\Debug\net8.0\Serilog.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PlateDirectPaymentApi\bin\Debug\net8.0\Serilog.Sinks.File.dll

@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\service\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\service\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\helper\\loghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\helper\\loghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\helper\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\helper\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\repository\\transcationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\repository\\transcationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\model\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\model\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\service\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\service\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\repository\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\repository\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\service\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\service\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\controller\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\entity\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\entity\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\repository\\transcationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\repository\\transcationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\service\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,32 +67,12 @@
       "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:migrations\\20240827064114_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827093414_six.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240827093414_six.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\repository\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\repository\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\entity\\platecurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\entity\\platecurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\directpaymentmodule\\service\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\service\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827074754_five.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240827074754_five.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827074119_four.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240827074119_four.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,20 +83,32 @@
       "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:directpaymentmodule\\enum\\platetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827064707_three.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240827064707_three.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827064456_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240827064456_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827052958_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240827052958_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\migrations\\20240827093414_six.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:migrations\\20240827093414_six.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\migrations\\20240827074754_five.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:migrations\\20240827074754_five.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\migrations\\20240827074119_four.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:migrations\\20240827074119_four.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\migrations\\20240827064707_three.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:migrations\\20240827064707_three.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\platedirectpaymentapi\\migrations\\20240827064456_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48051A7-3228-4108-84BF-10AE9698A989}|PlateDirectPaymentApi.csproj|solutionrelative:migrations\\20240827064456_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,46 +130,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Entity\\Transaction.cs",
-              "RelativeDocumentMoniker": "DirectPaymentModule\\Entity\\Transaction.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Entity\\Transaction.cs",
-              "RelativeToolTip": "DirectPaymentModule\\Entity\\Transaction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:20:06.331Z",
+              "DocumentIndex": 1,
+              "Title": "log.txt",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Helper\\log.txt",
+              "RelativeDocumentMoniker": "DirectPaymentModule\\Helper\\log.txt",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Helper\\log.txt",
+              "RelativeToolTip": "DirectPaymentModule\\Helper\\log.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-28T03:42:25.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Member.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Entity\\Member.cs",
-              "RelativeDocumentMoniker": "DirectPaymentModule\\Entity\\Member.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Entity\\Member.cs",
-              "RelativeToolTip": "DirectPaymentModule\\Entity\\Member.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Service\\TransactionService.cs",
+              "RelativeDocumentMoniker": "DirectPaymentModule\\Service\\TransactionService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Service\\TransactionService.cs",
+              "RelativeToolTip": "DirectPaymentModule\\Service\\TransactionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T04:51:49.875Z",
+              "WhenOpened": "2024-08-27T07:22:42.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Controller\\MemberController.cs",
-              "RelativeDocumentMoniker": "DirectPaymentModule\\Controller\\MemberController.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Controller\\MemberController.cs",
-              "RelativeToolTip": "DirectPaymentModule\\Controller\\MemberController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBQAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:03:12.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MemberRepository.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Repository\\MemberRepository.cs",
               "RelativeDocumentMoniker": "DirectPaymentModule\\Repository\\MemberRepository.cs",
@@ -174,20 +169,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MemberService.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Service\\MemberService.cs",
-              "RelativeDocumentMoniker": "DirectPaymentModule\\Service\\MemberService.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Service\\MemberService.cs",
-              "RelativeToolTip": "DirectPaymentModule\\Service\\MemberService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAswBkAAABFAAAA",
+              "DocumentIndex": 3,
+              "Title": "TranscationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Repository\\TranscationRepository.cs",
+              "RelativeDocumentMoniker": "DirectPaymentModule\\Repository\\TranscationRepository.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Repository\\TranscationRepository.cs",
+              "RelativeToolTip": "DirectPaymentModule\\Repository\\TranscationRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:48:08.245Z",
+              "WhenOpened": "2024-08-27T07:21:38.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MemberDTO.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Model\\MemberDTO.cs",
               "RelativeDocumentMoniker": "DirectPaymentModule\\Model\\MemberDTO.cs",
@@ -200,20 +195,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TranscationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Repository\\TranscationRepository.cs",
-              "RelativeDocumentMoniker": "DirectPaymentModule\\Repository\\TranscationRepository.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Repository\\TranscationRepository.cs",
-              "RelativeToolTip": "DirectPaymentModule\\Repository\\TranscationRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwBwAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "LogHelper.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Helper\\LogHelper.cs",
+              "RelativeDocumentMoniker": "DirectPaymentModule\\Helper\\LogHelper.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Helper\\LogHelper.cs",
+              "RelativeToolTip": "DirectPaymentModule\\Helper\\LogHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:21:38.688Z",
+              "WhenOpened": "2024-08-27T15:45:23.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T05:12:39.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Service\\MemberService.cs",
+              "RelativeDocumentMoniker": "DirectPaymentModule\\Service\\MemberService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Service\\MemberService.cs",
+              "RelativeToolTip": "DirectPaymentModule\\Service\\MemberService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswBkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:48:08.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Controller\\MemberController.cs",
+              "RelativeDocumentMoniker": "DirectPaymentModule\\Controller\\MemberController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Controller\\MemberController.cs",
+              "RelativeToolTip": "DirectPaymentModule\\Controller\\MemberController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:03:12.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Entity\\Transaction.cs",
+              "RelativeDocumentMoniker": "DirectPaymentModule\\Entity\\Transaction.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Entity\\Transaction.cs",
+              "RelativeToolTip": "DirectPaymentModule\\Entity\\Transaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:20:06.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Entity\\Member.cs",
+              "RelativeDocumentMoniker": "DirectPaymentModule\\Entity\\Member.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Entity\\Member.cs",
+              "RelativeToolTip": "DirectPaymentModule\\Entity\\Member.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T04:51:49.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CurrencyService.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Service\\CurrencyService.cs",
               "RelativeDocumentMoniker": "DirectPaymentModule\\Service\\CurrencyService.cs",
@@ -226,20 +286,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Controller\\PaymentController.cs",
               "RelativeDocumentMoniker": "DirectPaymentModule\\Controller\\PaymentController.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Controller\\PaymentController.cs",
               "RelativeToolTip": "DirectPaymentModule\\Controller\\PaymentController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAA+AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBsAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T08:19:39.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "TransactionController.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Controller\\TransactionController.cs",
               "RelativeDocumentMoniker": "DirectPaymentModule\\Controller\\TransactionController.cs",
@@ -252,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "PaymentDTO.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Model\\PaymentDTO.cs",
               "RelativeDocumentMoniker": "DirectPaymentModule\\Model\\PaymentDTO.cs",
@@ -265,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "20240827064114_first.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827064114_first.cs",
               "RelativeDocumentMoniker": "Migrations\\20240827064114_first.cs",
@@ -278,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "20240827093414_six.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827093414_six.cs",
               "RelativeDocumentMoniker": "Migrations\\20240827093414_six.cs",
@@ -291,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "PlateCurrency.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Entity\\PlateCurrency.cs",
               "RelativeDocumentMoniker": "DirectPaymentModule\\Entity\\PlateCurrency.cs",
@@ -304,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "CurrencyRepository.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Repository\\CurrencyRepository.cs",
               "RelativeDocumentMoniker": "DirectPaymentModule\\Repository\\CurrencyRepository.cs",
@@ -317,33 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TransactionService.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Service\\TransactionService.cs",
-              "RelativeDocumentMoniker": "DirectPaymentModule\\Service\\TransactionService.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Service\\TransactionService.cs",
-              "RelativeToolTip": "DirectPaymentModule\\Service\\TransactionService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T07:22:42.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwBoAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:12:39.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "20240827074754_five.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827074754_five.cs",
               "RelativeDocumentMoniker": "Migrations\\20240827074754_five.cs",
@@ -356,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "20240827074119_four.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827074119_four.cs",
               "RelativeDocumentMoniker": "Migrations\\20240827074119_four.cs",
@@ -369,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Database\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Database\\ApplicationDbContext.cs",
@@ -382,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "PlateType.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\DirectPaymentModule\\Enum\\PlateType.cs",
               "RelativeDocumentMoniker": "DirectPaymentModule\\Enum\\PlateType.cs",
@@ -395,33 +429,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "20240827064707_three.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827064707_three.cs",
               "RelativeDocumentMoniker": "Migrations\\20240827064707_three.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827064707_three.cs",
               "RelativeToolTip": "Migrations\\20240827064707_three.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T06:47:07.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "20240827064456_second.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827064456_second.cs",
               "RelativeDocumentMoniker": "Migrations\\20240827064456_second.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827064456_second.cs",
               "RelativeToolTip": "Migrations\\20240827064456_second.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T06:44:56.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -434,16 +468,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "20240827052958_first.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827052958_first.cs",
               "RelativeDocumentMoniker": "Migrations\\20240827052958_first.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PlateDirectPaymentApi\\Migrations\\20240827052958_first.cs",
               "RelativeToolTip": "Migrations\\20240827052958_first.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T05:29:59.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T05:29:59.125Z"
             },
             {
               "$type": "Bookmark",
