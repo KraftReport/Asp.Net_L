@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PlateDirectPaymentApi.Database;
 using PlateDirectPaymentApi.DirectPaymentModule.Entity;
-using PlateDirectPaymentApi.DirectPaymentModule.Enum;
-using PlateDirectPaymentApi.DirectPaymentModule.Model;
+using PlateDirectPaymentApi.DirectPaymentModule.Enum; 
 
 namespace PlateDirectPaymentApi.DirectPaymentModule.Repository
 {
@@ -20,18 +19,18 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Repository
             {
                 await applicationDbContext.PlateCurrency.AddAsync(plateCurrency);
                 await applicationDbContext.SaveChangesAsync();
-                return await FindRecordByMemberId(plateCurrency.MemberId,plateType);
+                return await FindRecordByMemberIdAndPlateType(plateCurrency.MemberId,plateType);
             };
 
             UpdateOldRecord = async (PlateCurrency plateCurrency,PlateType plateType) =>
             {
-                var oldRecord = await FindRecordByMemberId(plateCurrency.MemberId,plateType);
+                var oldRecord = await FindRecordByMemberIdAndPlateType(plateCurrency.MemberId,plateType);
                 oldRecord.PlateCount = oldRecord.PlateCount + plateCurrency.PlateCount;
                 await applicationDbContext.SaveChangesAsync();
-                return await FindRecordByMemberId(plateCurrency.MemberId,plateType);
+                return await FindRecordByMemberIdAndPlateType(plateCurrency.MemberId,plateType);
             };
 
-            FindRecordByMemberId = async (int Id,PlateType platetye) =>
+            FindRecordByMemberIdAndPlateType = async (int Id,PlateType platetye) =>
             {
                 return await applicationDbContext.PlateCurrency.FirstOrDefaultAsync(pc => pc.MemberId == Id && pc.PlateType == platetye);
             };
@@ -46,7 +45,7 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Repository
 
         public Func<PlateCurrency,PlateType, Task<PlateCurrency>> MakeNewRecord {get;}
         public Func<PlateCurrency,PlateType, Task<PlateCurrency>> UpdateOldRecord { get; }
-        public Func<int,PlateType,Task<PlateCurrency>> FindRecordByMemberId { get; }
+        public Func<int,PlateType,Task<PlateCurrency>> FindRecordByMemberIdAndPlateType { get; }
         public Func<Task<List<PlateCurrency>>> GetPlateRecords { get; }
     }
 }

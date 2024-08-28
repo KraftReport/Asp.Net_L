@@ -35,7 +35,7 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
             CheckOldRecord = async (PaymentDTO paymentDTO) =>
             {
                 var Type = GetPlateTypeFromString(paymentDTO.PlateType);
-                var member = await currencyRepository.FindRecordByMemberId(paymentDTO.MemberId,Type);
+                var member = await currencyRepository.FindRecordByMemberIdAndPlateType(paymentDTO.MemberId,Type);
                 return (member != null && member.PlateType +"" == paymentDTO.PlateType) ? true : false;
             };
 

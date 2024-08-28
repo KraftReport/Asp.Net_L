@@ -38,8 +38,8 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
 
             dtoMapper = async (member) =>
             {
-                var goldRecord = await currencyRepository.FindRecordByMemberId(member.Id, Enum.PlateType.GOLD);
-                var silverRecord = await currencyRepository.FindRecordByMemberId(member.Id, Enum.PlateType.SILVER);
+                var goldRecord = await currencyRepository.FindRecordByMemberIdAndPlateType(member.Id, Enum.PlateType.GOLD);
+                var silverRecord = await currencyRepository.FindRecordByMemberIdAndPlateType(member.Id, Enum.PlateType.SILVER);
                 return new MemberDTO
                 {
                     Name = member.Name,
