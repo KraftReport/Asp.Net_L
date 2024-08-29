@@ -1,0 +1,6 @@
+2024-08-29 10:19:36.758 +06:30 [INF] time : 8/29/2024 10:19:36 AM | member_id : 1 | updated_plateCount :5300.00 | plateType : GOLD
+2024-08-29 10:22:22.690 +06:30 [INF] time : 8/29/2024 10:22:22 AM | member_id : 1 | updated_plateCount :55300.00 | plateType : GOLD
+2024-08-29 11:43:06.542 +06:30 [INF] time : 8/29/2024 11:43:06 AM | member_id : 3 | updated_plateCount :900 | plateType : GOLD
+2024-08-29 11:53:05.154 +06:30 [INF] time : 8/29/2024 11:53:05 AM | member_id : 4 | updated_plateCount :900 | plateType : SILVER
+2024-08-29 12:02:06.525 +06:30 [INF] time : 8/29/2024 12:02:06 PM | member_id : 5 | updated_plateCount :9000 | plateType : SILVER
+2024-08-29 13:13:30.327 +06:30 [INF] time : 8/29/2024 1:13:30 PM | member_id : 6 | updated_plateCount :890 | plateType : GOLD

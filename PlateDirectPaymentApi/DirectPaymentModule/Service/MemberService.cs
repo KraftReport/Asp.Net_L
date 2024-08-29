@@ -1,78 +1,68 @@
 ﻿using PlateDirectPaymentApi.DirectPaymentModule.Entity;
-using PlateDirectPaymentApi.DirectPaymentModule.Model;
+using PlateDirectPaymentApi.DirectPaymentModule.Model; 
 using PlateDirectPaymentApi.DirectPaymentModule.Repository;
 
 namespace PlateDirectPaymentApi.DirectPaymentModule.Service
 {
-    public class MemberService
+    public class MemberService : IMemberService
     {
         private readonly MemberRepository memberRepository;
-        private readonly CurrencyRepository currencyRepository;
+        private readonly CurrencyRepository currencyRepository; 
 
         public MemberService(MemberRepository memberRepository,CurrencyRepository currencyRepository)
-        {
+        { 
             this.currencyRepository = currencyRepository;
             this.memberRepository = memberRepository;
+        }
+         
 
-
-            RegisterMember = async (memberDTO) =>
-            {
-                await memberRepository.AddMember(memberMapper(memberDTO));
-                return true;
-            };
-
-            GetMemberList = async () =>
-            {
-                var members = await memberRepository.GetMemberList();
-                return await mapToDtoList(members);
-            };
-
-            memberMapper = (memberDTO) =>
-            {
-                return new Member
-                {
-                    Name = memberDTO.Name,
-                    Email = memberDTO.Email
-                };
-            };
-
-            dtoMapper = async (member) =>
-            {
-                var goldRecord = await currencyRepository.FindRecordByMemberIdAndPlateType(member.Id, Enum.PlateType.GOLD);
-                var silverRecord = await currencyRepository.FindRecordByMemberIdAndPlateType(member.Id, Enum.PlateType.SILVER);
-                return new MemberDTO
-                {
-                    Name = member.Name,
-                    Email = member.Email,
-                    GoldPlate = goldRecord != null ? goldRecord.PlateCount.ToString() : "0",
-                    SilverPlate = silverRecord != null ? silverRecord.PlateCount.ToString() : "0"
-                };
-            };
-
-            mapToDtoList = async (members) =>
-            {
-                var memberDTOs = new List<MemberDTO>();
-
-                foreach (var member in members)
-                {
-                    var dto = await dtoMapper(member);
-                    memberDTOs.Add(dto);
-                }
-
-                return memberDTOs;
-            };
-
+        public async Task<List<MemberDTO>> GetMemberList()
+        {
+            var members = await memberRepository.GetMemberList();
+            return await mapToDtoList(members);
         }
 
-        public Func<Task<List<MemberDTO>>> GetMemberList { get; }
+        public async Task<bool> RegisterMember(MemberDTO member)
+        {
+            return await memberRepository.AddMember(await memberMapper(member));
+        }
 
-        public Func<MemberDTO, Task<bool>> RegisterMember { get; }
+        private async Task<Member> memberMapper(MemberDTO memberDTO)
+        {
+            return new Member
+            {
+                Name = memberDTO.Name,
+                Email = memberDTO.Email
+            };
+        } 
+         
+        private async Task<MemberDTO> dtoMapper(Member member)
+        {
 
-        private Func<MemberDTO, Member> memberMapper { get; }
+            var goldRecord = await currencyRepository.FindRecordByMemberIdAndPlateType(member.Id, Enum.PlateType.GOLD);
+            var silverRecord = await currencyRepository.FindRecordByMemberIdAndPlateType(member.Id, Enum.PlateType.SILVER);
+            return new MemberDTO
+            {
+                Name = member.Name,
+                Email = member.Email,
+                GoldPlate = goldRecord != null ? goldRecord.PlateCount.ToString() : "0",
+                SilverPlate = silverRecord != null ? silverRecord.PlateCount.ToString() : "0"
+            };
+        }
+         
+        private async Task<List<MemberDTO>> mapToDtoList(List<Member> members)
+        {
+            var memberDTOs = new List<MemberDTO>();
 
-        private Func<Member, Task<MemberDTO>> dtoMapper { get; }
+            foreach (var member in members)
+            {
+                var dto = await dtoMapper(member);
+                memberDTOs.Add(dto);
+            }
+            return memberDTOs;
+        }
 
-        private Func<List<Member>,Task<List<MemberDTO>>> mapToDtoList { get; }
+      
 
     }
 }

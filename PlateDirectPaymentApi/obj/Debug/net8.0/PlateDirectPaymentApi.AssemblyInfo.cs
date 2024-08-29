@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlateDirectPaymentApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06605b41e77526aab85340c66f27534f3c46b1b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e49d95738e015d0f005e8e5a62279d6f78b12b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlateDirectPaymentApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlateDirectPaymentApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

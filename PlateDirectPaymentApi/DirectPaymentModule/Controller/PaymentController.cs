@@ -9,9 +9,9 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Controller
     [ApiController]
     public class PaymentController : ControllerBase
     {
-        private readonly CurrencyService currencyService;
+        private readonly ICurrencyService currencyService;
 
-        public PaymentController(CurrencyService currencyService)
+        public PaymentController(ICurrencyService currencyService)
         {
             this.currencyService = currencyService;
         }

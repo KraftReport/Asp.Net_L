@@ -9,8 +9,8 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Controller
     [ApiController]
     public class MemberController : ControllerBase
     {
-        private readonly MemberService memberService;
-        public MemberController(MemberService memberService)
+        private readonly IMemberService memberService;
+        public MemberController(IMemberService memberService)
         {
             this.memberService = memberService;
         }
