@@ -8,8 +8,8 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Controller
     [ApiController]
     public class TransactionController : ControllerBase
     {
-        private readonly TransactionService transactionService;
-        public TransactionController(TransactionService transactionService)
+        private readonly ITransactionService transactionService;
+        public TransactionController(ITransactionService transactionService)
         {
             this.transactionService = transactionService;
         }
