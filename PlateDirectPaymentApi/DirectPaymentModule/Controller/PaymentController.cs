@@ -34,13 +34,13 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Controller
             return Ok(await currencyService.findById(id));
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> updateRecord(int id,[FromBody]PaymentDTO paymentDTO)
         {
             return Ok(await currencyService.updateRecord(id, paymentDTO));
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> deleteRecord(int id)
         {
             return Ok(await currencyService.deleteRecord(id));
