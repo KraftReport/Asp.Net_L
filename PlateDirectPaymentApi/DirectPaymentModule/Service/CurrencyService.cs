@@ -83,5 +83,22 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
             return plateType == "GOLD" ? PlateType.GOLD : PlateType.SILVER;
         }
 
+        public async Task<PaymentDTO> findById(int id)
+        {
+            return paymentDTOMapper(await currencyRepository.findById(id));
+        }
+
+        public async Task<bool> updateRecord(int id,PaymentDTO paymentDTO)
+        {
+            return await currencyRepository.updateRecord(id, paymentDTO);
+        }
+
+        public async Task<bool> deleteRecord(int id)
+        {
+            return await currencyRepository.deleteRecord(id);
+        }
+
+
+
     }
 }

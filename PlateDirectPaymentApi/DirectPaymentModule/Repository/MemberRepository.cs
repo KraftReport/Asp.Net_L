@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PlateDirectPaymentApi.Database;
-using PlateDirectPaymentApi.DirectPaymentModule.Entity; 
+using PlateDirectPaymentApi.DirectPaymentModule.Entity;
+using PlateDirectPaymentApi.DirectPaymentModule.Model;
 
 namespace PlateDirectPaymentApi.DirectPaymentModule.Repository
 {
@@ -25,8 +26,27 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Repository
             return await applicationDbContext.Members.ToListAsync();
         }
 
-      
 
+        public async Task<bool> UpdateMember(int Id,MemberDTO memberDTO)
+        {
+            var found = await applicationDbContext.Members.FindAsync(Id);
+            found.Email = memberDTO.Email;
+            found.IsDeleted = false;
+            found.Name = memberDTO.Name;
+            return await applicationDbContext.SaveChangesAsync() > 0;
+        }
+
+        public async Task<bool> DeleteMember(int Id)
+        {
+            var found = await applicationDbContext.Members.FindAsync(Id);
+            found.IsDeleted = true;
+            return await applicationDbContext.SaveChangesAsync() > 0;
+        }
+      
+        public async Task<Member> findById(int id)
+        {
+            return await applicationDbContext.Members.FindAsync(id);
+        }
 
     }
 }

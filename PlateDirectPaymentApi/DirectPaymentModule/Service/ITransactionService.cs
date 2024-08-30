@@ -1,6 +1,4 @@
-﻿
-
-using PlateDirectPaymentApi.DirectPaymentModule.Entity;
+﻿using PlateDirectPaymentApi.DirectPaymentModule.Entity;
 
 namespace PlateDirectPaymentApi.DirectPaymentModule.Service
 {

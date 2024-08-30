@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PlateDirectPaymentApi.Database;
 using PlateDirectPaymentApi.DirectPaymentModule.Entity;
-using PlateDirectPaymentApi.DirectPaymentModule.Enum; 
+using PlateDirectPaymentApi.DirectPaymentModule.Enum;
+using PlateDirectPaymentApi.DirectPaymentModule.Model;
 
 namespace PlateDirectPaymentApi.DirectPaymentModule.Repository
 {
@@ -39,6 +40,26 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Repository
         public async Task<List<PlateCurrency>> GetPlateRecords()
         {
             return await applicationDbContext.PlateCurrency.ToListAsync();
+        }
+
+        public async Task<bool> updateRecord(int id,PaymentDTO payment)
+        {
+            var record = await applicationDbContext.PlateCurrency.FindAsync(id);
+            record.PlateCount = payment.Plate;
+            return await applicationDbContext.SaveChangesAsync() > 0 ;
+
+        }
+
+        public async Task<bool> deleteRecord(int id)
+        {
+            var record = await applicationDbContext.PlateCurrency.FindAsync(id);
+            record.IsDeleted = true;
+            return await applicationDbContext.SaveChangesAsync() > 0;
+        }
+
+        public async Task<PlateCurrency> findById(int id)
+        {
+            return await applicationDbContext.PlateCurrency.FindAsync(id);
         }
     }
 }

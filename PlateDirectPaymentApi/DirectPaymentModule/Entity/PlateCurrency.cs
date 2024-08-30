@@ -14,5 +14,6 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Entity
         [Column(TypeName = "decimal(18,2)")]
         public decimal PlateCount { get; set; }
         public int MemberId { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

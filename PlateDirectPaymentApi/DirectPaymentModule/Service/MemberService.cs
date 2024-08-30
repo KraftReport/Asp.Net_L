@@ -7,19 +7,20 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
     public class MemberService : IMemberService
     {
         private readonly MemberRepository memberRepository;
-        private readonly CurrencyRepository currencyRepository; 
+        private readonly CurrencyRepository currencyRepository;
 
-        public MemberService(MemberRepository memberRepository,CurrencyRepository currencyRepository)
-        { 
+        public MemberService(MemberRepository memberRepository, CurrencyRepository currencyRepository)
+        {
             this.currencyRepository = currencyRepository;
             this.memberRepository = memberRepository;
         }
-         
+
 
         public async Task<List<MemberDTO>> GetMemberList()
         {
             var members = await memberRepository.GetMemberList();
-            return await mapToDtoList(members);
+            var filtered = members.Where(m => !m.IsDeleted).ToList();
+            return await mapToDtoList(filtered);
         }
 
         public async Task<bool> RegisterMember(MemberDTO member)
@@ -34,8 +35,8 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
                 Name = memberDTO.Name,
                 Email = memberDTO.Email
             };
-        } 
-         
+        }
+
         private async Task<MemberDTO> dtoMapper(Member member)
         {
 
@@ -49,7 +50,7 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
                 SilverPlate = silverRecord != null ? silverRecord.PlateCount.ToString() : "0"
             };
         }
-         
+
         private async Task<List<MemberDTO>> mapToDtoList(List<Member> members)
         {
             var memberDTOs = new List<MemberDTO>();
@@ -62,7 +63,21 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
             return memberDTOs;
         }
 
-      
+        public async Task<bool> UpdateMember(int id,MemberDTO member)
+        {
+            return await memberRepository.UpdateMember(id,member);
+        }
+
+        public async Task<bool> DeleteMember(int Id)
+        {
+            return await memberRepository.DeleteMember(Id);
+        }
+
+        public async Task<Member> findById(int id)
+        {
+            return await memberRepository.findById(id);
+        }
+
 
     }
 }

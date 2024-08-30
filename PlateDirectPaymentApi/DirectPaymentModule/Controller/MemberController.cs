@@ -26,5 +26,23 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Controller
         {
             return Ok(await memberService.RegisterMember(memberDTO));
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> findById(int id)
+        {
+            return Ok(await memberService.findById(id));
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> updateMember(int id,MemberDTO memberDTO)
+        {
+            return Ok(await memberService.UpdateMember(id, memberDTO));
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> deleteMember(int id)
+        {
+            return Ok(await memberService.DeleteMember(id));
+        }
     }
 }
