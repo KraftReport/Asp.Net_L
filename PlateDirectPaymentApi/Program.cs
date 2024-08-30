@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore; 
 using PlateDirectPaymentApi.Database;
+using PlateDirectPaymentApi.DirectPaymentModule.Exception;
 using PlateDirectPaymentApi.DirectPaymentModule.Helper; 
 using PlateDirectPaymentApi.DirectPaymentModule.Repository;
 using PlateDirectPaymentApi.DirectPaymentModule.Service;
@@ -30,6 +31,7 @@ namespace PlateDirectPaymentApi
             builder.Services.AddScoped<ICurrencyService,CurrencyService>();
             builder.Services.AddScoped<IMemberService,MemberService>();
             builder.Services.AddScoped<ITransactionService,TransactionService>();
+            builder.Services.AddScoped<GlobalExpectionHandler>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -50,7 +52,13 @@ namespace PlateDirectPaymentApi
             app.UseAuthorization();
 
 
+
+            app.UseMiddleware<GlobalExpectionHandler>();
+
+
+
             app.MapControllers();
+
 
             app.Run();
         }

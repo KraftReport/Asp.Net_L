@@ -1,4 +1,5 @@
 ﻿using PlateDirectPaymentApi.DirectPaymentModule.Entity;
+using PlateDirectPaymentApi.DirectPaymentModule.Exception;
 using PlateDirectPaymentApi.DirectPaymentModule.Model; 
 using PlateDirectPaymentApi.DirectPaymentModule.Repository;
 
@@ -25,7 +26,7 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
 
         public async Task<bool> RegisterMember(MemberDTO member)
         {
-            return await memberRepository.AddMember(await memberMapper(member));
+            return await memberRepository.AddMember(await validateCreateMemberRequest(member));
         }
 
         private async Task<Member> memberMapper(MemberDTO memberDTO)
@@ -73,9 +74,32 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
             return await memberRepository.DeleteMember(Id);
         }
 
-        public async Task<Member> findById(int id)
+        public async Task<Member?> findById(int id)
         {
-            return await memberRepository.findById(id);
+            var member = await memberRepository.findById(id);
+            return member.IsDeleted ? null : member;
+        }
+
+        private async Task<Member> validateCreateMemberRequest(MemberDTO memberDTO)
+        {
+            var emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+
+            if (string.IsNullOrWhiteSpace(memberDTO.Name))
+            {
+                throw new MemberServiceRequestInvalidException("member name is required");
+            }
+
+            if(string.IsNullOrWhiteSpace(memberDTO.Email))
+            {
+                throw new MemberServiceRequestInvalidException("email is required");
+            }
+
+            if(!System.Text.RegularExpressions.Regex.IsMatch(emailPattern, memberDTO.Email))
+            {
+                throw new MemberServiceRequestInvalidException("email is not in valid format");
+            }
+
+            return await memberMapper(memberDTO);
         }
 
 

@@ -1,5 +1,6 @@
 ﻿using PlateDirectPaymentApi.DirectPaymentModule.Entity;
 using PlateDirectPaymentApi.DirectPaymentModule.Enum;
+using PlateDirectPaymentApi.DirectPaymentModule.Exception;
 using PlateDirectPaymentApi.DirectPaymentModule.Model;
 using PlateDirectPaymentApi.DirectPaymentModule.Repository;
 using System.Diagnostics.Eventing.Reader;
@@ -20,6 +21,7 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
 
         public  async Task<bool> MakePayment(PaymentDTO paymentDTO)
         {
+            validatePaymentRequest(paymentDTO);
             var Type = GetPlateTypeFromString(paymentDTO.PlateType);
 
             if (await CheckOldRecord(paymentDTO))
@@ -76,16 +78,19 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
         public async Task<List<PaymentDTO>> GetPlateRecord()
         {
             var records = await currencyRepository.GetPlateRecords();
-            return records.Select(paymentDTOMapper).ToList();
+            var filtered = records.Where(r => !r.IsDeleted);
+            return filtered.Select(paymentDTOMapper).ToList();
         }
+
         private PlateType GetPlateTypeFromString(string plateType)
         {
             return plateType == "GOLD" ? PlateType.GOLD : PlateType.SILVER;
         }
 
-        public async Task<PaymentDTO> findById(int id)
+        public async Task<PaymentDTO?> findById(int id)
         {
-            return paymentDTOMapper(await currencyRepository.findById(id));
+            var record = await currencyRepository.findById(id);
+            return record.IsDeleted ?  null : paymentDTOMapper(record);
         }
 
         public async Task<bool> updateRecord(int id,PaymentDTO paymentDTO)
@@ -98,7 +103,35 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
             return await currencyRepository.deleteRecord(id);
         }
 
+        private PlateCurrency validatePaymentRequest(PaymentDTO paymentDTO)
+        {
+            if (string.IsNullOrWhiteSpace(paymentDTO.Mmk.ToString()))
+            {
+                throw new PaymentServiceRequestInvalidException("payment amount is required");
+            }
 
+            if (string.IsNullOrWhiteSpace(paymentDTO.Plate.ToString()))
+            {
+                throw new PaymentServiceRequestInvalidException("amount of plate to fill is required");
+            }
+
+            if(string.IsNullOrWhiteSpace(paymentDTO.PlateType.ToString()))
+            {
+                throw new PaymentServiceRequestInvalidException("plate type to fill is required");
+            }
+
+            if(string.IsNullOrWhiteSpace(paymentDTO.MemberId.ToString()))
+            {
+                throw new PaymentServiceRequestInvalidException("id of the member is required to fill the plate");
+            }
+
+            if(paymentDTO.PlateType != "GOLD" ||  paymentDTO.PlateType != "SILVER")
+            {
+                throw new PaymentServiceRequestInvalidException("request plate type format must be 'GOLD' or 'SILVER' only");
+            }
+
+            return plateCurrencyMapper(paymentDTO);
+        }
 
     }
 }
