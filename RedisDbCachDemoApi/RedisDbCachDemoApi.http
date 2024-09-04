@@ -1,0 +1,6 @@
+@RedisDbCachDemoApi_HostAddress = http://localhost:5069
+
+GET {{RedisDbCachDemoApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
