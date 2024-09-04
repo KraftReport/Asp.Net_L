@@ -1,0 +1,23 @@
+﻿ 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Room</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+ 
+</head>
+<body>
+    <h1>Chat Room</h1>
+    <input type="text" id="userInput" placeholder="Your name..." />
+    <input type="text" id="messageInput" placeholder="Type your message..." />
+    <button onclick="sendMessage()">Send</button>
+    <ul id="messagesList"></ul>
+</body>
+<script>
+const eventSource = await fetch('http://localhost:5226/api/chat/subscribe');
+
+console.log(eventSource)
+
+</script>
+</html>

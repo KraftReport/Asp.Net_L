@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ChatAppApiWithRedisDB\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ChatAppApiWithRedisDB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ChatAppApiWithRedisDB.props",
+      "PackagePath": "build\\ChatAppApiWithRedisDB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ChatAppApiWithRedisDB.props",
+      "PackagePath": "buildMultiTargeting\\ChatAppApiWithRedisDB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ChatAppApiWithRedisDB.props",
+      "PackagePath": "buildTransitive\\ChatAppApiWithRedisDB.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

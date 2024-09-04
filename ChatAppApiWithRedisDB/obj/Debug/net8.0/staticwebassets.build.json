@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "ZJkyCVAboxNbtppKzBILyTWBJQt39TpLo7K+epG/ga8=",
+  "Source": "ChatAppApiWithRedisDB",
+  "BasePath": "_content/ChatAppApiWithRedisDB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChatAppApiWithRedisDB\\wwwroot",
+      "Source": "ChatAppApiWithRedisDB",
+      "ContentRoot": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ChatAppApiWithRedisDB\\wwwroot\\",
+      "BasePath": "_content/ChatAppApiWithRedisDB",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ChatAppApiWithRedisDB\\wwwroot\\js\\chat.js",
+      "SourceId": "ChatAppApiWithRedisDB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ChatAppApiWithRedisDB\\wwwroot\\",
+      "BasePath": "_content/ChatAppApiWithRedisDB",
+      "RelativePath": "js/chat.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    }
+  ]
+}
