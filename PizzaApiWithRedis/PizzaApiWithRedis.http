@@ -1,0 +1,6 @@
+@PizzaApiWithRedis_HostAddress = http://localhost:5243
+
+GET {{PizzaApiWithRedis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

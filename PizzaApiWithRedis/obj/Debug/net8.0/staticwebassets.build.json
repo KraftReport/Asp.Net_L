@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "l+ovNqLLnXgIZbmEi966Qftmi7Jg71IuWYeKJkBF3lE=",
+  "Source": "PizzaApiWithRedis",
+  "BasePath": "_content/PizzaApiWithRedis",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
