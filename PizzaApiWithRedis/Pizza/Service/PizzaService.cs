@@ -1,6 +1,5 @@
 ﻿using PizzaApiWithRedis.Pizza.Model;
-using PizzaApiWithRedis.Pizza.Repository;
-using System.ComponentModel;
+using PizzaApiWithRedis.Pizza.Repository; 
 
 namespace PizzaApiWithRedis.Pizza.Service
 {
@@ -14,16 +13,122 @@ namespace PizzaApiWithRedis.Pizza.Service
             this.cacheManager = cacheManager;
         }
 
+        public async Task<ApiResponseDto> getPizzaById(int id)
+        {
+            var data = await findDataInTheCache<CacheDto>(id.ToString());
+            if (data.Item1)
+            {
+                return await cacheDtoToResponseDto(data.Item2);
+            }
+            var found = await findPizzaById(id);
+            await setDataIntoCache<CacheDto>(found.id.ToString(), await entityToCacheDto(found));
+            return await entityToResponseDtoMapper(found);
+        }
+
+        public async Task<int> addPizzaToCatalog(ApiRequestDto pizzaRequest)
+        {
+            return await pizzaRepository.addPizzaToCatalog(await dtoToEntityMapper(pizzaRequest));
+        }
+
         public async Task<List<string>> getListOfPizzaNames()
         {
             var data = await findDataInTheCache<List<string>>("pizzaList");
-            if (data == null)
+            if (data.Item1 == false)
             {
                 var found = await pizzaRepository.getListOfPizzas();
                 await setDataIntoCache<List<string>>("pizzaList", found);
                 return found;
             }
-            return data;
+            return data.Item2;
+        }
+
+        public async Task<byte[]> getPizzaPhoto(int id)
+        {
+            var data = await getPizzaById(id);
+            return await File.ReadAllBytesAsync(data.pizzaObject.photo);
+        }
+
+        public async Task<ApiResponseDto> updatePizzaById(int id,ApiRequestDto updateRequest)
+        {
+            var pizza = await dtoToEntityMapper(updateRequest); 
+            var data = await findDataInTheCache<CacheDto>(id.ToString());
+            var updated = await entityToResponseDtoMapper(await pizzaRepository.updatePizzaById(id, pizza));
+            if (data.Item1)
+            {
+                pizza.id = id;
+                await cacheManager.saveIntoCacheDbWithKey(id.ToString(), pizza);
+            }
+            return updated;
+        }
+
+        public async Task<bool> deletePizza(int id)
+        {
+            var found = await findDataInTheCache<CacheDto>(id.ToString());
+            if (found.Item1)
+            {
+                await cacheManager.deleteFromCache(id.ToString());
+            }
+            return await pizzaRepository.deletePizza(id);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private async Task<ApiResponseDto> entityToResponseDtoMapper(PizzaDetail pizza)
+        {
+            return new ApiResponseDto
+            {
+                pizzaObject = pizza,
+                Base64String = await getBase64String(pizza.photo)
+            };
+        }
+
+        private async Task<CacheDto> entityToCacheDto(PizzaDetail pizza)
+        {
+            return new CacheDto
+            {
+                id = pizza.id,
+                description = pizza.description,
+                name = pizza.name,
+                photo = pizza.photo,
+                price = pizza.price,
+                base64String = await getBase64String(pizza.photo)
+            };
+        }
+
+        private async Task<ApiResponseDto> cacheDtoToResponseDto(CacheDto cacheDto)
+        { 
+            return new ApiResponseDto
+            {
+                pizzaObject = new PizzaDetail
+                {
+                    id = cacheDto.id,
+                    name = cacheDto.name,
+                    description = cacheDto.description,
+                    price = cacheDto.price,
+                    photo = cacheDto.photo,
+                },
+                Base64String = await getBase64String(cacheDto.photo)
+            };
+        }
+
+        private async Task<string> getBase64String(string url)
+        { 
+            return Convert.ToBase64String(await File.ReadAllBytesAsync(url));
+        }
+
+        private async Task<PizzaDetail> findPizzaById(int id)
+        {
+            return await pizzaRepository.getPizzaById(id);
         }
 
         private async Task<bool> setDataIntoCache<T>(string key,T value)
@@ -31,15 +136,16 @@ namespace PizzaApiWithRedis.Pizza.Service
             return await cacheManager.saveIntoCacheDbWithKey(key, value);
         }
 
-        private async Task<T> findDataInTheCache<T>(string key)
+        private async Task<(bool,T?)> findDataInTheCache<T>(string key)
         {
-            return await cacheManager.findDataInTheCache<T>(key);
+            var found = await cacheManager.findDataInTheCache<T>(key);
+            if (found == null)
+            {
+                return (false,default(T));
+            }
+            return (true,found);
         }
 
-        public async Task<int> addPizzaToCatalog(ApiRequestDto pizzaRequest)
-        {
-            return await pizzaRepository.addPizzaToCatalog(await dtoToEntityMapper(pizzaRequest));
-        }
 
         private async Task<PizzaDetail> dtoToEntityMapper(ApiRequestDto pizzaRequest)
         {

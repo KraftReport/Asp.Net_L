@@ -29,5 +29,10 @@ namespace PizzaApiWithRedis.Pizza.Service
         {
             return await database.StringSetAsync(key,JsonConvert.SerializeObject(value));
         }
+
+        public async Task<bool> deleteFromCache(string key)
+        {
+            return await database.KeyDeleteAsync(key);
+        }
     }
 }

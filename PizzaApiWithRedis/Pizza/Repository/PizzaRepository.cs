@@ -25,6 +25,24 @@ namespace PizzaApiWithRedis.Pizza.Repository
             return await pizzaContext.Select(p=>p.name).ToListAsync();
         }
 
+        public async Task<PizzaDetail> getPizzaById(int id)
+        {
+            return await pizzaContext.FindAsync(id);
+        }
         
+        public async Task<PizzaDetail> updatePizzaById(int id, PizzaDetail pizza)
+        {
+            pizza.id = id;
+            var updated = pizzaContext.Update(pizza).Entity;
+            await context.SaveChangesAsync();
+            return updated;
+        }
+
+        public async Task<bool> deletePizza(int id)
+        {
+            var found = pizzaContext.Remove(await getPizzaById(id));
+            return await context.SaveChangesAsync() > 0;
+        }
+
     }
 }
