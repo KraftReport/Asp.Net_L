@@ -44,5 +44,10 @@ namespace PizzaApiWithRedis.Pizza.Repository
             return await context.SaveChangesAsync() > 0;
         }
 
+        public async Task<List<PizzaDetail>> findAllPizza()
+        {
+            return await pizzaContext.ToListAsync();
+        }
+
     }
 }

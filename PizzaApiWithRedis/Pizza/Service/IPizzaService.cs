@@ -10,5 +10,6 @@ namespace PizzaApiWithRedis.Pizza.Service
         public Task<byte[]> getPizzaPhoto(int id);
         public Task<bool> deletePizza(int id);
         public Task<ApiResponseDto> updatePizzaById(int id,ApiRequestDto updateRequest);
+        public Task<List<Task<ApiResponseDto>>> GetAllPizzaDataAsync();
     }
 }

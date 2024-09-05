@@ -1,4 +1,5 @@
-﻿using PizzaApiWithRedis.Pizza.Model;
+﻿using Newtonsoft.Json;
+using PizzaApiWithRedis.Pizza.Model;
 using PizzaApiWithRedis.Pizza.Repository; 
 
 namespace PizzaApiWithRedis.Pizza.Service
@@ -27,6 +28,8 @@ namespace PizzaApiWithRedis.Pizza.Service
 
         public async Task<int> addPizzaToCatalog(ApiRequestDto pizzaRequest)
         {
+            await cacheManager.deleteFromCache("pizzaHashList");
+            await cacheManager.deleteFromCache("pizzaList");
             return await pizzaRepository.addPizzaToCatalog(await dtoToEntityMapper(pizzaRequest));
         }
 
@@ -48,10 +51,16 @@ namespace PizzaApiWithRedis.Pizza.Service
             return await File.ReadAllBytesAsync(data.pizzaObject.photo);
         }
 
-        public async Task<ApiResponseDto> updatePizzaById(int id,ApiRequestDto updateRequest)
+        public async Task<ApiResponseDto> updatePizzaById(int id, ApiRequestDto updateRequest)
         {
-            var pizza = await dtoToEntityMapper(updateRequest); 
+
+            var pizza = await dtoToEntityMapper(updateRequest);
             var data = await findDataInTheCache<CacheDto>(id.ToString());
+            if (await findDataInCacheHash("pizzaHashList",id.ToString()))
+            {
+                await updateIntoCacheHash(pizza);
+            } 
+/*            await deleteOldPhoto(pizzaRepository.getPizzaById(id).Result.photo);*/
             var updated = await entityToResponseDtoMapper(await pizzaRepository.updatePizzaById(id, pizza));
             if (data.Item1)
             {
@@ -71,6 +80,17 @@ namespace PizzaApiWithRedis.Pizza.Service
             return await pizzaRepository.deletePizza(id);
         }
 
+        public async  Task<List<Task<ApiResponseDto>>> GetAllPizzaDataAsync()
+        {
+            var data = await findHashListInTheCache<CacheDto>("pizzaHashList");
+            if (data.Item1)
+            {
+                return data.Item2.Select(async d => await cacheDtoToResponseDto(d)).ToList();
+            }
+            var pizzas = await pizzaRepository.findAllPizza();
+            await insertListIntoCache(pizzas);
+            return  pizzas.Select(async p => await entityToResponseDtoMapper(p)).ToList(); 
+        }
 
 
 
@@ -83,6 +103,7 @@ namespace PizzaApiWithRedis.Pizza.Service
 
 
 
+      
         private async Task<ApiResponseDto> entityToResponseDtoMapper(PizzaDetail pizza)
         {
             return new ApiResponseDto
@@ -90,6 +111,21 @@ namespace PizzaApiWithRedis.Pizza.Service
                 pizzaObject = pizza,
                 Base64String = await getBase64String(pizza.photo)
             };
+        }
+
+        private async Task insertListIntoCache(List<PizzaDetail> list)
+        {
+            list.ForEach(async p => await cacheManager.saveIntoHash("pizzaHashList", JsonConvert.SerializeObject(p), p.id.ToString()));
+        }
+
+        private async Task updateIntoCacheHash(PizzaDetail pizza)
+        {
+            await cacheManager.saveIntoHash("pizzaHashList", JsonConvert.SerializeObject(pizza), pizza.id.ToString());
+        }
+
+        private async Task<bool> findDataInCacheHash(string key,string index)
+        {
+            return await cacheManager.findDataInCacheHash(key, index);
         }
 
         private async Task<CacheDto> entityToCacheDto(PizzaDetail pizza)
@@ -103,6 +139,11 @@ namespace PizzaApiWithRedis.Pizza.Service
                 price = pizza.price,
                 base64String = await getBase64String(pizza.photo)
             };
+        }
+
+        private async Task deleteOldPhoto(string url)
+        {
+            File.Delete(url);
         }
 
         private async Task<ApiResponseDto> cacheDtoToResponseDto(CacheDto cacheDto)
@@ -134,6 +175,16 @@ namespace PizzaApiWithRedis.Pizza.Service
         private async Task<bool> setDataIntoCache<T>(string key,T value)
         {
             return await cacheManager.saveIntoCacheDbWithKey(key, value);
+        }
+
+        private async Task<(bool,List<T>)> findHashListInTheCache<T>(string key)
+        {
+            var found = await cacheManager.findHashListInTheCache<T>(key);
+            if (found.Count == 0)
+            {
+                return (false, default(List<T>));
+            }
+            return (true, found);
         }
 
         private async Task<(bool,T?)> findDataInTheCache<T>(string key)

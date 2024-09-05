@@ -50,5 +50,11 @@ namespace PizzaApiWithRedis.Controllers
         {
             return Ok(await pizzaService.deletePizza(id));
         }
+
+        [HttpGet("/pizzas/list")]
+        public async Task<IActionResult> allPizzaDetail()
+        {
+            return Ok(await pizzaService.GetAllPizzaDataAsync());
+        }
     }
 }
