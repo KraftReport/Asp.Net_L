@@ -56,12 +56,13 @@ namespace PizzaApiWithRedis.Pizza.Service
 
             var pizza = await dtoToEntityMapper(updateRequest);
             var data = await findDataInTheCache<CacheDto>(id.ToString());
+            var existingPizza = await pizzaRepository.updatePizzaById(id, pizza);
             if (await findDataInCacheHash("pizzaHashList",id.ToString()))
             {
                 await updateIntoCacheHash(pizza);
             } 
 /*            await deleteOldPhoto(pizzaRepository.getPizzaById(id).Result.photo);*/
-            var updated = await entityToResponseDtoMapper(await pizzaRepository.updatePizzaById(id, pizza));
+            var updated = await entityToResponseDtoMapper(existingPizza);
             if (data.Item1)
             {
                 pizza.id = id;

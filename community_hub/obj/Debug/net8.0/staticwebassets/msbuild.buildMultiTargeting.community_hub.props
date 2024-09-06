@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\community_hub.props" />
+</Project>
