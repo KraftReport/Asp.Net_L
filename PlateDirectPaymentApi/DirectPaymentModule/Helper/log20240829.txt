@@ -1,6 +1,12 @@
-2024-08-29 10:19:36.758 +06:30 [INF] time : 8/29/2024 10:19:36 AM | member_id : 1 | updated_plateCount :5300.00 | plateType : GOLD
-2024-08-29 10:22:22.690 +06:30 [INF] time : 8/29/2024 10:22:22 AM | member_id : 1 | updated_plateCount :55300.00 | plateType : GOLD
-2024-08-29 11:43:06.542 +06:30 [INF] time : 8/29/2024 11:43:06 AM | member_id : 3 | updated_plateCount :900 | plateType : GOLD
-2024-08-29 11:53:05.154 +06:30 [INF] time : 8/29/2024 11:53:05 AM | member_id : 4 | updated_plateCount :900 | plateType : SILVER
-2024-08-29 12:02:06.525 +06:30 [INF] time : 8/29/2024 12:02:06 PM | member_id : 5 | updated_plateCount :9000 | plateType : SILVER
-2024-08-29 13:13:30.327 +06:30 [INF] time : 8/29/2024 1:13:30 PM | member_id : 6 | updated_plateCount :890 | plateType : GOLD
+{"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRCTDE0NTE2MzciLCJuYmYiOjE3MjU4NTY0NjQsImV4cCI6MTcyNjcyMDQ2NCwiaWF0IjoxNzI1ODU2NDY0fQ.0YOQniPzKoCX1vtv3QYokTQf4OyA1BjK73a4XllyOrI","requestData":"{\"musicGenreId\":2}","encodedString":"7gDs3NTnsvw5jwKUlvd1vH6eNRyIjj2g9G91nehvkbM=","iv":null}
+
+
+select  a.album_code,a.id as albumId,a.name_en as album_en,a.name_mm as album_mm,
+a.name_other as album_other,a.photo, a.point as point,a.silver_point as silverPoint,a.released_date,a.is_various_artists,a.album_type_id 
+from album a 
+left join music_genre_album mga 
+on mga.album_id = a.id 
+where mga.musicGenre_id=@music_genre_id and mga.is_delete=0  and a.is_delete =0
+and a.released_date <= GETDATE()
+order by mga.id desc @offset rows
+fetch next @pageSize rows only

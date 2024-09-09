@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "81qbTBTtfURRBbyBr2PP/qXj4Satg42r8EJGYDY3DHo=",
+  "Source": "hub_app",
+  "BasePath": "_content/hub_app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
