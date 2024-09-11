@@ -125,10 +125,10 @@ namespace PlateDirectPaymentApi.DirectPaymentModule.Service
                 throw new PaymentServiceRequestInvalidException("id of the member is required to fill the plate");
             }
 
-            if(paymentDTO.PlateType != "GOLD" ||  paymentDTO.PlateType != "SILVER")
+     /*       if(paymentDTO.PlateType != "GOLD" ||  paymentDTO.PlateType != "SILVER")
             {
                 throw new PaymentServiceRequestInvalidException("request plate type format must be 'GOLD' or 'SILVER' only");
-            }
+            }*/
 
             return plateCurrencyMapper(paymentDTO);
         }

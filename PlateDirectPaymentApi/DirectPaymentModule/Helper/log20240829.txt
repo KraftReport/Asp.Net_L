@@ -1,4 +1,4 @@
-{"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRCTDE0NTE2MzciLCJuYmYiOjE3MjU4NTY0NjQsImV4cCI6MTcyNjcyMDQ2NCwiaWF0IjoxNzI1ODU2NDY0fQ.0YOQniPzKoCX1vtv3QYokTQf4OyA1BjK73a4XllyOrI","requestData":"{\"musicGenreId\":2}","encodedString":"7gDs3NTnsvw5jwKUlvd1vH6eNRyIjj2g9G91nehvkbM=","iv":null}
+{"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRCTDE0NTE2MzciLCJuYmYiOjE3MjU4NTY0NjQsImV4cCI6MTcyNjcyMDQ2NCwiaWF0IjoxNzI1ODU2NDY0fQ.0YOQniPzKoCX1vtv3QYokTQf4OyA1BjK73a4XllyOrI","requestData":"{\"musicGenreId\":2,\"pageSize\": "}","encodedString":"7gDs3NTnsvw5jwKUlvd1vH6eNRyIjj2g9G91nehvkbM=","iv":null}
 
 
 select  a.album_code,a.id as albumId,a.name_en as album_en,a.name_mm as album_mm,
@@ -8,5 +8,27 @@ left join music_genre_album mga
 on mga.album_id = a.id 
 where mga.musicGenre_id=@music_genre_id and mga.is_delete=0  and a.is_delete =0
 and a.released_date <= GETDATE()
-order by mga.id desc @offset rows
+order by mga.id desc offset @offset rows
 fetch next @pageSize rows only
+
+select  a.album_code,a.id as albumId,a.name_en as album_en,a.name_mm as album_mm,
+a.name_other as album_other,a.photo, a.point as point,a.silver_point as silverPoint,a.released_date,a.is_various_artists,a.album_type_id 
+from album a 
+left join music_genre_album mga 
+on mga.album_id = a.id 
+where mga.musicGenre_id=@music_genre_id and mga.is_delete=0  and a.is_delete =0
+and a.released_date <= GETDATE()
+order by mga.id desc
+
+{
+	musicGenreId : 1,
+	pageSize : 10 ,
+	pageId : 1
+}
+
+
+{"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRCTDE0NTE2MzciLCJuYmYiOjE3MjU4NTY0NjQsImV4cCI6MTcyNjcyMDQ2NCwiaWF0IjoxNzI1ODU2NDY0fQ.0YOQniPzKoCX1vtv3QYokTQf4OyA1BjK73a4XllyOrI","requestData":"{\"musicGenreId\": 2,\"pageSize\" : 20 ,\"pageId\" : 1}","encodedString":7gDs3NTnsvw5jwKUlvd1vC04v42fE3sX5OCNDcTa7j57u+qyzynQ58USehFVgeMe,"iv":null}
+
+
+
+{"token":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlRCTDE0NTE2MzciLCJuYmYiOjE3MjU4NTY0NjQsImV4cCI6MTcyNjcyMDQ2NCwiaWF0IjoxNzI1ODU2NDY0fQ.0YOQniPzKoCX1vtv3QYokTQf4OyA1BjK73a4XllyOrI","requestData":"{\"musicGenreId\": 2}","encodedString":"7gDs3NTnsvw5jwKUlvd1vH6eNRyIjj2g9G91nehvkbM=","iv":null}

@@ -53,7 +53,7 @@ namespace PlateDirectPaymentApi
 
 
 
-            app.UseMiddleware<GlobalExpectionHandler>();
+         //   app.UseMiddleware<GlobalExpectionHandler>();
 
 
 
