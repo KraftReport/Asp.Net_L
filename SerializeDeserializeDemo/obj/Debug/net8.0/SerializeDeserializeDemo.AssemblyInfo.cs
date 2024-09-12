@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SerializeDeserializeDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e9698b8abd42f4635df772d8de60ceb847f8ef7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70d24647f71acdef9092254e2354046e3e51aeed")]
 [assembly: System.Reflection.AssemblyProductAttribute("SerializeDeserializeDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SerializeDeserializeDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
