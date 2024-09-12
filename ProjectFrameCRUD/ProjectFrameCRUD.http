@@ -1,0 +1,6 @@
+@ProjectFrameCRUD_HostAddress = http://localhost:5095
+
+GET {{ProjectFrameCRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
