@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "btHVyzS+9yHu9240w3manvzSZJDi2IAKGP0sjJPVUWw=",
+  "Source": "ExcelServiceApp",
+  "BasePath": "_content/ExcelServiceApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
