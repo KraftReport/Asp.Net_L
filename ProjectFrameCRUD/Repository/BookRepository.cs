@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProjectFrameCRUD.Data;
-using ProjectFrameCRUD.DTO;
-using ProjectFrameCRUD.Models;
+using ProjectFrameCRUD.Model.ResponseModel;
+using ProjectFrameCRUD.Model;
+using ProjectFrameCRUD.Model.RequestModel;
+using ProjectFrameCRUD.Data; 
 
 namespace ProjectFrameCRUD.Repository
 {
@@ -26,7 +27,7 @@ namespace ProjectFrameCRUD.Repository
             return await this.book.FindAsync(id); 
         }
 
-        public async Task<bool> UpdateBook(BookDTO book,int id)
+        public async Task<bool> UpdateBook(BookModel book,int id)
         {
             var found = await FindBookById(id);
             found.Description = book.Description;

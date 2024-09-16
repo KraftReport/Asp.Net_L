@@ -1,5 +1,7 @@
-﻿using ProjectFrameCRUD.DTO;
-using ProjectFrameCRUD.Models;
+﻿using ProjectFrameCRUD.Model.ResponseModel;
+using ProjectFrameCRUD.Model;
+using ProjectFrameCRUD.Model.RequestModel;
+using ProjectFrameCRUD.Data;
 using ProjectFrameCRUD.Repository;
 using System.Collections.Immutable;
 
@@ -13,40 +15,40 @@ namespace ProjectFrameCRUD.Service
             this.bookRepository = bookRepository;   
         }
 
-        public async Task<bool> RegisterBook(APIRequestDTO apiRequestDTO)
+        public async Task<bool> RegisterBook(APIRequestModel apiRequestDTO)
         {
             return await bookRepository.SaveBook(EntityMapper(apiRequestDTO.Book));
         }
 
-        public async Task<APIResponseDTO> FindBookById(APIRequestDTO apiRequestDTO)
+        public async Task<APIResponseModel> FindBookById(APIRequestModel apiRequestDTO)
         {
-            return new APIResponseDTO
+            return new APIResponseModel
             {
-                Book = DTOMapper(await bookRepository.FindBookById(apiRequestDTO.Id))
+                Book = ModelMapper(await bookRepository.FindBookById(apiRequestDTO.Id))
             };
         }
 
-        public async Task<bool> UpdateBook(APIRequestDTO apiRequestDTO)
+        public async Task<bool> UpdateBook(APIRequestModel apiRequestDTO)
         {
             return await bookRepository.UpdateBook(apiRequestDTO.Book, apiRequestDTO.Id);
         }
 
-        public async Task<bool> DeleteBook(APIRequestDTO apiRequestDTO)
+        public async Task<bool> DeleteBook(APIRequestModel apiRequestDTO)
         {
             return await bookRepository.DeleteBook(apiRequestDTO.Id);
         }
 
-        public async Task<APIResponseDTO> GetAllBook()
+        public async Task<APIResponseModel> GetAllBook()
         {
             var books = await bookRepository.GetAllBooks();
-            return new APIResponseDTO
+            return new APIResponseModel
             {
-                Books = books.Select(b => DTOMapper(b)).ToList()
+                Books = books.Select(b => ModelMapper(b)).ToList()
             }; 
         }
 
 
-        private Book EntityMapper(BookDTO bookDTO)
+        private Book EntityMapper(BookModel bookDTO)
         {
             return new Book
             {
@@ -55,9 +57,9 @@ namespace ProjectFrameCRUD.Service
             };
         }
 
-        private BookDTO DTOMapper(Book book)
+        private BookModel ModelMapper(Book book)
         {
-            return new BookDTO
+            return new BookModel
             {
                 Description = book.Description,
                 Name = book.Name,

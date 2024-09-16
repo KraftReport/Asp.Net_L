@@ -1,9 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using ProjectFrameCRUD.Controller;
-using ProjectFrameCRUD.Data;
+using ProjectFrameCRUD.Endpoint;
 using ProjectFrameCRUD.Repository;
-using ProjectFrameCRUD.Service;
-using ProjectFrameCRUD;
+using ProjectFrameCRUD.Service; 
+using ProjectFrameCRUD.Data;
+using System.Text;
+using ProjectFrameCRUD.Model;
 
 public class Program
 {
@@ -21,15 +22,37 @@ public class Program
         // Dependency injection
         builder.Services.AddScoped<IBookService, BookService>();
         builder.Services.AddScoped<BookRepository>();
+        builder.Services.AddScoped<IAuthService,AuthService>();
+        builder.Services.AddScoped<UserRepository>();
+        builder.Services.AddScoped<TokenRepository>();
+        builder.Services.AddScoped<IJwtService,JWTService>();
 
-        // Authorization and other services
+        builder.Services.AddAuthentication(Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(Encoding.UTF8.GetBytes(SecretKey.Key)),
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero
+        };
+    });
+
+        // Add Authorization policy
         builder.Services.AddAuthorization();
+ 
 
         // Swagger configuration
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
         var app = builder.Build();
+
+        app.UseAuthentication();
+        app.UseAuthorization();
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
@@ -44,10 +67,11 @@ public class Program
         }
 
  
-        app.UseHttpsRedirection();
-        app.UseAuthorization();
+        app.UseHttpsRedirection(); 
  
-        app.BookRequestEndpoints(); 
+        app.BookRequestEndpoints();
+
+        app.AuthEndpoints();
  
  
 

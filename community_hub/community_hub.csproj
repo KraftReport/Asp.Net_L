@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="User\" />
     <Folder Include="scaffold_test\" />
   </ItemGroup>
 

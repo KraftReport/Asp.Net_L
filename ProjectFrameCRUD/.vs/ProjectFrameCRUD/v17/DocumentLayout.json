@@ -3,48 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\controller\\bookrequestendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:controller\\bookrequestendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\dto\\apirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:dto\\apirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\dto\\apiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:dto\\apiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\endpoint\\authendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:endpoint\\authendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\endpoint\\bookrequestendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:endpoint\\bookrequestendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\projectframecrud.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:projectframecrud.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\model\\responsemodel\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:model\\responsemodel\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\service\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:service\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\data\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:data\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\model\\securityenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:model\\securityenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\model\\requestmodel\\apirequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:model\\requestmodel\\apirequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\repository\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:repository\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\model\\responsemodel\\apiresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:model\\responsemodel\\apiresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F4810DF-9904-4F0A-8E11-06F71A0DC5DD}|ProjectFrameCRUD.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\projectframecrud\\projectframecrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -58,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,27 +125,83 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "APIResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\ResponseModel\\APIResponseModel.cs",
+              "RelativeDocumentMoniker": "Model\\ResponseModel\\APIResponseModel.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\ResponseModel\\APIResponseModel.cs",
+              "RelativeToolTip": "Model\\ResponseModel\\APIResponseModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T07:46:40.583Z",
+              "IsPinned": true
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\AuthService.cs",
+              "RelativeToolTip": "Service\\AuthService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwCUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:31:51.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Endpoint\\AuthEndpoint.cs",
+              "RelativeDocumentMoniker": "Endpoint\\AuthEndpoint.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Endpoint\\AuthEndpoint.cs",
+              "RelativeToolTip": "Endpoint\\AuthEndpoint.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:21:06.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Repository\\UserRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAADwvzEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:11:02.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAwCwAAAAJAAAA",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCMAAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T08:17:34.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "BookRequestEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Controller\\BookRequestEndpoint.cs",
-              "RelativeDocumentMoniker": "Controller\\BookRequestEndpoint.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Controller\\BookRequestEndpoint.cs*",
-              "RelativeToolTip": "Controller\\BookRequestEndpoint.cs*",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBEAAAAXAAAA",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Endpoint\\BookRequestEndpoint.cs",
+              "RelativeDocumentMoniker": "Endpoint\\BookRequestEndpoint.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Endpoint\\BookRequestEndpoint.cs",
+              "RelativeToolTip": "Endpoint\\BookRequestEndpoint.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T08:02:26.609Z",
               "EditorCaption": ""
@@ -97,45 +209,231 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\JWTService.cs",
+              "RelativeDocumentMoniker": "Service\\JWTService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\JWTService.cs",
+              "RelativeToolTip": "Service\\JWTService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:37:51.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswBcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T07:28:13.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Service\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\IAuthService.cs",
+              "RelativeToolTip": "Service\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:31:42.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectFrameCRUD.http",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\ProjectFrameCRUD.http",
+              "RelativeDocumentMoniker": "ProjectFrameCRUD.http",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\ProjectFrameCRUD.http",
+              "RelativeToolTip": "ProjectFrameCRUD.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-15T15:55:22.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\ResponseModel\\Result.cs",
+              "RelativeDocumentMoniker": "Model\\ResponseModel\\Result.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\ResponseModel\\Result.cs",
+              "RelativeToolTip": "Model\\ResponseModel\\Result.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIA4wBUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:43:50.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\BookService.cs",
               "RelativeDocumentMoniker": "Service\\BookService.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\BookService.cs",
               "RelativeToolTip": "Service\\BookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAA7AAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCMAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T07:44:42.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "APIResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\DTO\\APIResponseDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\APIResponseDTO.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\DTO\\APIResponseDTO.cs",
-              "RelativeToolTip": "DTO\\APIResponseDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "IJWTService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\IJWTService.cs",
+              "RelativeDocumentMoniker": "Service\\IJWTService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\IJWTService.cs",
+              "RelativeToolTip": "Service\\IJWTService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T07:46:40.583Z",
+              "WhenOpened": "2024-09-13T05:37:38.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "APIRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\DTO\\APIRequestDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\APIRequestDTO.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\DTO\\APIRequestDTO.cs",
-              "RelativeToolTip": "DTO\\APIRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\User.cs",
+              "RelativeDocumentMoniker": "Data\\User.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\User.cs",
+              "RelativeToolTip": "Data\\User.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T07:46:25.217Z",
+              "WhenOpened": "2024-09-13T05:09:44.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\Token.cs",
+              "RelativeDocumentMoniker": "Data\\Token.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\Token.cs",
+              "RelativeToolTip": "Data\\Token.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:57:19.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SecurityEnum.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\SecurityEnum.cs",
+              "RelativeDocumentMoniker": "Model\\SecurityEnum.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\SecurityEnum.cs",
+              "RelativeToolTip": "Model\\SecurityEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:58:59.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "APIRequestModel.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\RequestModel\\APIRequestModel.cs",
+              "RelativeDocumentMoniker": "Model\\RequestModel\\APIRequestModel.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\RequestModel\\APIRequestModel.cs",
+              "RelativeToolTip": "Model\\RequestModel\\APIRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T07:46:25.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\UserModel.cs",
+              "RelativeToolTip": "Model\\UserModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:14:56.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\IBookService.cs",
+              "RelativeDocumentMoniker": "Service\\IBookService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\IBookService.cs",
+              "RelativeToolTip": "Service\\IBookService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T07:45:40.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Repository\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TokenRepository.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Repository\\TokenRepository.cs",
+              "RelativeToolTip": "Repository\\TokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:14:42.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookModel.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\BookModel.cs",
+              "RelativeDocumentMoniker": "Model\\BookModel.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Model\\BookModel.cs",
+              "RelativeToolTip": "Model\\BookModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T07:39:15.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "Repository\\BookRepository.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAmwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T07:31:28.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\Book.cs",
+              "RelativeDocumentMoniker": "Data\\Book.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\Book.cs",
+              "RelativeToolTip": "Data\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T07:28:20.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-13T06:56:41.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -143,90 +441,19 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-12T09:04:59.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "WhenOpened": "2024-09-12T09:04:59.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\IBookService.cs",
-              "RelativeDocumentMoniker": "Service\\IBookService.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Service\\IBookService.cs",
-              "RelativeToolTip": "Service\\IBookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T07:45:40.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Repository\\BookRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Repository\\BookRepository.cs",
-              "RelativeToolTip": "Repository\\BookRepository.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwC0AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T07:31:28.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAcwDIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T07:28:13.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Models\\Book.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\Models\\Book.cs",
-              "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T07:28:20.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BookDTO.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\DTO\\BookDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\BookDTO.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\DTO\\BookDTO.cs",
-              "RelativeToolTip": "DTO\\BookDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T07:39:15.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProjectFrameCRUD",
+              "DocumentIndex": 25,
+              "Title": "ProjectFrameCRUD.csproj",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\ProjectFrameCRUD.csproj",
               "RelativeDocumentMoniker": "ProjectFrameCRUD.csproj",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ProjectFrameCRUD\\ProjectFrameCRUD.csproj",
               "RelativeToolTip": "ProjectFrameCRUD.csproj",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAEBVwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-12T07:28:31.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T07:28:31.106Z"
             }
           ]
         }

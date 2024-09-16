@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectFrameCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+391e9457b7cfbef135f7830a838ccfe59bedf842")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55210a16e63f4fb303a3087b53057595cd01ace0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectFrameCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectFrameCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

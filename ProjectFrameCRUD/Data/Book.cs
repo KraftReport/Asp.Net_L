@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ProjectFrameCRUD.Models;
+namespace ProjectFrameCRUD.Data;
 
 public partial class Book
 {
