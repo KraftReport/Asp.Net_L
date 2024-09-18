@@ -68,6 +68,18 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.5, )"
@@ -79,6 +91,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Volo.Abp.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [

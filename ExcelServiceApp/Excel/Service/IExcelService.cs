@@ -7,7 +7,7 @@ namespace ExcelServiceApp.Excel.Service
         public Task<bool> CreateSpreadsheetFile(SpreadsheetCreateRequestDTO spreadsheetCreateRequestDTO);
 
         public Task<List<List<object>>> ReadExcelFile(string filePath);
-        public Task<bool> GeneratePdf(string filePath);
-        public Task<bool> GenerateImage(string filePath);
+        public Task<bool> GeneratePdf(string filePath,string fileName);
+        public Task<bool> GenerateImage(string filePath,string fileName);
     }
 }

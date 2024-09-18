@@ -10,10 +10,10 @@ namespace ExcelServiceApp.Excel.Endpoints
         {
             app.MapGroup("/api/excel-service");
 
-            app.MapPost("/create-excel-file", CreateSpreadsheetFile);
-            app.MapPost("/read-excel-file", ReadSpreadsheetFile);
-            app.MapPost("/generate-pdf", GeneratePdf);
-            app.MapPost("/generate-img",GenerateImg);
+            app.MapPost("/create-excel-file", CreateSpreadsheetFile).RequireAuthorization();
+            app.MapPost("/read-excel-file", ReadSpreadsheetFile).RequireAuthorization();
+            app.MapPost("/generate-pdf", GeneratePdf).RequireAuthorization();
+            app.MapPost("/generate-img",GenerateImg).RequireAuthorization();
 
             static async Task<IResult> CreateSpreadsheetFile([FromBody]SpreadsheetCreateRequestDTO spreadsheetCreateRequestDTO, [FromServices]IExcelService excelService)
             {
@@ -27,12 +27,12 @@ namespace ExcelServiceApp.Excel.Endpoints
 
             static async Task<IResult> GeneratePdf([FromBody]SpreadsheetCreateRequestDTO spreadsheetCreateRequestDTO,IExcelService excelService)
             {
-                return Results.Ok(await excelService.GeneratePdf(spreadsheetCreateRequestDTO.FilePath));
+                return Results.Ok(await excelService.GeneratePdf(spreadsheetCreateRequestDTO.FilePath,spreadsheetCreateRequestDTO.FileName));
             }
 
             static async Task<IResult> GenerateImg([FromBody]SpreadsheetCreateRequestDTO spreadsheetCreateRequestDTO,IExcelService excelService)
             {
-                return Results.Ok(await excelService.GenerateImage(spreadsheetCreateRequestDTO.FilePath));
+                return Results.Ok(await excelService.GenerateImage(spreadsheetCreateRequestDTO.FilePath,spreadsheetCreateRequestDTO.FileName));
             }
         }
     }

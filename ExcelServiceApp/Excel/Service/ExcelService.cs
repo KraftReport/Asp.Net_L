@@ -5,24 +5,27 @@ namespace ExcelServiceApp.Excel.Service
 {
     public class ExcelService : IExcelService
     {
-        private readonly IConfiguration configuration;
+        private readonly IConfiguration _configuration;
         private readonly string key;
+        private readonly string output;
         public ExcelService(IConfiguration configuration)
         {
-            this.configuration = configuration;
-            key = this.configuration["Excel:secret-key"];
+            IConfiguration configuration1;
+            this._configuration = configuration;
+            key = this._configuration["Excel:secret-key"];
+            output = this._configuration["Excel:output-folder"];
             SpreadsheetInfo.SetLicense(key);
         }
-        public async Task<bool> CreateSpreadsheetFile(SpreadsheetCreateRequestDTO spreadsheetCreateRequestDTO)
+        public async Task<bool> CreateSpreadsheetFile(SpreadsheetCreateRequestDTO spreadsheetCreateRequestDto)
         {
             var workbook = new ExcelFile();
-            var worksheet = workbook.Worksheets.Add(spreadsheetCreateRequestDTO.FileName);
+            var worksheet = workbook.Worksheets.Add(spreadsheetCreateRequestDto.FileName);
 
-            if(spreadsheetCreateRequestDTO.Colums != null && spreadsheetCreateRequestDTO.Rows != null)
+            if(spreadsheetCreateRequestDto.Colums != null && spreadsheetCreateRequestDto.Rows != null)
             {
-                await WriteFile(worksheet, spreadsheetCreateRequestDTO);
+                await WriteFile(worksheet, spreadsheetCreateRequestDto);
             } 
-            var filePath = Path.Combine(spreadsheetCreateRequestDTO.FilePath ?? "output", $"{spreadsheetCreateRequestDTO.FileName}.xlsx");
+            var filePath = Path.Combine(spreadsheetCreateRequestDto.FilePath ?? "output", $"{spreadsheetCreateRequestDto.FileName}.xlsx");
             workbook.Save(filePath);
 
             return await Task.FromResult(true);
@@ -72,17 +75,17 @@ namespace ExcelServiceApp.Excel.Service
             return await Task.FromResult(result);
         }
 
-        public async Task<bool> GeneratePdf(string filePath)
+        public async Task<bool> GeneratePdf(string filePath,string fileName)
         {
             var workbook = ExcelFile.Load(filePath);
-            workbook.Save(@"C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ExcelServiceApp\\Output\\bulk.pdf",new PdfSaveOptions() { SelectionType = SelectionType.EntireFile});
+            workbook.Save(output+fileName,new PdfSaveOptions() { SelectionType = SelectionType.EntireFile});
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> GenerateImage(string filePath)
+        public async Task<bool> GenerateImage(string filePath,string fileName)
         {
             var workbook = ExcelFile.Load(filePath);
-            workbook.Save(@"C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\ExcelServiceApp\\Output\\bulk.png", new ImageSaveOptions(ImageSaveFormat.Png) { PageNumber = 0, Width = 1080, CropToContent = true });
+            workbook.Save( output+fileName, new ImageSaveOptions(ImageSaveFormat.Png) { PageNumber = 0, Width = 1080, CropToContent = true });
             return await Task.FromResult(true);
         }
     }

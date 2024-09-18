@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7MfAlEdyj0g=",
+  "dgSpecHash": "zTWS5AsbZnk=",
   "success": true,
   "projectFilePath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\PizzaApiWithRedis.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.8\\microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.8\\microsoft.entityframeworkcore.design.8.0.8.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.2\\microsoft.entityframeworkcore.inmemory.8.0.2.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.8\\microsoft.entityframeworkcore.relational.8.0.8.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.8\\microsoft.entityframeworkcore.tools.8.0.8.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

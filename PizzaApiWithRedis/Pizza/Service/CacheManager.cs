@@ -5,17 +5,17 @@ namespace PizzaApiWithRedis.Pizza.Service
 {
     public class CacheManager : ICacheManagerService
     {
-        private readonly IDatabase database;
+        private readonly IDatabase _database;
 
         public CacheManager()
         {
             var redis = ConnectionMultiplexer.Connect("localhost:6379");
-            this.database = redis.GetDatabase();
+            this._database = redis.GetDatabase();
         }
 
-        public async Task<List<T>> findHashListInTheCache<T>(string key)
+        public async Task<List<T?>> findHashListInTheCache<T>(string key)
         {
-            var found = await database.HashGetAllAsync(key); 
+            var found = await _database.HashGetAllAsync(key); 
             if(found == null)
             {
                 return null;
@@ -30,7 +30,7 @@ namespace PizzaApiWithRedis.Pizza.Service
 
         public async Task<T> findDataInTheCache<T>(string key)
         {
-            var found = await database.StringGetAsync(key);
+            var found = await _database.StringGetAsync(key);
             if (found.IsNull)
             {
                 return default;
@@ -40,22 +40,22 @@ namespace PizzaApiWithRedis.Pizza.Service
 
         public async Task<bool> saveIntoCacheDbWithKey<T>(string key,T value)
         {
-            return await database.StringSetAsync(key,JsonConvert.SerializeObject(value));
+            return await _database.StringSetAsync(key,JsonConvert.SerializeObject(value));
         }
 
         public async Task<bool> deleteFromCache(string key)
         {
-            return await database.KeyDeleteAsync(key);
+            return await _database.KeyDeleteAsync(key);
         }
 
         public async Task<bool> saveIntoHash(string key,string value,string index)
         {
-            return await database.HashSetAsync(key,index,value);
+            return await _database.HashSetAsync(key,index,value);
         }
 
         public async Task<bool> findDataInCacheHash(string key,string index)
         {
-            return await database.HashGetAsync(key,index) !=  default(RedisValue);
+            return await _database.HashGetAsync(key,index) !=  default(RedisValue);
         }
  
  
