@@ -1,7 +1,10 @@
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using ExcelServiceApp.User.JWT;
 using ExcelServiceApp.User.Model;
 using ExcelServiceApp.User.Repository;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ExcelServiceApp.User;
 
@@ -36,12 +39,21 @@ public class AuthService(UserRepository userRepository,IJwtService jwtService,IC
             AccessToken = accessToken,
             RefreshToken = refreshToken,
         };
-
     }
 
-    public Task<string> RefreshToken(string refreshToken)
+    public async Task<UserAuthResponse> RefreshToken(string refreshToken)
     {
-        throw new NotImplementedException();
+        var claims = ValidateRefreshToken(refreshToken);
+        if (claims != null)
+        {
+            var userEmail = claims.Claims.FirstOrDefault(c=>c.Type==ClaimTypes.Email)?.Value;
+            return new UserAuthResponse()
+            {
+                AccessToken = jwtService.GenerateToken(_accessTokenExpiationTime, userEmail, GetAuthenticationModel()),
+                RefreshToken = jwtService.GenerateToken(_refreshTokenExpiationTime, userEmail, GetAuthenticationModel())
+            };
+        }
+        return new UserAuthResponse();
     }
 
     private (byte[],byte[]) HashPassword(string password)
@@ -62,8 +74,7 @@ public class AuthService(UserRepository userRepository,IJwtService jwtService,IC
     private async Task<bool> ValidateUser(UserAuthApiRequest userLoginApiRequest)
     {
         var found = await userRepository.FindByEmailAsync(userLoginApiRequest.Email);
-       // var valid = VerifyPassword(userLoginApiRequest.Password,found.PasswordSalt,found.PasswordHash);
-        return true;
+       return VerifyPassword(userLoginApiRequest.Password,found.PasswordSalt,found.PasswordHash); 
     }
 
     private AuthenticationModel GetAuthenticationModel()
@@ -75,4 +86,26 @@ public class AuthService(UserRepository userRepository,IJwtService jwtService,IC
             SecretKey = _secretKey,
         };
     }
+
+    private ClaimsPrincipal ValidateRefreshToken(string refreshToken)
+    {
+        var handler = new JwtSecurityTokenHandler();
+        var key = Encoding.UTF8.GetBytes(_secretKey);
+        var validation = new TokenValidationParameters()
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(key),
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero
+        };
+        var principal = handler.ValidateToken(refreshToken, validation,out var validToken);
+        if (validToken is JwtSecurityToken jwtSecurityToken)
+        {
+            return principal;
+        }
+        return null;
+    }
+    
 }

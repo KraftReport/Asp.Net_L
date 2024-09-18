@@ -13,17 +13,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
 builder.Services.AddControllers();
- 
-
+builder.Services.AddAntiforgery();
 builder.Services.AddDbContext<ApplicationDatabaseContext>(options =>
 {
     options.UseInMemoryDatabase("ExcelServiceApp");
 });
-
 builder.Services.AddAuthentication(options =>
     {
         options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -42,44 +37,31 @@ builder.Services.AddAuthentication(options =>
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:secretKey"]))
         };
     });
-
 builder.Services.AddAuthorization(options =>
 {
     options.FallbackPolicy = new AuthorizationPolicyBuilder()
         .RequireAuthenticatedUser()
         .Build();
 });
-
 builder.Services.AddAuthorization();
-
 builder.Services.AddScoped<IExcelService, ExcelService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IJwtService,JwtService>();
-builder.Services.AddScoped<UserRepository>();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddScoped<UserRepository>(); 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseHttpsRedirection();
-
 app.UseAuthentication();
-
 app.UseAuthorization();
-
-
-//app.MapControllers();
-
+app.UseAntiforgery();
 app.ExcelEndpointMethod();
-
 app.AuthEndpoint();
-
 app.Run();

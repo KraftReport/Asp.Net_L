@@ -8,12 +8,11 @@ namespace ExcelServiceApp.Excel.Endpoints
     {
         public static void ExcelEndpointMethod(this IEndpointRouteBuilder app)
         {
-            app.MapGroup("/api/excel-service");
-
-            app.MapPost("/create-excel-file", CreateSpreadsheetFile).RequireAuthorization();
-            app.MapPost("/read-excel-file", ReadSpreadsheetFile).RequireAuthorization();
-            app.MapPost("/generate-pdf", GeneratePdf).RequireAuthorization();
-            app.MapPost("/generate-img",GenerateImg).RequireAuthorization();
+            var common = app.MapGroup("/api/excel-service");
+            common.MapPost("/create-excel-file", CreateSpreadsheetFile).RequireAuthorization();
+            common.MapPost("/read-excel-file", ReadSpreadsheetFile).RequireAuthorization();
+            common.MapPost("/generate-pdf", GeneratePdf).RequireAuthorization();
+            common.MapPost("/generate-img",GenerateImg).RequireAuthorization();
 
             static async Task<IResult> CreateSpreadsheetFile([FromBody]SpreadsheetCreateRequestDTO spreadsheetCreateRequestDTO, [FromServices]IExcelService excelService)
             {
