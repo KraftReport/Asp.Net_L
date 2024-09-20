@@ -1,0 +1,6 @@
+@StreamLab_HostAddress = http://localhost:5081
+
+GET {{StreamLab_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
