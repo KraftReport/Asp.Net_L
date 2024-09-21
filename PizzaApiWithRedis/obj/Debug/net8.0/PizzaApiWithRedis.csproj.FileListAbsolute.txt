@@ -107,3 +107,12 @@ C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\obj\Debug\ne
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\obj\Debug\net8.0\PizzaApiWithRedis.genruntimeconfig.cache
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\obj\Debug\net8.0\ref\PizzaApiWithRedis.dll
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PizzaApiWithRedis.Pizza.Model;
 using PizzaApiWithRedis.Pizza.Service;
 
@@ -6,6 +7,7 @@ namespace PizzaApiWithRedis.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PizzaController : ControllerBase
     {
         private readonly IPizzaService pizzaService;
@@ -51,6 +53,7 @@ namespace PizzaApiWithRedis.Controllers
             return Ok(await pizzaService.deletePizza(id));
         }
 
+        [Authorize]
         [HttpGet("/pizzas/list")]
         public async Task<IActionResult> allPizzaDetail()
         {

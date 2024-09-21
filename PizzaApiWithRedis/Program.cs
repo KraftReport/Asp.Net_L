@@ -1,8 +1,12 @@
 
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using PizzaApiWithRedis.Database;
 using PizzaApiWithRedis.Pizza.Repository;
 using PizzaApiWithRedis.Pizza.Service;
+using PizzaApiWithRedis.Security.Service;
 
 namespace PizzaApiWithRedis
 {
@@ -24,6 +28,23 @@ namespace PizzaApiWithRedis
             builder.Services.AddScoped<PizzaRepository>();
             builder.Services.AddScoped<IPizzaService, PizzaService>();
             builder.Services.AddScoped<ICacheManagerService, CacheManager>();
+            builder.Services.AddScoped<IJwtService, JwtService>();
+
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(
+                    o =>
+                    {
+                        o.RequireHttpsMetadata = false;
+                        o.TokenValidationParameters = new TokenValidationParameters
+                        {
+                            ValidIssuer = builder.Configuration["JwtIssuer"],
+                            ValidAudience = builder.Configuration["JwtAudience"],
+                            IssuerSigningKey =
+                                new SymmetricSecurityKey(
+                                    Encoding.UTF8.GetBytes(builder.Configuration["JwtSecret"])),
+                            ClockSkew = TimeSpan.Zero
+                        };
+                    });
 
             // Add services to the container.
 
@@ -43,11 +64,15 @@ namespace PizzaApiWithRedis
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+       
 
 
             app.MapControllers();
 
+            app.UseAuthentication();
+
+            app.UseAuthorization();
+            
             app.Run();
         }
     }
