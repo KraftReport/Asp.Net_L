@@ -116,3 +116,9 @@ C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\ne
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\Moq.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\xunit.core.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\PizzaApiWithRedis\bin\Debug\net8.0\xunit.execution.dotnet.dll

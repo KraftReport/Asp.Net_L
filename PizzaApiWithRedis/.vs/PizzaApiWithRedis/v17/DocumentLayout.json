@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\migrations\\20240926102612_user_entity_added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:migrations\\20240926102612_user_entity_added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\pizza\\service\\ipizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:pizza\\service\\ipizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\pizza\\service\\pizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:pizza\\service\\pizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\resources\\images\\d3bc46a1-631b-4309-935b-f19c870b6574_diavola_unsplash.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:resources\\images\\d3bc46a1-631b-4309-935b-f19c870b6574_diavola_unsplash.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\pizza\\service\\cachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:pizza\\service\\cachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\pizza\\service\\icachemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:pizza\\service\\icachemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\test\\user\\unittest\\userrepositoryunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:test\\user\\unittest\\userrepositoryunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\user\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:user\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\user\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:user\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\resources\\images\\d3bc46a1-631b-4309-935b-f19c870b6574_diavola_unsplash.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:resources\\images\\d3bc46a1-631b-4309-935b-f19c870b6574_diavola_unsplash.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\pizza\\model\\apiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +71,12 @@
       "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:pizza\\repository\\pizzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\pizza\\service\\ipizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:pizza\\service\\ipizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\pizza\\service\\icachemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:pizza\\service\\icachemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\pizza\\model\\apirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:pizza\\model\\apirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\pizza\\model\\cachedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:pizza\\model\\cachedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,16 +87,8 @@
       "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:migrations\\20240904044130_two.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\migrations\\20240904043709_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:migrations\\20240904043709_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\pizzaapiwithredis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6C04AE31-6E12-469E-ACB1-DAAE989CB717}|PizzaApiWithRedis.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,12 +109,164 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240926102612_User_entity_added.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Migrations\\20240926102612_User_entity_added.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240926102612_User_entity_added.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Migrations\\20240926102612_User_entity_added.cs",
+              "RelativeToolTip": "Migrations\\20240926102612_User_entity_added.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:26:12.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Database\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:27:30.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICacheManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\ICacheManagerService.cs",
+              "RelativeDocumentMoniker": "Pizza\\Service\\ICacheManagerService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\ICacheManagerService.cs",
+              "RelativeToolTip": "Pizza\\Service\\ICacheManagerService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAIAywAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:15:00.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CacheManager.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\CacheManager.cs",
+              "RelativeDocumentMoniker": "Pizza\\Service\\CacheManager.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\CacheManager.cs",
+              "RelativeToolTip": "Pizza\\Service\\CacheManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:15:09.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PizzaService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\PizzaService.cs",
+              "RelativeDocumentMoniker": "Pizza\\Service\\PizzaService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\PizzaService.cs",
+              "RelativeToolTip": "Pizza\\Service\\PizzaService.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAswEMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:39:09.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPizzaService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\IPizzaService.cs",
+              "RelativeDocumentMoniker": "Pizza\\Service\\IPizzaService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\IPizzaService.cs",
+              "RelativeToolTip": "Pizza\\Service\\IPizzaService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:15:23.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAADwvyEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T04:33:05.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T04:32:56.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepositoryUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Test\\User\\UnitTest\\UserRepositoryUnitTest.cs",
+              "RelativeDocumentMoniker": "Test\\User\\UnitTest\\UserRepositoryUnitTest.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Test\\User\\UnitTest\\UserRepositoryUnitTest.cs",
+              "RelativeToolTip": "Test\\User\\UnitTest\\UserRepositoryUnitTest.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:47:07.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\User\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "User\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\User\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "User\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:07:45.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:17:59.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\User\\UserEntity.cs",
+              "RelativeDocumentMoniker": "User\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\User\\UserEntity.cs",
+              "RelativeToolTip": "User\\UserEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:47:02.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "d3bc46a1-631b-4309-935b-f19c870b6574_diavola_unsplash.jpg - Bitmap [1200x795, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Resources\\Images\\d3bc46a1-631b-4309-935b-f19c870b6574_diavola_unsplash.jpg",
               "RelativeDocumentMoniker": "Resources\\Images\\d3bc46a1-631b-4309-935b-f19c870b6574_diavola_unsplash.jpg",
@@ -106,33 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PizzaService.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\PizzaService.cs",
-              "RelativeDocumentMoniker": "Pizza\\Service\\PizzaService.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\PizzaService.cs",
-              "RelativeToolTip": "Pizza\\Service\\PizzaService.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAqwEMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T07:39:09.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CacheManager.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\CacheManager.cs",
-              "RelativeDocumentMoniker": "Pizza\\Service\\CacheManager.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\CacheManager.cs",
-              "RelativeToolTip": "Pizza\\Service\\CacheManager.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA6wB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T05:15:09.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "PizzaDetail.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Model\\PizzaDetail.cs",
               "RelativeDocumentMoniker": "Pizza\\Model\\PizzaDetail.cs",
@@ -144,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "PizzaRepository.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Repository\\PizzaRepository.cs",
               "RelativeDocumentMoniker": "Pizza\\Repository\\PizzaRepository.cs",
@@ -156,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "PizzaController.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Controllers\\PizzaController.cs",
               "RelativeDocumentMoniker": "Controllers\\PizzaController.cs",
@@ -168,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "ApiResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Model\\ApiResponseDto.cs",
               "RelativeDocumentMoniker": "Pizza\\Model\\ApiResponseDto.cs",
@@ -180,31 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICacheManagerService.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\ICacheManagerService.cs",
-              "RelativeDocumentMoniker": "Pizza\\Service\\ICacheManagerService.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\ICacheManagerService.cs",
-              "RelativeToolTip": "Pizza\\Service\\ICacheManagerService.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAWwAgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T05:15:00.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPizzaService.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\IPizzaService.cs",
-              "RelativeDocumentMoniker": "Pizza\\Service\\IPizzaService.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Service\\IPizzaService.cs",
-              "RelativeToolTip": "Pizza\\Service\\IPizzaService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAwAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T05:15:23.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "ApiRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Model\\ApiRequestDto.cs",
               "RelativeDocumentMoniker": "Pizza\\Model\\ApiRequestDto.cs",
@@ -216,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "CacheDto.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Pizza\\Model\\CacheDto.cs",
               "RelativeDocumentMoniker": "Pizza\\Model\\CacheDto.cs",
@@ -228,19 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAADgvxgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T04:33:05.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -252,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "20240904044130_two.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Migrations\\20240904044130_two.cs",
               "RelativeDocumentMoniker": "Migrations\\20240904044130_two.cs",
@@ -264,19 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Database\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Database\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Database\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Database\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T04:27:30.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "20240904043709_one.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\Migrations\\20240904043709_one.cs",
               "RelativeDocumentMoniker": "Migrations\\20240904043709_one.cs",
@@ -285,18 +383,6 @@
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T04:37:11.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-04T04:32:56.438Z"
             }
           ]
         }
