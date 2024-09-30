@@ -12,5 +12,11 @@ namespace PizzaApiWithRedis.User.Repository
             this.applicationDbContext = applicationDbContext;
             this.users = applicationDbContext.Users;
         }
+
+        public async Task<bool> AddUser(UserEntity user)
+        {
+            await this.users.AddAsync(user) ;
+            return await applicationDbContext.SaveChangesAsync() > 0;
+        }
     }
 }

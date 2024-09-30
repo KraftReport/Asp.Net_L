@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApiWithRedis", "PizzaApiWithRedis.csproj", "{6C04AE31-6E12-469E-ACB1-DAAE989CB717}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApiWithRedis", "PizzaApiWithRedis.csproj", "{6C04AE31-6E12-469E-ACB1-DAAE989CB717}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PizzaTest", "PizzaTest", "{5D9EACB6-C47C-48EE-B369-785794A67F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaXUnit", "PizzaXUnit\PizzaXUnit.csproj", "{5ACB2471-9E8B-431A-8042-7ED55292D532}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,9 +16,11 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6C04AE31-6E12-469E-ACB1-DAAE989CB717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C04AE31-6E12-469E-ACB1-DAAE989CB717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C04AE31-6E12-469E-ACB1-DAAE989CB717}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C04AE31-6E12-469E-ACB1-DAAE989CB717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACB2471-9E8B-431A-8042-7ED55292D532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACB2471-9E8B-431A-8042-7ED55292D532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACB2471-9E8B-431A-8042-7ED55292D532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACB2471-9E8B-431A-8042-7ED55292D532}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

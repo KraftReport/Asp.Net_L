@@ -27,6 +27,5 @@ public class JwtService(IConfiguration configuration) : IJwtService
         var handler = new JsonWebTokenHandler();
         var token = handler.CreateToken(tokenDescriptor);
         return token;
-
     }
 }

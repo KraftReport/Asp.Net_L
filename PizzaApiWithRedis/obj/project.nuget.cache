@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rJ/lDflCrqc=",
+  "dgSpecHash": "oRHg/NkxDYY=",
   "success": true,
   "projectFilePath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\PizzaApiWithRedis\\PizzaApiWithRedis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KraftWork\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.2\\microsoft.aspnetcore.authentication.jwtbearer.8.0.2.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -13,6 +14,7 @@
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0\\microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.5.0\\microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.5.0\\microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.codecoverage\\17.11.1\\microsoft.codecoverage.17.11.1.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.8\\microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
@@ -37,7 +39,10 @@
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.net.test.sdk\\17.11.1\\microsoft.net.test.sdk.17.11.1.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.11.1\\microsoft.testplatform.objectmodel.17.11.1.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\microsoft.testplatform.testhost\\17.11.1\\microsoft.testplatform.testhost.17.11.1.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
@@ -66,13 +71,14 @@
     "C:\\Users\\KraftWork\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
-    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit\\2.9.1\\xunit.2.9.1.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit\\2.9.2\\xunit.2.9.2.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
     "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.analyzers\\1.16.0\\xunit.analyzers.1.16.0.nupkg.sha512",
-    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.assert\\2.9.1\\xunit.assert.2.9.1.nupkg.sha512",
-    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.core\\2.9.1\\xunit.core.2.9.1.nupkg.sha512",
-    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.extensibility.core\\2.9.1\\xunit.extensibility.core.2.9.1.nupkg.sha512",
-    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.extensibility.execution\\2.9.1\\xunit.extensibility.execution.2.9.1.nupkg.sha512"
+    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.assert\\2.9.2\\xunit.assert.2.9.2.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.core\\2.9.2\\xunit.core.2.9.2.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.extensibility.core\\2.9.2\\xunit.extensibility.core.2.9.2.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.extensibility.execution\\2.9.2\\xunit.extensibility.execution.2.9.2.nupkg.sha512",
+    "C:\\Users\\KraftWork\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PizzaApiWithRedis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e00429006afa6b050c6f0a728d76dc8fcfbb1d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7de97f334583adf1f9657e555008700742b45027")]
 [assembly: System.Reflection.AssemblyProductAttribute("PizzaApiWithRedis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PizzaApiWithRedis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
