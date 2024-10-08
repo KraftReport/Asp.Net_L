@@ -18,7 +18,7 @@
         CKEDITOR.replace('editor');
 
         // Handle form submission
-        document.getElementById('articleForm').addEventListener('submit', function (e) {
+        document.getElementById('articleForm').addEventListener('submit', async function (e) {
             e.preventDefault();
 
             // Get the edited content from CKEditor
@@ -26,12 +26,17 @@
             const content = CKEDITOR.instances.editor.getData(); // Get the edited HTML content
 
             // Structure of the data you can expect
-            const articleData = {
-                title: title,
-                content: content // This will contain HTML content
+            const article = {
+                Title: title,
+                Description: content // This will contain HTML content
             };
 
-            console.log(articleData); // View the structured data in the console
+            let response = await fetch('https://localhost:7269/api/CKEditor', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(article)
+            })
+            console.log(response); // View the structured data in the console
 
             // You can now send `articleData` to your backend via fetch or another method
         });
