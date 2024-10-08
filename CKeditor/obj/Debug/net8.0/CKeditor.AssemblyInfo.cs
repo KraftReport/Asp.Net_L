@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CKeditor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc7d67ed20e7e8b561fe2a6b69fa098e31fad9d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f693ef838bcb44c316d31324f833fa8ece3aa178")]
 [assembly: System.Reflection.AssemblyProductAttribute("CKeditor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CKeditor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
