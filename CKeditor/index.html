@@ -13,9 +13,54 @@
         <button type="submit">Save Article</button>
     </form>
 
+    <form id="showForm">
+        <input type="text" id="showTitle" />
+        <textarea id="showEditor"></textarea>
+    </form>
+
     <script>
+ 
         // Initialize CKEditor
         CKEDITOR.replace('editor');
+
+   
+
+        (async () => {
+            const load = async () => {
+                let response = await fetch('https://localhost:7269/api/CKEditor', {
+                    method: 'GET',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                let data = await response.json();
+                console.log(data)
+                let showForm = document.getElementById('showForm');
+                showForm.innerHTML = ''; // Clear previous content
+
+                data.forEach(d => {
+                    const div = document.createElement('div');
+                    const title = document.createElement('input');
+                    const editor = document.createElement('textarea');
+                    editor.setAttribute('id', d.id + 'des'); // Set unique ID for the textare
+
+                    CKEDITOR.replace(editor);
+
+                    title.value = d.title;
+                    editor.value = d.description;
+
+                    div.appendChild(title);
+                    div.appendChild(editor);
+
+                     // Initialize CKEditor
+
+                    showForm.appendChild(div);
+                });
+            }
+
+            // Call the load function
+            await load();
+        })();
+
 
         // Handle form submission
         document.getElementById('articleForm').addEventListener('submit', async function (e) {
