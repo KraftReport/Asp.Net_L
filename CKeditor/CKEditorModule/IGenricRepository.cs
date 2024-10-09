@@ -3,5 +3,6 @@
     public interface IGenricRepository<T> where T : class
     {
         public bool InsertRecord(T entity);
+        public List<T> GetRecords();
     }
 }

@@ -14,10 +14,15 @@ namespace CKeditor.CKEditorModule
         }
 
         [HttpPost]
-        public IActionResult Test(Article article)
+        public IActionResult Insert(Article article)
         {
-            var data = genricRepository.InsertRecord(article);
-            return Ok(data);
+            return Ok(genricRepository.InsertRecord(article));
+        }
+
+        [HttpGet]
+        public IActionResult GetList()
+        {
+            return Ok(genricRepository.GetRecords());
         }
     }
 }
