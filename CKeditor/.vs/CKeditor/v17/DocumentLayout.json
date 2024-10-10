@@ -3,6 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\ckeditor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\ckeditor\\ckeditormodule\\igenricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|solutionrelative:ckeditormodule\\igenricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\ckeditor\\ckeditormodule\\genricdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|solutionrelative:ckeditormodule\\genricdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\ACE_Space\\table-music-app-backend\\TableMusicApp\\Table.DTO\\Table.DTO.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\ACE_Space\\table-music-app-backend\\TableMusicApp\\TablePortalWeb\\wwwroot\\js\\pages\\NewsArticle\\UpdateNewsArticle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{452CE468-2F43-4FE9-8396-5972068F82D4}|Frontend{452CE468-2F43-4FE9-8396-5972068F82D4}|C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{452CE468-2F43-4FE9-8396-5972068F82D4}|Frontend{452CE468-2F43-4FE9-8396-5972068F82D4}|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,18 +31,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\ckeditor\\ckeditormodule\\databaseconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|solutionrelative:ckeditormodule\\databaseconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\ckeditor\\ckeditormodule\\genricdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|solutionrelative:ckeditormodule\\genricdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\ckeditor\\ckeditormodule\\igenricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|solutionrelative:ckeditormodule\\igenricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\ckeditor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D1C74F2-7125-4289-B213-8F3086E8021C}|CKeditor.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\ckeditor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,7 +52,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +64,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Table.DTO.csproj",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\ACE_Space\\table-music-app-backend\\TableMusicApp\\Table.DTO\\Table.DTO.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\ACE_Space\\table-music-app-backend\\TableMusicApp\\Table.DTO\\Table.DTO.csproj",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\ACE_Space\\table-music-app-backend\\TableMusicApp\\Table.DTO\\Table.DTO.csproj",
+              "RelativeToolTip": "..\\..\\..\\ACE_Space\\table-music-app-backend\\TableMusicApp\\Table.DTO\\Table.DTO.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-10T03:03:02.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DatabaseConnector.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\CKEditorModule\\DatabaseConnector.cs",
               "RelativeDocumentMoniker": "CKEditorModule\\DatabaseConnector.cs",
@@ -66,12 +85,11 @@
               "RelativeToolTip": "CKEditorModule\\DatabaseConnector.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwBUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:17:55.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T09:17:55.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CKEditorController.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\CKEditorModule\\CKEditorController.cs",
               "RelativeDocumentMoniker": "CKEditorModule\\CKEditorController.cs",
@@ -79,38 +97,37 @@
               "RelativeToolTip": "CKEditorModule\\CKEditorController.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAA1wBAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:43:36.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T09:43:36.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAABIAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T09:46:24.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GenricDAO.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\CKEditorModule\\GenricDAO.cs",
               "RelativeDocumentMoniker": "CKEditorModule\\GenricDAO.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\CKEditorModule\\GenricDAO.cs",
               "RelativeToolTip": "CKEditorModule\\GenricDAO.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAABYAAAAhAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T09:28:41.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "IGenricRepository.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\CKEditorModule\\IGenricRepository.cs",
               "RelativeDocumentMoniker": "CKEditorModule\\IGenricRepository.cs",
@@ -123,20 +140,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "UpdateNewsArticle.js",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\ACE_Space\\table-music-app-backend\\TableMusicApp\\TablePortalWeb\\wwwroot\\js\\pages\\NewsArticle\\UpdateNewsArticle.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\ACE_Space\\table-music-app-backend\\TableMusicApp\\TablePortalWeb\\wwwroot\\js\\pages\\NewsArticle\\UpdateNewsArticle.js",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\ACE_Space\\table-music-app-backend\\TableMusicApp\\TablePortalWeb\\wwwroot\\js\\pages\\NewsArticle\\UpdateNewsArticle.js",
+              "RelativeToolTip": "..\\..\\..\\ACE_Space\\table-music-app-backend\\TableMusicApp\\TablePortalWeb\\wwwroot\\js\\pages\\NewsArticle\\UpdateNewsArticle.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-10T03:02:59.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFoAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-07T07:10:36.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T07:10:36.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Article.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\CKEditorModule\\Article.cs",
               "RelativeDocumentMoniker": "CKEditorModule\\Article.cs",
@@ -148,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -160,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\CKeditor\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
