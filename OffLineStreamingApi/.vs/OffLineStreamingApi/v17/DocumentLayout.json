@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\offlinestreaming\\abstractions\\keymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:offlinestreaming\\abstractions\\keymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\offlinestreaming\\implementations\\encodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:offlinestreaming\\implementations\\encodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\offlinestreaming\\abstractions\\encoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:offlinestreaming\\abstractions\\encoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\offlinestreaming\\abstractions\\pathgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:offlinestreaming\\abstractions\\pathgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\offlinestreaming\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:offlinestreaming\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\offlinestreaming\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:offlinestreaming\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\offlinestreaming\\songservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:offlinestreaming\\songservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\offlinestreaming\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:offlinestreaming\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\offlinestreaming\\constutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:offlinestreaming\\constutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\offlinestreamingapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E70473-A63A-46C0-B414-0EC406B43BA8}|OffLineStreamingApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KeyManager.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Abstractions\\KeyManager.cs",
+              "RelativeDocumentMoniker": "OfflineStreaming\\Abstractions\\KeyManager.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Abstractions\\KeyManager.cs*",
+              "RelativeToolTip": "OfflineStreaming\\Abstractions\\KeyManager.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:12:51.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EncodeService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Implementations\\EncodeService.cs",
+              "RelativeDocumentMoniker": "OfflineStreaming\\Implementations\\EncodeService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Implementations\\EncodeService.cs",
+              "RelativeToolTip": "OfflineStreaming\\Implementations\\EncodeService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:13:19.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Encoder.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Abstractions\\Encoder.cs",
+              "RelativeDocumentMoniker": "OfflineStreaming\\Abstractions\\Encoder.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Abstractions\\Encoder.cs",
+              "RelativeToolTip": "OfflineStreaming\\Abstractions\\Encoder.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T07:51:51.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PathGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Abstractions\\PathGenerator.cs",
+              "RelativeDocumentMoniker": "OfflineStreaming\\Abstractions\\PathGenerator.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Abstractions\\PathGenerator.cs",
+              "RelativeToolTip": "OfflineStreaming\\Abstractions\\PathGenerator.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T07:01:10.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SongController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\SongController.cs",
+              "RelativeDocumentMoniker": "OfflineStreaming\\SongController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\SongController.cs",
+              "RelativeToolTip": "OfflineStreaming\\SongController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:53:35.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SongService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\SongService.cs",
+              "RelativeDocumentMoniker": "OfflineStreaming\\SongService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\SongService.cs",
+              "RelativeToolTip": "OfflineStreaming\\SongService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:51:44.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SongRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\SongRepository.cs",
+              "RelativeDocumentMoniker": "OfflineStreaming\\SongRepository.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\SongRepository.cs",
+              "RelativeToolTip": "OfflineStreaming\\SongRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:51:36.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Song.cs",
+              "RelativeDocumentMoniker": "OfflineStreaming\\Song.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\Song.cs",
+              "RelativeToolTip": "OfflineStreaming\\Song.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:50:42.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T05:15:24.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConstUtility.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\ConstUtility.cs",
+              "RelativeDocumentMoniker": "OfflineStreaming\\ConstUtility.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\OfflineStreaming\\ConstUtility.cs",
+              "RelativeToolTip": "OfflineStreaming\\ConstUtility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T07:04:57.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T05:13:30.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T05:15:23.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\OffLineStreamingApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T04:34:15.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
