@@ -2,3 +2,5 @@
 
 .vsidx
 *.vsidx
+*.dll
+*.exe
