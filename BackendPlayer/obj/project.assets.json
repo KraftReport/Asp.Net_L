@@ -1,0 +1,2516 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "LibVLCSharp/3.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/LibVLCSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/LibVLCSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.OpenApi/1.6.14": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Win32.Registry/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "NAudio/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Asio": "2.2.1",
+          "NAudio.Core": "2.2.1",
+          "NAudio.Midi": "2.2.1",
+          "NAudio.Wasapi": "2.2.1",
+          "NAudio.WinMM": "2.2.1"
+        },
+        "compile": {
+          "lib/net6.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Asio/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Core/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Midi/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.WinMM/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTK/4.8.2": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK.Audio.OpenAL": "4.8.2",
+          "OpenTK.Compute": "4.8.2",
+          "OpenTK.Core": "4.8.2",
+          "OpenTK.Graphics": "4.8.2",
+          "OpenTK.Input": "4.8.2",
+          "OpenTK.Mathematics": "4.8.2",
+          "OpenTK.Windowing.Common": "4.8.2",
+          "OpenTK.Windowing.Desktop": "4.8.2",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2"
+        }
+      },
+      "OpenTK.Audio.OpenAL/4.8.2": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK.Core": "[4.8.2, 4.9.0)",
+          "OpenTK.Mathematics": "[4.8.2, 4.9.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/OpenTK.Audio.OpenAL.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Audio.OpenAL.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "OpenTK.Compute/4.8.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/OpenTK.Compute.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Compute.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "OpenTK.Core/4.8.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/OpenTK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/OpenTK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "OpenTK.Graphics/4.8.2": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK.Core": "[4.8.2, 4.9.0)",
+          "OpenTK.Mathematics": "[4.8.2, 4.9.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/OpenTK.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Graphics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "OpenTK.Input/4.8.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OpenTK.Input.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTK.Input.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "OpenTK.Mathematics/4.8.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/OpenTK.Mathematics.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Mathematics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "OpenTK.redist.glfw/3.3.8.39": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libglfw-wayland.so.3.3": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libglfw.so.3.3": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libglfw.3.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libglfw.3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/glfw3.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/glfw3.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "OpenTK.Windowing.Common/4.8.2": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK.Core": "[4.8.2, 4.9.0)",
+          "OpenTK.Mathematics": "[4.8.2, 4.9.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "OpenTK.Windowing.Desktop/4.8.2": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK.Core": "[4.8.2, 4.9.0)",
+          "OpenTK.Mathematics": "[4.8.2, 4.9.0)",
+          "OpenTK.Windowing.Common": "[4.8.2, 4.9.0)",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "[4.8.2, 4.9.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "OpenTK.Windowing.GraphicsLibraryFramework/4.8.2": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK.Core": "[4.8.2, 4.9.0)",
+          "OpenTK.redist.glfw": "3.3.8.39"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/6.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
+          "Swashbuckle.AspNetCore.Swagger": "6.9.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.9.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.9.0"
+        },
+        "build": {
+          "build/Swashbuckle.AspNetCore.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Swashbuckle.AspNetCore.props": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.14"
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.9.0"
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "VideoLAN.LibVLC.Windows/3.0.21": {
+        "type": "package",
+        "build": {
+          "build/VideoLAN.LibVLC.Windows.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibVLCSharp/3.9.0": {
+      "sha512": "wydvN5kotK5y/ZRC04/F6YUqesJCzdixaItRkR8L0/nOLSs2/BJ7rKRbU7BxkxpKIBqlN8EpuXxH/fQEZEHtuw==",
+      "type": "package",
+      "path": "libvlcsharp/3.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/monoandroid81/LibVLCSharp.Android.AWindow.dll",
+        "lib/monoandroid81/LibVLCSharp.dll",
+        "lib/monoandroid81/LibVLCSharp.xml",
+        "lib/net40/LibVLCSharp.dll",
+        "lib/net40/LibVLCSharp.xml",
+        "lib/net471/LibVLCSharp.dll",
+        "lib/net471/LibVLCSharp.xml",
+        "lib/net6.0-windows10.0.17763/LibVLCSharp.dll",
+        "lib/net6.0-windows10.0.17763/LibVLCSharp.pri",
+        "lib/net6.0-windows10.0.17763/LibVLCSharp.xml",
+        "lib/net6.0/LibVLCSharp.dll",
+        "lib/net6.0/LibVLCSharp.xml",
+        "lib/net8.0-android34.0/LibVLCSharp.dll",
+        "lib/net8.0-android34.0/LibVLCSharp.xml",
+        "lib/net8.0-ios17.2/LibVLCSharp.dll",
+        "lib/net8.0-ios17.2/LibVLCSharp.xml",
+        "lib/net8.0-windows10.0.19041/LibVLCSharp.dll",
+        "lib/net8.0-windows10.0.19041/LibVLCSharp.pri",
+        "lib/net8.0-windows10.0.19041/LibVLCSharp.xml",
+        "lib/net8.0/LibVLCSharp.dll",
+        "lib/net8.0/LibVLCSharp.xml",
+        "lib/netstandard1.1/LibVLCSharp.dll",
+        "lib/netstandard1.1/LibVLCSharp.xml",
+        "lib/netstandard2.0/LibVLCSharp.dll",
+        "lib/netstandard2.0/LibVLCSharp.xml",
+        "lib/netstandard2.1/LibVLCSharp.dll",
+        "lib/netstandard2.1/LibVLCSharp.xml",
+        "lib/uap10.0.18362/LibVLCSharp.dll",
+        "lib/uap10.0.18362/LibVLCSharp.pri",
+        "lib/uap10.0.18362/LibVLCSharp.xml",
+        "lib/uap10.0.18362/LibVLCSharp/LibVLCSharp.xr.xml",
+        "lib/xamarinios10/LibVLCSharp.dll",
+        "lib/xamarinios10/LibVLCSharp.xml",
+        "lib/xamarinmac20/LibVLCSharp.dll",
+        "lib/xamarinmac20/LibVLCSharp.xml",
+        "libvlcsharp.3.9.0.nupkg.sha512",
+        "libvlcsharp.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+      "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
+      "type": "package",
+      "path": "microsoft.extensions.apidescription.server/6.0.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/Microsoft.Extensions.ApiDescription.Server.props",
+        "build/Microsoft.Extensions.ApiDescription.Server.targets",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets",
+        "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+        "microsoft.extensions.apidescription.server.nuspec",
+        "tools/Newtonsoft.Json.dll",
+        "tools/dotnet-getdocument.deps.json",
+        "tools/dotnet-getdocument.dll",
+        "tools/dotnet-getdocument.runtimeconfig.json",
+        "tools/net461-x86/GetDocument.Insider.exe",
+        "tools/net461-x86/GetDocument.Insider.exe.config",
+        "tools/net461-x86/Microsoft.Win32.Primitives.dll",
+        "tools/net461-x86/System.AppContext.dll",
+        "tools/net461-x86/System.Buffers.dll",
+        "tools/net461-x86/System.Collections.Concurrent.dll",
+        "tools/net461-x86/System.Collections.NonGeneric.dll",
+        "tools/net461-x86/System.Collections.Specialized.dll",
+        "tools/net461-x86/System.Collections.dll",
+        "tools/net461-x86/System.ComponentModel.EventBasedAsync.dll",
+        "tools/net461-x86/System.ComponentModel.Primitives.dll",
+        "tools/net461-x86/System.ComponentModel.TypeConverter.dll",
+        "tools/net461-x86/System.ComponentModel.dll",
+        "tools/net461-x86/System.Console.dll",
+        "tools/net461-x86/System.Data.Common.dll",
+        "tools/net461-x86/System.Diagnostics.Contracts.dll",
+        "tools/net461-x86/System.Diagnostics.Debug.dll",
+        "tools/net461-x86/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net461-x86/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net461-x86/System.Diagnostics.Process.dll",
+        "tools/net461-x86/System.Diagnostics.StackTrace.dll",
+        "tools/net461-x86/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net461-x86/System.Diagnostics.Tools.dll",
+        "tools/net461-x86/System.Diagnostics.TraceSource.dll",
+        "tools/net461-x86/System.Diagnostics.Tracing.dll",
+        "tools/net461-x86/System.Drawing.Primitives.dll",
+        "tools/net461-x86/System.Dynamic.Runtime.dll",
+        "tools/net461-x86/System.Globalization.Calendars.dll",
+        "tools/net461-x86/System.Globalization.Extensions.dll",
+        "tools/net461-x86/System.Globalization.dll",
+        "tools/net461-x86/System.IO.Compression.ZipFile.dll",
+        "tools/net461-x86/System.IO.Compression.dll",
+        "tools/net461-x86/System.IO.FileSystem.DriveInfo.dll",
+        "tools/net461-x86/System.IO.FileSystem.Primitives.dll",
+        "tools/net461-x86/System.IO.FileSystem.Watcher.dll",
+        "tools/net461-x86/System.IO.FileSystem.dll",
+        "tools/net461-x86/System.IO.IsolatedStorage.dll",
+        "tools/net461-x86/System.IO.MemoryMappedFiles.dll",
+        "tools/net461-x86/System.IO.Pipes.dll",
+        "tools/net461-x86/System.IO.UnmanagedMemoryStream.dll",
+        "tools/net461-x86/System.IO.dll",
+        "tools/net461-x86/System.Linq.Expressions.dll",
+        "tools/net461-x86/System.Linq.Parallel.dll",
+        "tools/net461-x86/System.Linq.Queryable.dll",
+        "tools/net461-x86/System.Linq.dll",
+        "tools/net461-x86/System.Memory.dll",
+        "tools/net461-x86/System.Net.Http.dll",
+        "tools/net461-x86/System.Net.NameResolution.dll",
+        "tools/net461-x86/System.Net.NetworkInformation.dll",
+        "tools/net461-x86/System.Net.Ping.dll",
+        "tools/net461-x86/System.Net.Primitives.dll",
+        "tools/net461-x86/System.Net.Requests.dll",
+        "tools/net461-x86/System.Net.Security.dll",
+        "tools/net461-x86/System.Net.Sockets.dll",
+        "tools/net461-x86/System.Net.WebHeaderCollection.dll",
+        "tools/net461-x86/System.Net.WebSockets.Client.dll",
+        "tools/net461-x86/System.Net.WebSockets.dll",
+        "tools/net461-x86/System.Numerics.Vectors.dll",
+        "tools/net461-x86/System.ObjectModel.dll",
+        "tools/net461-x86/System.Reflection.Extensions.dll",
+        "tools/net461-x86/System.Reflection.Primitives.dll",
+        "tools/net461-x86/System.Reflection.dll",
+        "tools/net461-x86/System.Resources.Reader.dll",
+        "tools/net461-x86/System.Resources.ResourceManager.dll",
+        "tools/net461-x86/System.Resources.Writer.dll",
+        "tools/net461-x86/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net461-x86/System.Runtime.CompilerServices.VisualC.dll",
+        "tools/net461-x86/System.Runtime.Extensions.dll",
+        "tools/net461-x86/System.Runtime.Handles.dll",
+        "tools/net461-x86/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/net461-x86/System.Runtime.InteropServices.dll",
+        "tools/net461-x86/System.Runtime.Numerics.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Formatters.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Json.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Primitives.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Xml.dll",
+        "tools/net461-x86/System.Runtime.dll",
+        "tools/net461-x86/System.Security.Claims.dll",
+        "tools/net461-x86/System.Security.Cryptography.Algorithms.dll",
+        "tools/net461-x86/System.Security.Cryptography.Csp.dll",
+        "tools/net461-x86/System.Security.Cryptography.Encoding.dll",
+        "tools/net461-x86/System.Security.Cryptography.Primitives.dll",
+        "tools/net461-x86/System.Security.Cryptography.X509Certificates.dll",
+        "tools/net461-x86/System.Security.Principal.dll",
+        "tools/net461-x86/System.Security.SecureString.dll",
+        "tools/net461-x86/System.Text.Encoding.Extensions.dll",
+        "tools/net461-x86/System.Text.Encoding.dll",
+        "tools/net461-x86/System.Text.RegularExpressions.dll",
+        "tools/net461-x86/System.Threading.Overlapped.dll",
+        "tools/net461-x86/System.Threading.Tasks.Parallel.dll",
+        "tools/net461-x86/System.Threading.Tasks.dll",
+        "tools/net461-x86/System.Threading.Thread.dll",
+        "tools/net461-x86/System.Threading.ThreadPool.dll",
+        "tools/net461-x86/System.Threading.Timer.dll",
+        "tools/net461-x86/System.Threading.dll",
+        "tools/net461-x86/System.ValueTuple.dll",
+        "tools/net461-x86/System.Xml.ReaderWriter.dll",
+        "tools/net461-x86/System.Xml.XDocument.dll",
+        "tools/net461-x86/System.Xml.XPath.XDocument.dll",
+        "tools/net461-x86/System.Xml.XPath.dll",
+        "tools/net461-x86/System.Xml.XmlDocument.dll",
+        "tools/net461-x86/System.Xml.XmlSerializer.dll",
+        "tools/net461-x86/netstandard.dll",
+        "tools/net461/GetDocument.Insider.exe",
+        "tools/net461/GetDocument.Insider.exe.config",
+        "tools/net461/Microsoft.Win32.Primitives.dll",
+        "tools/net461/System.AppContext.dll",
+        "tools/net461/System.Buffers.dll",
+        "tools/net461/System.Collections.Concurrent.dll",
+        "tools/net461/System.Collections.NonGeneric.dll",
+        "tools/net461/System.Collections.Specialized.dll",
+        "tools/net461/System.Collections.dll",
+        "tools/net461/System.ComponentModel.EventBasedAsync.dll",
+        "tools/net461/System.ComponentModel.Primitives.dll",
+        "tools/net461/System.ComponentModel.TypeConverter.dll",
+        "tools/net461/System.ComponentModel.dll",
+        "tools/net461/System.Console.dll",
+        "tools/net461/System.Data.Common.dll",
+        "tools/net461/System.Diagnostics.Contracts.dll",
+        "tools/net461/System.Diagnostics.Debug.dll",
+        "tools/net461/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net461/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net461/System.Diagnostics.Process.dll",
+        "tools/net461/System.Diagnostics.StackTrace.dll",
+        "tools/net461/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net461/System.Diagnostics.Tools.dll",
+        "tools/net461/System.Diagnostics.TraceSource.dll",
+        "tools/net461/System.Diagnostics.Tracing.dll",
+        "tools/net461/System.Drawing.Primitives.dll",
+        "tools/net461/System.Dynamic.Runtime.dll",
+        "tools/net461/System.Globalization.Calendars.dll",
+        "tools/net461/System.Globalization.Extensions.dll",
+        "tools/net461/System.Globalization.dll",
+        "tools/net461/System.IO.Compression.ZipFile.dll",
+        "tools/net461/System.IO.Compression.dll",
+        "tools/net461/System.IO.FileSystem.DriveInfo.dll",
+        "tools/net461/System.IO.FileSystem.Primitives.dll",
+        "tools/net461/System.IO.FileSystem.Watcher.dll",
+        "tools/net461/System.IO.FileSystem.dll",
+        "tools/net461/System.IO.IsolatedStorage.dll",
+        "tools/net461/System.IO.MemoryMappedFiles.dll",
+        "tools/net461/System.IO.Pipes.dll",
+        "tools/net461/System.IO.UnmanagedMemoryStream.dll",
+        "tools/net461/System.IO.dll",
+        "tools/net461/System.Linq.Expressions.dll",
+        "tools/net461/System.Linq.Parallel.dll",
+        "tools/net461/System.Linq.Queryable.dll",
+        "tools/net461/System.Linq.dll",
+        "tools/net461/System.Memory.dll",
+        "tools/net461/System.Net.Http.dll",
+        "tools/net461/System.Net.NameResolution.dll",
+        "tools/net461/System.Net.NetworkInformation.dll",
+        "tools/net461/System.Net.Ping.dll",
+        "tools/net461/System.Net.Primitives.dll",
+        "tools/net461/System.Net.Requests.dll",
+        "tools/net461/System.Net.Security.dll",
+        "tools/net461/System.Net.Sockets.dll",
+        "tools/net461/System.Net.WebHeaderCollection.dll",
+        "tools/net461/System.Net.WebSockets.Client.dll",
+        "tools/net461/System.Net.WebSockets.dll",
+        "tools/net461/System.Numerics.Vectors.dll",
+        "tools/net461/System.ObjectModel.dll",
+        "tools/net461/System.Reflection.Extensions.dll",
+        "tools/net461/System.Reflection.Primitives.dll",
+        "tools/net461/System.Reflection.dll",
+        "tools/net461/System.Resources.Reader.dll",
+        "tools/net461/System.Resources.ResourceManager.dll",
+        "tools/net461/System.Resources.Writer.dll",
+        "tools/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net461/System.Runtime.CompilerServices.VisualC.dll",
+        "tools/net461/System.Runtime.Extensions.dll",
+        "tools/net461/System.Runtime.Handles.dll",
+        "tools/net461/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/net461/System.Runtime.InteropServices.dll",
+        "tools/net461/System.Runtime.Numerics.dll",
+        "tools/net461/System.Runtime.Serialization.Formatters.dll",
+        "tools/net461/System.Runtime.Serialization.Json.dll",
+        "tools/net461/System.Runtime.Serialization.Primitives.dll",
+        "tools/net461/System.Runtime.Serialization.Xml.dll",
+        "tools/net461/System.Runtime.dll",
+        "tools/net461/System.Security.Claims.dll",
+        "tools/net461/System.Security.Cryptography.Algorithms.dll",
+        "tools/net461/System.Security.Cryptography.Csp.dll",
+        "tools/net461/System.Security.Cryptography.Encoding.dll",
+        "tools/net461/System.Security.Cryptography.Primitives.dll",
+        "tools/net461/System.Security.Cryptography.X509Certificates.dll",
+        "tools/net461/System.Security.Principal.dll",
+        "tools/net461/System.Security.SecureString.dll",
+        "tools/net461/System.Text.Encoding.Extensions.dll",
+        "tools/net461/System.Text.Encoding.dll",
+        "tools/net461/System.Text.RegularExpressions.dll",
+        "tools/net461/System.Threading.Overlapped.dll",
+        "tools/net461/System.Threading.Tasks.Parallel.dll",
+        "tools/net461/System.Threading.Tasks.dll",
+        "tools/net461/System.Threading.Thread.dll",
+        "tools/net461/System.Threading.ThreadPool.dll",
+        "tools/net461/System.Threading.Timer.dll",
+        "tools/net461/System.Threading.dll",
+        "tools/net461/System.ValueTuple.dll",
+        "tools/net461/System.Xml.ReaderWriter.dll",
+        "tools/net461/System.Xml.XDocument.dll",
+        "tools/net461/System.Xml.XPath.XDocument.dll",
+        "tools/net461/System.Xml.XPath.dll",
+        "tools/net461/System.Xml.XmlDocument.dll",
+        "tools/net461/System.Xml.XmlSerializer.dll",
+        "tools/net461/netstandard.dll",
+        "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
+        "tools/netcoreapp2.1/GetDocument.Insider.dll",
+        "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json",
+        "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.OpenApi/1.6.14": {
+      "sha512": "tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
+      "type": "package",
+      "path": "microsoft.openapi/1.6.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.6.14.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "sha512": "KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.xml",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "microsoft.win32.registry.4.7.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/net472/Microsoft.Win32.Registry.dll",
+        "ref/net472/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "NAudio/2.2.1": {
+      "sha512": "c0DzwiyyklM0TP39Y7RObwO3QkWecgM6H60ikiEnsV/aEAJPbj5MFCLaD8BSfKuZe0HGuh9GRGWWlJmSxDc9MA==",
+      "type": "package",
+      "path": "naudio/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/NAudio.dll",
+        "lib/net472/NAudio.xml",
+        "lib/net6.0-windows7.0/NAudio.dll",
+        "lib/net6.0-windows7.0/NAudio.xml",
+        "lib/net6.0/NAudio.dll",
+        "lib/net6.0/NAudio.xml",
+        "lib/netcoreapp3.1/NAudio.dll",
+        "lib/netcoreapp3.1/NAudio.xml",
+        "license.txt",
+        "naudio-icon.png",
+        "naudio.2.2.1.nupkg.sha512",
+        "naudio.nuspec"
+      ]
+    },
+    "NAudio.Asio/2.2.1": {
+      "sha512": "hQglyOT5iT3XuGpBP8ZG0+aoqwRfidHjTNehpoWwX0g6KJEgtH2VaqM2nuJ2mheKZa/IBqB4YQTZVvrIapzfOA==",
+      "type": "package",
+      "path": "naudio.asio/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Asio.dll",
+        "lib/netstandard2.0/NAudio.Asio.xml",
+        "naudio-icon.png",
+        "naudio.asio.2.2.1.nupkg.sha512",
+        "naudio.asio.nuspec"
+      ]
+    },
+    "NAudio.Core/2.2.1": {
+      "sha512": "GgkdP6K/7FqXFo7uHvoqGZTJvW4z8g2IffhOO4JHaLzKCdDOUEzVKtveoZkCuUX8eV2HAINqi7VFqlFndrnz/g==",
+      "type": "package",
+      "path": "naudio.core/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Core.dll",
+        "lib/netstandard2.0/NAudio.Core.xml",
+        "naudio-icon.png",
+        "naudio.core.2.2.1.nupkg.sha512",
+        "naudio.core.nuspec"
+      ]
+    },
+    "NAudio.Midi/2.2.1": {
+      "sha512": "6r23ylGo5aeP02WFXsPquz0T0hFJWyh+7t++tz19tc3Kr38NHm+Z9j+FiAv+xkH8tZqXJqus9Q8p6u7bidIgbw==",
+      "type": "package",
+      "path": "naudio.midi/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Midi.dll",
+        "lib/netstandard2.0/NAudio.Midi.xml",
+        "naudio-icon.png",
+        "naudio.midi.2.2.1.nupkg.sha512",
+        "naudio.midi.nuspec"
+      ]
+    },
+    "NAudio.Wasapi/2.2.1": {
+      "sha512": "lFfXoqacZZe0WqNChJgGYI+XV/n/61LzPHT3C1CJp4khoxeo2sziyX5wzNYWeCMNbsWxFvT3b3iXeY1UYjBhZw==",
+      "type": "package",
+      "path": "naudio.wasapi/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Wasapi.dll",
+        "lib/netstandard2.0/NAudio.Wasapi.xml",
+        "lib/uap10.0.18362/NAudio.Wasapi.dll",
+        "lib/uap10.0.18362/NAudio.Wasapi.pri",
+        "lib/uap10.0.18362/NAudio.Wasapi.xml",
+        "naudio-icon.png",
+        "naudio.wasapi.2.2.1.nupkg.sha512",
+        "naudio.wasapi.nuspec"
+      ]
+    },
+    "NAudio.WinMM/2.2.1": {
+      "sha512": "xFHRFwH4x6aq3IxRbewvO33ugJRvZFEOfO62i7uQJRUNW2cnu6BeBTHUS0JD5KBucZbHZaYqxQG8dwZ47ezQuQ==",
+      "type": "package",
+      "path": "naudio.winmm/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.WinMM.dll",
+        "lib/netstandard2.0/NAudio.WinMM.xml",
+        "naudio-icon.png",
+        "naudio.winmm.2.2.1.nupkg.sha512",
+        "naudio.winmm.nuspec"
+      ]
+    },
+    "OpenTK/4.8.2": {
+      "sha512": "s2bqkD0glaX5Zbrv0Nj91zcefGrwq+nAp7SnXw14Z22Wj1nVE9CWkEyKX8tha1EdxqSRwKdP6gi+xzZXs4nK4Q==",
+      "type": "package",
+      "path": "opentk/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "opentk.4.8.2.nupkg.sha512",
+        "opentk.nuspec"
+      ]
+    },
+    "OpenTK.Audio.OpenAL/4.8.2": {
+      "sha512": "/Xe0luzJiVOvJ8YXGMY/YLZsGsb0/7Ms09isb/WxkKWjLyuiB2OIflZ49VHmumZpQDz2PUgwqOt2fucviLOmuw==",
+      "type": "package",
+      "path": "opentk.audio.openal/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/OpenTK.Audio.OpenAL.dll",
+        "lib/netcoreapp3.1/OpenTK.Audio.OpenAL.pdb",
+        "lib/netcoreapp3.1/OpenTK.Audio.OpenAL.xml",
+        "opentk.audio.openal.4.8.2.nupkg.sha512",
+        "opentk.audio.openal.nuspec"
+      ]
+    },
+    "OpenTK.Compute/4.8.2": {
+      "sha512": "n3gBbXOTCkvkNjSOKkVpoxfF/QXzo+cPWKtzObm4f/J+5mOE8odHKXgPn1765Tnu2Ou2ImvdXi/bUFQt/V5Qiw==",
+      "type": "package",
+      "path": "opentk.compute/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/OpenTK.Compute.dll",
+        "lib/netcoreapp3.1/OpenTK.Compute.pdb",
+        "lib/netcoreapp3.1/OpenTK.Compute.xml",
+        "opentk.compute.4.8.2.nupkg.sha512",
+        "opentk.compute.nuspec"
+      ]
+    },
+    "OpenTK.Core/4.8.2": {
+      "sha512": "BS5IM1W/BK9BtmsEnYT/RGv+KDK0Zrnw8nDDGvK45ywBjMLv+qBRB+Vkx5sQ4Jjy7btLxxqrPHmT3wt5N/PcxA==",
+      "type": "package",
+      "path": "opentk.core/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/OpenTK.Core.dll",
+        "lib/netstandard2.1/OpenTK.Core.pdb",
+        "lib/netstandard2.1/OpenTK.Core.xml",
+        "opentk.core.4.8.2.nupkg.sha512",
+        "opentk.core.nuspec"
+      ]
+    },
+    "OpenTK.Graphics/4.8.2": {
+      "sha512": "qpbyWqdO+yEFVFinKwEWKgi1Jgd0fVSgHbB7d5I8ozI9RL/SKZSNmJDxLjTMSQImJtFixmATcLEWwvEceJ/JsQ==",
+      "type": "package",
+      "path": "opentk.graphics/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/OpenTK.Graphics.dll",
+        "lib/netcoreapp3.1/OpenTK.Graphics.pdb",
+        "lib/netcoreapp3.1/OpenTK.Graphics.xml",
+        "lib/netstandard2.1/OpenTK.Graphics.dll",
+        "lib/netstandard2.1/OpenTK.Graphics.pdb",
+        "lib/netstandard2.1/OpenTK.Graphics.xml",
+        "opentk.graphics.4.8.2.nupkg.sha512",
+        "opentk.graphics.nuspec"
+      ]
+    },
+    "OpenTK.Input/4.8.2": {
+      "sha512": "BGs7STF0/o4kNJ1pWXko4I3IwEhieOHVgJFzXzo5m1tI4zMKjBqmzuc4GGfCu+Gtiv33vRYx3dt9f659nr5J8w==",
+      "type": "package",
+      "path": "opentk.input/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/OpenTK.Input.dll",
+        "lib/netstandard2.0/OpenTK.Input.pdb",
+        "lib/netstandard2.0/OpenTK.Input.xml",
+        "opentk.input.4.8.2.nupkg.sha512",
+        "opentk.input.nuspec"
+      ]
+    },
+    "OpenTK.Mathematics/4.8.2": {
+      "sha512": "A8D3eBWi/LKndvTQQ9o9uwyQJUjGORfWCn/gOvX0jIwmTctkLGnOdw5kw4JbRnzfrhZoSIaqZ7MYWWhIkasORw==",
+      "type": "package",
+      "path": "opentk.mathematics/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/OpenTK.Mathematics.dll",
+        "lib/netcoreapp3.1/OpenTK.Mathematics.pdb",
+        "lib/netcoreapp3.1/OpenTK.Mathematics.xml",
+        "lib/netstandard2.1/OpenTK.Mathematics.dll",
+        "lib/netstandard2.1/OpenTK.Mathematics.pdb",
+        "lib/netstandard2.1/OpenTK.Mathematics.xml",
+        "opentk.mathematics.4.8.2.nupkg.sha512",
+        "opentk.mathematics.nuspec"
+      ]
+    },
+    "OpenTK.redist.glfw/3.3.8.39": {
+      "sha512": "JzjaBzHTyKenUk9CXOYIqA/v7VMnjFnqmd3SKR3I1YpuOTu/H3ohyy3o+ZfMCQ6IRKs7CLfSPXMarKLvwD0WgQ==",
+      "type": "package",
+      "path": "opentk.redist.glfw/3.3.8.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.md",
+        "lib/netstandard2.0/_._",
+        "opentk.png",
+        "opentk.redist.glfw.3.3.8.39.nupkg.sha512",
+        "opentk.redist.glfw.nuspec",
+        "runtimes/linux-x64/native/libglfw-wayland.so.3.3",
+        "runtimes/linux-x64/native/libglfw.so.3.3",
+        "runtimes/osx-arm64/native/libglfw.3.dylib",
+        "runtimes/osx-x64/native/libglfw.3.dylib",
+        "runtimes/win-x64/native/glfw3.dll",
+        "runtimes/win-x86/native/glfw3.dll"
+      ]
+    },
+    "OpenTK.Windowing.Common/4.8.2": {
+      "sha512": "cE7w2AboX/cxtOl7UWa1rTnH4uUoCEg9rtppN6d1/8GOfKUW8LjO6bjEePrRk9LzRZL+5dky3nfw6ZONn5ItyA==",
+      "type": "package",
+      "path": "opentk.windowing.common/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/OpenTK.Windowing.Common.dll",
+        "lib/netcoreapp3.1/OpenTK.Windowing.Common.pdb",
+        "lib/netcoreapp3.1/OpenTK.Windowing.Common.xml",
+        "lib/netstandard2.1/OpenTK.Windowing.Common.dll",
+        "lib/netstandard2.1/OpenTK.Windowing.Common.pdb",
+        "lib/netstandard2.1/OpenTK.Windowing.Common.xml",
+        "opentk.windowing.common.4.8.2.nupkg.sha512",
+        "opentk.windowing.common.nuspec"
+      ]
+    },
+    "OpenTK.Windowing.Desktop/4.8.2": {
+      "sha512": "SlEuiAllLgE03/jJbloCOD1iNtBpnhMuVb510ccA/ILp//mzXHeRKsz7zFJ1ct7yIxe5U2WExXx52Tan++p11Q==",
+      "type": "package",
+      "path": "opentk.windowing.desktop/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll",
+        "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.pdb",
+        "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.xml",
+        "opentk.windowing.desktop.4.8.2.nupkg.sha512",
+        "opentk.windowing.desktop.nuspec"
+      ]
+    },
+    "OpenTK.Windowing.GraphicsLibraryFramework/4.8.2": {
+      "sha512": "o50PgKL8G0Pqs7Lo7hu1ru+5X5l03aht5jaeik7McXFgVaBJzMLhMhZkiferx4bbcC9Rq597BOknDwqE/bsLOw==",
+      "type": "package",
+      "path": "opentk.windowing.graphicslibraryframework/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll",
+        "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.pdb",
+        "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.xml",
+        "opentk.windowing.graphicslibraryframework.4.8.2.nupkg.sha512",
+        "opentk.windowing.graphicslibraryframework.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore/6.9.0": {
+      "sha512": "lvI+XHF21tkwXd2nDCLGJsdhdUYsY3Ax2fWUlvw81Oa6EedtnIAf5tThy8ZnPcz/9/TwsLgjgtX9ifOCIjbEPA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore/6.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Swashbuckle.AspNetCore.props",
+        "buildMultiTargeting/Swashbuckle.AspNetCore.props",
+        "swashbuckle.aspnetcore.6.9.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.9.0": {
+      "sha512": "P316kpxx5DnDvJwNWW8iTAXkh9DVenAxFGe9v4OUS0gil+vitH7F1feXhCtVeHN/616EFNTMh4pV2lcr9kkw/w==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/6.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swagger.6.9.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.9.0": {
+      "sha512": "FjeMR3fBzwVc5plfYjoHw9ptf8SOWMupvO9X35J5EgzT3L9dRqSxa+cBKzL8PwCyemY0xNrggQSB5+MFWx1axg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggergen.6.9.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.9.0": {
+      "sha512": "0OxlWBFLl2gUESZX/K7QCTz9KctKy0VxHTvLIBcyWGD4z/fv5MCMW02qzYGcReLJr4yBnNDRzApKtLh6oBpe9A==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggerui.6.9.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "sha512": "ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "sha512": "JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.7.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.7.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "VideoLAN.LibVLC.Windows/3.0.21": {
+      "sha512": "1b1yjZPIzS2+s6YZv9Z5Co/q2srIvo03ZToPvZblWreeyeFGkLDwX7WZat8AxCB9uMQV6VUnms67SgQqko7Z0w==",
+      "type": "package",
+      "path": "videolan.libvlc.windows/3.0.21",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/VideoLAN.LibVLC.Windows.targets",
+        "build/x64/hrtfs/dodeca_and_7channel_3DSL_HRTF.sofa",
+        "build/x64/include/vlc/deprecated.h",
+        "build/x64/include/vlc/libvlc.h",
+        "build/x64/include/vlc/libvlc_dialog.h",
+        "build/x64/include/vlc/libvlc_events.h",
+        "build/x64/include/vlc/libvlc_media.h",
+        "build/x64/include/vlc/libvlc_media_discoverer.h",
+        "build/x64/include/vlc/libvlc_media_library.h",
+        "build/x64/include/vlc/libvlc_media_list.h",
+        "build/x64/include/vlc/libvlc_media_list_player.h",
+        "build/x64/include/vlc/libvlc_media_player.h",
+        "build/x64/include/vlc/libvlc_renderer_discoverer.h",
+        "build/x64/include/vlc/libvlc_version.h",
+        "build/x64/include/vlc/libvlc_vlm.h",
+        "build/x64/include/vlc/plugins/vlc_about.h",
+        "build/x64/include/vlc/plugins/vlc_access.h",
+        "build/x64/include/vlc/plugins/vlc_actions.h",
+        "build/x64/include/vlc/plugins/vlc_addons.h",
+        "build/x64/include/vlc/plugins/vlc_aout.h",
+        "build/x64/include/vlc/plugins/vlc_aout_volume.h",
+        "build/x64/include/vlc/plugins/vlc_arrays.h",
+        "build/x64/include/vlc/plugins/vlc_atomic.h",
+        "build/x64/include/vlc/plugins/vlc_avcodec.h",
+        "build/x64/include/vlc/plugins/vlc_bits.h",
+        "build/x64/include/vlc/plugins/vlc_block.h",
+        "build/x64/include/vlc/plugins/vlc_block_helper.h",
+        "build/x64/include/vlc/plugins/vlc_boxes.h",
+        "build/x64/include/vlc/plugins/vlc_charset.h",
+        "build/x64/include/vlc/plugins/vlc_codec.h",
+        "build/x64/include/vlc/plugins/vlc_common.h",
+        "build/x64/include/vlc/plugins/vlc_config.h",
+        "build/x64/include/vlc/plugins/vlc_config_cat.h",
+        "build/x64/include/vlc/plugins/vlc_configuration.h",
+        "build/x64/include/vlc/plugins/vlc_cpu.h",
+        "build/x64/include/vlc/plugins/vlc_demux.h",
+        "build/x64/include/vlc/plugins/vlc_dialog.h",
+        "build/x64/include/vlc/plugins/vlc_epg.h",
+        "build/x64/include/vlc/plugins/vlc_es.h",
+        "build/x64/include/vlc/plugins/vlc_es_out.h",
+        "build/x64/include/vlc/plugins/vlc_events.h",
+        "build/x64/include/vlc/plugins/vlc_filter.h",
+        "build/x64/include/vlc/plugins/vlc_fingerprinter.h",
+        "build/x64/include/vlc/plugins/vlc_fourcc.h",
+        "build/x64/include/vlc/plugins/vlc_fs.h",
+        "build/x64/include/vlc/plugins/vlc_gcrypt.h",
+        "build/x64/include/vlc/plugins/vlc_http.h",
+        "build/x64/include/vlc/plugins/vlc_httpd.h",
+        "build/x64/include/vlc/plugins/vlc_image.h",
+        "build/x64/include/vlc/plugins/vlc_inhibit.h",
+        "build/x64/include/vlc/plugins/vlc_input.h",
+        "build/x64/include/vlc/plugins/vlc_input_item.h",
+        "build/x64/include/vlc/plugins/vlc_interface.h",
+        "build/x64/include/vlc/plugins/vlc_interrupt.h",
+        "build/x64/include/vlc/plugins/vlc_keystore.h",
+        "build/x64/include/vlc/plugins/vlc_main.h",
+        "build/x64/include/vlc/plugins/vlc_md5.h",
+        "build/x64/include/vlc/plugins/vlc_media_library.h",
+        "build/x64/include/vlc/plugins/vlc_memstream.h",
+        "build/x64/include/vlc/plugins/vlc_messages.h",
+        "build/x64/include/vlc/plugins/vlc_meta.h",
+        "build/x64/include/vlc/plugins/vlc_meta_fetcher.h",
+        "build/x64/include/vlc/plugins/vlc_mime.h",
+        "build/x64/include/vlc/plugins/vlc_modules.h",
+        "build/x64/include/vlc/plugins/vlc_mouse.h",
+        "build/x64/include/vlc/plugins/vlc_mtime.h",
+        "build/x64/include/vlc/plugins/vlc_network.h",
+        "build/x64/include/vlc/plugins/vlc_objects.h",
+        "build/x64/include/vlc/plugins/vlc_opengl.h",
+        "build/x64/include/vlc/plugins/vlc_picture.h",
+        "build/x64/include/vlc/plugins/vlc_picture_fifo.h",
+        "build/x64/include/vlc/plugins/vlc_picture_pool.h",
+        "build/x64/include/vlc/plugins/vlc_playlist.h",
+        "build/x64/include/vlc/plugins/vlc_plugin.h",
+        "build/x64/include/vlc/plugins/vlc_probe.h",
+        "build/x64/include/vlc/plugins/vlc_rand.h",
+        "build/x64/include/vlc/plugins/vlc_renderer_discovery.h",
+        "build/x64/include/vlc/plugins/vlc_services_discovery.h",
+        "build/x64/include/vlc/plugins/vlc_sout.h",
+        "build/x64/include/vlc/plugins/vlc_spu.h",
+        "build/x64/include/vlc/plugins/vlc_stream.h",
+        "build/x64/include/vlc/plugins/vlc_stream_extractor.h",
+        "build/x64/include/vlc/plugins/vlc_strings.h",
+        "build/x64/include/vlc/plugins/vlc_subpicture.h",
+        "build/x64/include/vlc/plugins/vlc_text_style.h",
+        "build/x64/include/vlc/plugins/vlc_threads.h",
+        "build/x64/include/vlc/plugins/vlc_timestamp_helper.h",
+        "build/x64/include/vlc/plugins/vlc_tls.h",
+        "build/x64/include/vlc/plugins/vlc_url.h",
+        "build/x64/include/vlc/plugins/vlc_variables.h",
+        "build/x64/include/vlc/plugins/vlc_video_splitter.h",
+        "build/x64/include/vlc/plugins/vlc_viewpoint.h",
+        "build/x64/include/vlc/plugins/vlc_vlm.h",
+        "build/x64/include/vlc/plugins/vlc_vout.h",
+        "build/x64/include/vlc/plugins/vlc_vout_display.h",
+        "build/x64/include/vlc/plugins/vlc_vout_osd.h",
+        "build/x64/include/vlc/plugins/vlc_vout_window.h",
+        "build/x64/include/vlc/plugins/vlc_xlib.h",
+        "build/x64/include/vlc/plugins/vlc_xml.h",
+        "build/x64/include/vlc/vlc.h",
+        "build/x64/libvlc.dll",
+        "build/x64/libvlc.lib",
+        "build/x64/libvlccore.dll",
+        "build/x64/libvlccore.lib",
+        "build/x64/lua/extensions/VLSub.luac",
+        "build/x64/lua/http/css/main.css",
+        "build/x64/lua/http/css/mobile.css",
+        "build/x64/lua/http/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-icons_222222_256x240.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-icons_228ef1_256x240.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-icons_ef8c08_256x240.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-icons_ffd27a_256x240.png",
+        "build/x64/lua/http/css/ui-lightness/images/ui-icons_ffffff_256x240.png",
+        "build/x64/lua/http/css/ui-lightness/jquery-ui-1.8.13.custom.css",
+        "build/x64/lua/http/custom.lua",
+        "build/x64/lua/http/dialogs/batch_window.html",
+        "build/x64/lua/http/dialogs/browse_window.html",
+        "build/x64/lua/http/dialogs/create_stream.html",
+        "build/x64/lua/http/dialogs/equalizer_window.html",
+        "build/x64/lua/http/dialogs/error_window.html",
+        "build/x64/lua/http/dialogs/mosaic_window.html",
+        "build/x64/lua/http/dialogs/offset_window.html",
+        "build/x64/lua/http/dialogs/stream_config_window.html",
+        "build/x64/lua/http/dialogs/stream_window.html",
+        "build/x64/lua/http/favicon.ico",
+        "build/x64/lua/http/images/Audio-48.png",
+        "build/x64/lua/http/images/Back-48.png",
+        "build/x64/lua/http/images/Folder-48.png",
+        "build/x64/lua/http/images/Other-48.png",
+        "build/x64/lua/http/images/Video-48.png",
+        "build/x64/lua/http/images/buttons.png",
+        "build/x64/lua/http/images/speaker-32.png",
+        "build/x64/lua/http/images/vlc-48.png",
+        "build/x64/lua/http/images/vlc16x16.png",
+        "build/x64/lua/http/index.html",
+        "build/x64/lua/http/js/common.js",
+        "build/x64/lua/http/js/controllers.js",
+        "build/x64/lua/http/js/jquery.jstree.js",
+        "build/x64/lua/http/js/ui.js",
+        "build/x64/lua/http/mobile.html",
+        "build/x64/lua/http/mobile_browse.html",
+        "build/x64/lua/http/mobile_equalizer.html",
+        "build/x64/lua/http/mobile_view.html",
+        "build/x64/lua/http/requests/README.txt",
+        "build/x64/lua/http/requests/browse.json",
+        "build/x64/lua/http/requests/browse.xml",
+        "build/x64/lua/http/requests/playlist.json",
+        "build/x64/lua/http/requests/playlist.xml",
+        "build/x64/lua/http/requests/playlist_jstree.xml",
+        "build/x64/lua/http/requests/status.json",
+        "build/x64/lua/http/requests/status.xml",
+        "build/x64/lua/http/requests/vlm.xml",
+        "build/x64/lua/http/requests/vlm_cmd.xml",
+        "build/x64/lua/http/view.html",
+        "build/x64/lua/http/vlm.html",
+        "build/x64/lua/http/vlm_export.html",
+        "build/x64/lua/intf/cli.luac",
+        "build/x64/lua/intf/dummy.luac",
+        "build/x64/lua/intf/dumpmeta.luac",
+        "build/x64/lua/intf/http.luac",
+        "build/x64/lua/intf/luac.luac",
+        "build/x64/lua/intf/modules/host.luac",
+        "build/x64/lua/intf/modules/httprequests.luac",
+        "build/x64/lua/intf/telnet.luac",
+        "build/x64/lua/meta/art/00_musicbrainz.luac",
+        "build/x64/lua/meta/art/01_googleimage.luac",
+        "build/x64/lua/meta/art/02_frenchtv.luac",
+        "build/x64/lua/meta/art/03_lastfm.luac",
+        "build/x64/lua/meta/reader/filename.luac",
+        "build/x64/lua/modules/common.luac",
+        "build/x64/lua/modules/dkjson.luac",
+        "build/x64/lua/modules/sandbox.luac",
+        "build/x64/lua/modules/simplexml.luac",
+        "build/x64/lua/playlist/anevia_streams.luac",
+        "build/x64/lua/playlist/anevia_xml.luac",
+        "build/x64/lua/playlist/appletrailers.luac",
+        "build/x64/lua/playlist/bbc_co_uk.luac",
+        "build/x64/lua/playlist/cue.luac",
+        "build/x64/lua/playlist/dailymotion.luac",
+        "build/x64/lua/playlist/jamendo.luac",
+        "build/x64/lua/playlist/koreus.luac",
+        "build/x64/lua/playlist/liveleak.luac",
+        "build/x64/lua/playlist/newgrounds.luac",
+        "build/x64/lua/playlist/rockbox_fm_presets.luac",
+        "build/x64/lua/playlist/soundcloud.luac",
+        "build/x64/lua/playlist/twitch.luac",
+        "build/x64/lua/playlist/vimeo.luac",
+        "build/x64/lua/playlist/vocaroo.luac",
+        "build/x64/lua/playlist/youtube.luac",
+        "build/x64/lua/sd/icecast.luac",
+        "build/x64/lua/sd/jamendo.luac",
+        "build/x64/plugins/access/libaccess_concat_plugin.dll",
+        "build/x64/plugins/access/libaccess_imem_plugin.dll",
+        "build/x64/plugins/access/libaccess_mms_plugin.dll",
+        "build/x64/plugins/access/libaccess_srt_plugin.dll",
+        "build/x64/plugins/access/libaccess_wasapi_plugin.dll",
+        "build/x64/plugins/access/libattachment_plugin.dll",
+        "build/x64/plugins/access/libbluray-awt-j2se-1.3.2.jar",
+        "build/x64/plugins/access/libbluray-j2se-1.3.2.jar",
+        "build/x64/plugins/access/libcdda_plugin.dll",
+        "build/x64/plugins/access/libdcp_plugin.dll",
+        "build/x64/plugins/access/libdtv_plugin.dll",
+        "build/x64/plugins/access/libfilesystem_plugin.dll",
+        "build/x64/plugins/access/libftp_plugin.dll",
+        "build/x64/plugins/access/libhttp_plugin.dll",
+        "build/x64/plugins/access/libhttps_plugin.dll",
+        "build/x64/plugins/access/libidummy_plugin.dll",
+        "build/x64/plugins/access/libimem_plugin.dll",
+        "build/x64/plugins/access/liblibbluray_plugin.dll",
+        "build/x64/plugins/access/liblive555_plugin.dll",
+        "build/x64/plugins/access/libnfs_plugin.dll",
+        "build/x64/plugins/access/librist_plugin.dll",
+        "build/x64/plugins/access/librtp_plugin.dll",
+        "build/x64/plugins/access/libsatip_plugin.dll",
+        "build/x64/plugins/access/libscreen_plugin.dll",
+        "build/x64/plugins/access/libsdp_plugin.dll",
+        "build/x64/plugins/access/libsftp_plugin.dll",
+        "build/x64/plugins/access/libshm_plugin.dll",
+        "build/x64/plugins/access/libsmb_plugin.dll",
+        "build/x64/plugins/access/libtcp_plugin.dll",
+        "build/x64/plugins/access/libtimecode_plugin.dll",
+        "build/x64/plugins/access/libudp_plugin.dll",
+        "build/x64/plugins/access/libvcd_plugin.dll",
+        "build/x64/plugins/access/libvdr_plugin.dll",
+        "build/x64/plugins/access_output/libaccess_output_dummy_plugin.dll",
+        "build/x64/plugins/access_output/libaccess_output_file_plugin.dll",
+        "build/x64/plugins/access_output/libaccess_output_http_plugin.dll",
+        "build/x64/plugins/access_output/libaccess_output_livehttp_plugin.dll",
+        "build/x64/plugins/access_output/libaccess_output_rist_plugin.dll",
+        "build/x64/plugins/access_output/libaccess_output_shout_plugin.dll",
+        "build/x64/plugins/access_output/libaccess_output_srt_plugin.dll",
+        "build/x64/plugins/access_output/libaccess_output_udp_plugin.dll",
+        "build/x64/plugins/audio_filter/libaudio_format_plugin.dll",
+        "build/x64/plugins/audio_filter/libaudiobargraph_a_plugin.dll",
+        "build/x64/plugins/audio_filter/libchorus_flanger_plugin.dll",
+        "build/x64/plugins/audio_filter/libcompressor_plugin.dll",
+        "build/x64/plugins/audio_filter/libequalizer_plugin.dll",
+        "build/x64/plugins/audio_filter/libgain_plugin.dll",
+        "build/x64/plugins/audio_filter/libkaraoke_plugin.dll",
+        "build/x64/plugins/audio_filter/libnormvol_plugin.dll",
+        "build/x64/plugins/audio_filter/libparam_eq_plugin.dll",
+        "build/x64/plugins/audio_filter/libremap_plugin.dll",
+        "build/x64/plugins/audio_filter/libscaletempo_pitch_plugin.dll",
+        "build/x64/plugins/audio_filter/libscaletempo_plugin.dll",
+        "build/x64/plugins/audio_filter/libsimple_channel_mixer_plugin.dll",
+        "build/x64/plugins/audio_filter/libspatialaudio_plugin.dll",
+        "build/x64/plugins/audio_filter/libspatializer_plugin.dll",
+        "build/x64/plugins/audio_filter/libspeex_resampler_plugin.dll",
+        "build/x64/plugins/audio_filter/libstereo_widen_plugin.dll",
+        "build/x64/plugins/audio_filter/libtospdif_plugin.dll",
+        "build/x64/plugins/audio_filter/libtrivial_channel_mixer_plugin.dll",
+        "build/x64/plugins/audio_filter/libugly_resampler_plugin.dll",
+        "build/x64/plugins/audio_mixer/libfloat_mixer_plugin.dll",
+        "build/x64/plugins/audio_mixer/libinteger_mixer_plugin.dll",
+        "build/x64/plugins/audio_output/libadummy_plugin.dll",
+        "build/x64/plugins/audio_output/libafile_plugin.dll",
+        "build/x64/plugins/audio_output/libamem_plugin.dll",
+        "build/x64/plugins/audio_output/libdirectsound_plugin.dll",
+        "build/x64/plugins/audio_output/libmmdevice_plugin.dll",
+        "build/x64/plugins/audio_output/libwasapi_plugin.dll",
+        "build/x64/plugins/audio_output/libwaveout_plugin.dll",
+        "build/x64/plugins/codec/libadpcm_plugin.dll",
+        "build/x64/plugins/codec/libaes3_plugin.dll",
+        "build/x64/plugins/codec/libaom_plugin.dll",
+        "build/x64/plugins/codec/libaraw_plugin.dll",
+        "build/x64/plugins/codec/libavcodec_plugin.dll",
+        "build/x64/plugins/codec/libcc_plugin.dll",
+        "build/x64/plugins/codec/libcdg_plugin.dll",
+        "build/x64/plugins/codec/libcrystalhd_plugin.dll",
+        "build/x64/plugins/codec/libcvdsub_plugin.dll",
+        "build/x64/plugins/codec/libd3d11va_plugin.dll",
+        "build/x64/plugins/codec/libdav1d_plugin.dll",
+        "build/x64/plugins/codec/libddummy_plugin.dll",
+        "build/x64/plugins/codec/libdmo_plugin.dll",
+        "build/x64/plugins/codec/libdvbsub_plugin.dll",
+        "build/x64/plugins/codec/libdxva2_plugin.dll",
+        "build/x64/plugins/codec/libedummy_plugin.dll",
+        "build/x64/plugins/codec/libflac_plugin.dll",
+        "build/x64/plugins/codec/libfluidsynth_plugin.dll",
+        "build/x64/plugins/codec/libg711_plugin.dll",
+        "build/x64/plugins/codec/libjpeg_plugin.dll",
+        "build/x64/plugins/codec/libkate_plugin.dll",
+        "build/x64/plugins/codec/liblibass_plugin.dll",
+        "build/x64/plugins/codec/liblpcm_plugin.dll",
+        "build/x64/plugins/codec/libmft_plugin.dll",
+        "build/x64/plugins/codec/libmpg123_plugin.dll",
+        "build/x64/plugins/codec/liboggspots_plugin.dll",
+        "build/x64/plugins/codec/libopus_plugin.dll",
+        "build/x64/plugins/codec/libpng_plugin.dll",
+        "build/x64/plugins/codec/libqsv_plugin.dll",
+        "build/x64/plugins/codec/librawvideo_plugin.dll",
+        "build/x64/plugins/codec/librtpvideo_plugin.dll",
+        "build/x64/plugins/codec/libschroedinger_plugin.dll",
+        "build/x64/plugins/codec/libscte18_plugin.dll",
+        "build/x64/plugins/codec/libscte27_plugin.dll",
+        "build/x64/plugins/codec/libsdl_image_plugin.dll",
+        "build/x64/plugins/codec/libspdif_plugin.dll",
+        "build/x64/plugins/codec/libspeex_plugin.dll",
+        "build/x64/plugins/codec/libspudec_plugin.dll",
+        "build/x64/plugins/codec/libstl_plugin.dll",
+        "build/x64/plugins/codec/libsubsdec_plugin.dll",
+        "build/x64/plugins/codec/libsubstx3g_plugin.dll",
+        "build/x64/plugins/codec/libsubsusf_plugin.dll",
+        "build/x64/plugins/codec/libsvcdsub_plugin.dll",
+        "build/x64/plugins/codec/libtextst_plugin.dll",
+        "build/x64/plugins/codec/libtheora_plugin.dll",
+        "build/x64/plugins/codec/libttml_plugin.dll",
+        "build/x64/plugins/codec/libtwolame_plugin.dll",
+        "build/x64/plugins/codec/libuleaddvaudio_plugin.dll",
+        "build/x64/plugins/codec/libvorbis_plugin.dll",
+        "build/x64/plugins/codec/libvpx_plugin.dll",
+        "build/x64/plugins/codec/libwebvtt_plugin.dll",
+        "build/x64/plugins/codec/libx26410b_plugin.dll",
+        "build/x64/plugins/codec/libzvbi_plugin.dll",
+        "build/x64/plugins/d3d11/libdirect3d11_filters_plugin.dll",
+        "build/x64/plugins/d3d9/libdirect3d9_filters_plugin.dll",
+        "build/x64/plugins/demux/libadaptive_plugin.dll",
+        "build/x64/plugins/demux/libaiff_plugin.dll",
+        "build/x64/plugins/demux/libasf_plugin.dll",
+        "build/x64/plugins/demux/libau_plugin.dll",
+        "build/x64/plugins/demux/libavi_plugin.dll",
+        "build/x64/plugins/demux/libcaf_plugin.dll",
+        "build/x64/plugins/demux/libdemux_cdg_plugin.dll",
+        "build/x64/plugins/demux/libdemux_chromecast_plugin.dll",
+        "build/x64/plugins/demux/libdemux_stl_plugin.dll",
+        "build/x64/plugins/demux/libdemuxdump_plugin.dll",
+        "build/x64/plugins/demux/libdiracsys_plugin.dll",
+        "build/x64/plugins/demux/libdirectory_demux_plugin.dll",
+        "build/x64/plugins/demux/libes_plugin.dll",
+        "build/x64/plugins/demux/libflacsys_plugin.dll",
+        "build/x64/plugins/demux/libgme_plugin.dll",
+        "build/x64/plugins/demux/libh26x_plugin.dll",
+        "build/x64/plugins/demux/libimage_plugin.dll",
+        "build/x64/plugins/demux/libmjpeg_plugin.dll",
+        "build/x64/plugins/demux/libmkv_plugin.dll",
+        "build/x64/plugins/demux/libmod_plugin.dll",
+        "build/x64/plugins/demux/libmp4_plugin.dll",
+        "build/x64/plugins/demux/libmpgv_plugin.dll",
+        "build/x64/plugins/demux/libnoseek_plugin.dll",
+        "build/x64/plugins/demux/libnsc_plugin.dll",
+        "build/x64/plugins/demux/libnsv_plugin.dll",
+        "build/x64/plugins/demux/libnuv_plugin.dll",
+        "build/x64/plugins/demux/libogg_plugin.dll",
+        "build/x64/plugins/demux/libplaylist_plugin.dll",
+        "build/x64/plugins/demux/libps_plugin.dll",
+        "build/x64/plugins/demux/libpva_plugin.dll",
+        "build/x64/plugins/demux/librawaud_plugin.dll",
+        "build/x64/plugins/demux/librawdv_plugin.dll",
+        "build/x64/plugins/demux/librawvid_plugin.dll",
+        "build/x64/plugins/demux/libsmf_plugin.dll",
+        "build/x64/plugins/demux/libsubtitle_plugin.dll",
+        "build/x64/plugins/demux/libts_plugin.dll",
+        "build/x64/plugins/demux/libtta_plugin.dll",
+        "build/x64/plugins/demux/libty_plugin.dll",
+        "build/x64/plugins/demux/libvc1_plugin.dll",
+        "build/x64/plugins/demux/libvobsub_plugin.dll",
+        "build/x64/plugins/demux/libvoc_plugin.dll",
+        "build/x64/plugins/demux/libwav_plugin.dll",
+        "build/x64/plugins/demux/libxa_plugin.dll",
+        "build/x64/plugins/keystore/libfile_keystore_plugin.dll",
+        "build/x64/plugins/keystore/libmemory_keystore_plugin.dll",
+        "build/x64/plugins/logger/libconsole_logger_plugin.dll",
+        "build/x64/plugins/lua/liblua_plugin.dll",
+        "build/x64/plugins/meta_engine/libfolder_plugin.dll",
+        "build/x64/plugins/meta_engine/libtaglib_plugin.dll",
+        "build/x64/plugins/misc/libaddonsfsstorage_plugin.dll",
+        "build/x64/plugins/misc/libaddonsvorepository_plugin.dll",
+        "build/x64/plugins/misc/libfingerprinter_plugin.dll",
+        "build/x64/plugins/misc/libgnutls_plugin.dll",
+        "build/x64/plugins/misc/libxml_plugin.dll",
+        "build/x64/plugins/mux/libmux_asf_plugin.dll",
+        "build/x64/plugins/mux/libmux_avi_plugin.dll",
+        "build/x64/plugins/mux/libmux_dummy_plugin.dll",
+        "build/x64/plugins/mux/libmux_mp4_plugin.dll",
+        "build/x64/plugins/mux/libmux_mpjpeg_plugin.dll",
+        "build/x64/plugins/mux/libmux_ogg_plugin.dll",
+        "build/x64/plugins/mux/libmux_ps_plugin.dll",
+        "build/x64/plugins/mux/libmux_ts_plugin.dll",
+        "build/x64/plugins/mux/libmux_wav_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_av1_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_copy_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_dirac_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_dts_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_flac_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_h264_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_hevc_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_mlp_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_mpeg4audio_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_mpeg4video_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_mpegaudio_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_mpegvideo_plugin.dll",
+        "build/x64/plugins/packetizer/libpacketizer_vc1_plugin.dll",
+        "build/x64/plugins/services_discovery/libmicrodns_plugin.dll",
+        "build/x64/plugins/services_discovery/libupnp_plugin.dll",
+        "build/x64/plugins/services_discovery/libwindrive_plugin.dll",
+        "build/x64/plugins/spu/libaudiobargraph_v_plugin.dll",
+        "build/x64/plugins/spu/liblogo_plugin.dll",
+        "build/x64/plugins/spu/libmarq_plugin.dll",
+        "build/x64/plugins/spu/libmosaic_plugin.dll",
+        "build/x64/plugins/spu/libremoteosd_plugin.dll",
+        "build/x64/plugins/spu/librss_plugin.dll",
+        "build/x64/plugins/spu/libsubsdelay_plugin.dll",
+        "build/x64/plugins/stream_extractor/libarchive_plugin.dll",
+        "build/x64/plugins/stream_filter/libadf_plugin.dll",
+        "build/x64/plugins/stream_filter/libaribcam_plugin.dll",
+        "build/x64/plugins/stream_filter/libcache_block_plugin.dll",
+        "build/x64/plugins/stream_filter/libcache_read_plugin.dll",
+        "build/x64/plugins/stream_filter/libhds_plugin.dll",
+        "build/x64/plugins/stream_filter/libinflate_plugin.dll",
+        "build/x64/plugins/stream_filter/libprefetch_plugin.dll",
+        "build/x64/plugins/stream_filter/librecord_plugin.dll",
+        "build/x64/plugins/stream_filter/libskiptags_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_autodel_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_bridge_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_chromaprint_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_chromecast_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_delay_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_description_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_display_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_dummy_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_duplicate_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_es_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_gather_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_mosaic_bridge_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_record_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_setid_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_smem_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_standard_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_stats_plugin.dll",
+        "build/x64/plugins/stream_out/libstream_out_transcode_plugin.dll",
+        "build/x64/plugins/text_renderer/libfreetype_plugin.dll",
+        "build/x64/plugins/text_renderer/libsapi_plugin.dll",
+        "build/x64/plugins/text_renderer/libtdummy_plugin.dll",
+        "build/x64/plugins/video_chroma/libchain_plugin.dll",
+        "build/x64/plugins/video_chroma/libgrey_yuv_plugin.dll",
+        "build/x64/plugins/video_chroma/libi420_10_p010_plugin.dll",
+        "build/x64/plugins/video_chroma/libi420_nv12_plugin.dll",
+        "build/x64/plugins/video_chroma/libi420_rgb_mmx_plugin.dll",
+        "build/x64/plugins/video_chroma/libi420_rgb_plugin.dll",
+        "build/x64/plugins/video_chroma/libi420_rgb_sse2_plugin.dll",
+        "build/x64/plugins/video_chroma/libi420_yuy2_mmx_plugin.dll",
+        "build/x64/plugins/video_chroma/libi420_yuy2_plugin.dll",
+        "build/x64/plugins/video_chroma/libi420_yuy2_sse2_plugin.dll",
+        "build/x64/plugins/video_chroma/libi422_i420_plugin.dll",
+        "build/x64/plugins/video_chroma/libi422_yuy2_mmx_plugin.dll",
+        "build/x64/plugins/video_chroma/libi422_yuy2_plugin.dll",
+        "build/x64/plugins/video_chroma/libi422_yuy2_sse2_plugin.dll",
+        "build/x64/plugins/video_chroma/librv32_plugin.dll",
+        "build/x64/plugins/video_chroma/libswscale_plugin.dll",
+        "build/x64/plugins/video_chroma/libyuvp_plugin.dll",
+        "build/x64/plugins/video_chroma/libyuy2_i420_plugin.dll",
+        "build/x64/plugins/video_chroma/libyuy2_i422_plugin.dll",
+        "build/x64/plugins/video_filter/libadjust_plugin.dll",
+        "build/x64/plugins/video_filter/libalphamask_plugin.dll",
+        "build/x64/plugins/video_filter/libanaglyph_plugin.dll",
+        "build/x64/plugins/video_filter/libantiflicker_plugin.dll",
+        "build/x64/plugins/video_filter/libball_plugin.dll",
+        "build/x64/plugins/video_filter/libblend_plugin.dll",
+        "build/x64/plugins/video_filter/libblendbench_plugin.dll",
+        "build/x64/plugins/video_filter/libbluescreen_plugin.dll",
+        "build/x64/plugins/video_filter/libcanvas_plugin.dll",
+        "build/x64/plugins/video_filter/libcolorthres_plugin.dll",
+        "build/x64/plugins/video_filter/libcroppadd_plugin.dll",
+        "build/x64/plugins/video_filter/libdeinterlace_plugin.dll",
+        "build/x64/plugins/video_filter/libedgedetection_plugin.dll",
+        "build/x64/plugins/video_filter/liberase_plugin.dll",
+        "build/x64/plugins/video_filter/libextract_plugin.dll",
+        "build/x64/plugins/video_filter/libfps_plugin.dll",
+        "build/x64/plugins/video_filter/libfreeze_plugin.dll",
+        "build/x64/plugins/video_filter/libgaussianblur_plugin.dll",
+        "build/x64/plugins/video_filter/libgradfun_plugin.dll",
+        "build/x64/plugins/video_filter/libgradient_plugin.dll",
+        "build/x64/plugins/video_filter/libgrain_plugin.dll",
+        "build/x64/plugins/video_filter/libhqdn3d_plugin.dll",
+        "build/x64/plugins/video_filter/libinvert_plugin.dll",
+        "build/x64/plugins/video_filter/libmagnify_plugin.dll",
+        "build/x64/plugins/video_filter/libmirror_plugin.dll",
+        "build/x64/plugins/video_filter/libmotionblur_plugin.dll",
+        "build/x64/plugins/video_filter/libmotiondetect_plugin.dll",
+        "build/x64/plugins/video_filter/liboldmovie_plugin.dll",
+        "build/x64/plugins/video_filter/libposterize_plugin.dll",
+        "build/x64/plugins/video_filter/libpsychedelic_plugin.dll",
+        "build/x64/plugins/video_filter/libpuzzle_plugin.dll",
+        "build/x64/plugins/video_filter/libripple_plugin.dll",
+        "build/x64/plugins/video_filter/libscale_plugin.dll",
+        "build/x64/plugins/video_filter/libscene_plugin.dll",
+        "build/x64/plugins/video_filter/libsepia_plugin.dll",
+        "build/x64/plugins/video_filter/libsharpen_plugin.dll",
+        "build/x64/plugins/video_filter/libtransform_plugin.dll",
+        "build/x64/plugins/video_filter/libvhs_plugin.dll",
+        "build/x64/plugins/video_filter/libwave_plugin.dll",
+        "build/x64/plugins/video_output/libcaca_plugin.dll",
+        "build/x64/plugins/video_output/libdirect3d11_plugin.dll",
+        "build/x64/plugins/video_output/libdirect3d9_plugin.dll",
+        "build/x64/plugins/video_output/libdirectdraw_plugin.dll",
+        "build/x64/plugins/video_output/libdrawable_plugin.dll",
+        "build/x64/plugins/video_output/libflaschen_plugin.dll",
+        "build/x64/plugins/video_output/libgl_plugin.dll",
+        "build/x64/plugins/video_output/libglinterop_dxva2_plugin.dll",
+        "build/x64/plugins/video_output/libglwin32_plugin.dll",
+        "build/x64/plugins/video_output/libvdummy_plugin.dll",
+        "build/x64/plugins/video_output/libvmem_plugin.dll",
+        "build/x64/plugins/video_output/libwgl_plugin.dll",
+        "build/x64/plugins/video_output/libwingdi_plugin.dll",
+        "build/x64/plugins/video_output/libwinhibit_plugin.dll",
+        "build/x64/plugins/video_output/libyuv_plugin.dll",
+        "build/x64/plugins/video_splitter/libclone_plugin.dll",
+        "build/x64/plugins/video_splitter/libpanoramix_plugin.dll",
+        "build/x64/plugins/video_splitter/libwall_plugin.dll",
+        "build/x64/plugins/visualization/libglspectrum_plugin.dll",
+        "build/x64/plugins/visualization/libgoom_plugin.dll",
+        "build/x64/plugins/visualization/libprojectm_plugin.dll",
+        "build/x64/plugins/visualization/libvisual_plugin.dll",
+        "build/x64/vlc.lib",
+        "build/x64/vlccore.lib",
+        "build/x86/hrtfs/dodeca_and_7channel_3DSL_HRTF.sofa",
+        "build/x86/include/vlc/deprecated.h",
+        "build/x86/include/vlc/libvlc.h",
+        "build/x86/include/vlc/libvlc_dialog.h",
+        "build/x86/include/vlc/libvlc_events.h",
+        "build/x86/include/vlc/libvlc_media.h",
+        "build/x86/include/vlc/libvlc_media_discoverer.h",
+        "build/x86/include/vlc/libvlc_media_library.h",
+        "build/x86/include/vlc/libvlc_media_list.h",
+        "build/x86/include/vlc/libvlc_media_list_player.h",
+        "build/x86/include/vlc/libvlc_media_player.h",
+        "build/x86/include/vlc/libvlc_renderer_discoverer.h",
+        "build/x86/include/vlc/libvlc_version.h",
+        "build/x86/include/vlc/libvlc_vlm.h",
+        "build/x86/include/vlc/plugins/vlc_about.h",
+        "build/x86/include/vlc/plugins/vlc_access.h",
+        "build/x86/include/vlc/plugins/vlc_actions.h",
+        "build/x86/include/vlc/plugins/vlc_addons.h",
+        "build/x86/include/vlc/plugins/vlc_aout.h",
+        "build/x86/include/vlc/plugins/vlc_aout_volume.h",
+        "build/x86/include/vlc/plugins/vlc_arrays.h",
+        "build/x86/include/vlc/plugins/vlc_atomic.h",
+        "build/x86/include/vlc/plugins/vlc_avcodec.h",
+        "build/x86/include/vlc/plugins/vlc_bits.h",
+        "build/x86/include/vlc/plugins/vlc_block.h",
+        "build/x86/include/vlc/plugins/vlc_block_helper.h",
+        "build/x86/include/vlc/plugins/vlc_boxes.h",
+        "build/x86/include/vlc/plugins/vlc_charset.h",
+        "build/x86/include/vlc/plugins/vlc_codec.h",
+        "build/x86/include/vlc/plugins/vlc_common.h",
+        "build/x86/include/vlc/plugins/vlc_config.h",
+        "build/x86/include/vlc/plugins/vlc_config_cat.h",
+        "build/x86/include/vlc/plugins/vlc_configuration.h",
+        "build/x86/include/vlc/plugins/vlc_cpu.h",
+        "build/x86/include/vlc/plugins/vlc_demux.h",
+        "build/x86/include/vlc/plugins/vlc_dialog.h",
+        "build/x86/include/vlc/plugins/vlc_epg.h",
+        "build/x86/include/vlc/plugins/vlc_es.h",
+        "build/x86/include/vlc/plugins/vlc_es_out.h",
+        "build/x86/include/vlc/plugins/vlc_events.h",
+        "build/x86/include/vlc/plugins/vlc_filter.h",
+        "build/x86/include/vlc/plugins/vlc_fingerprinter.h",
+        "build/x86/include/vlc/plugins/vlc_fourcc.h",
+        "build/x86/include/vlc/plugins/vlc_fs.h",
+        "build/x86/include/vlc/plugins/vlc_gcrypt.h",
+        "build/x86/include/vlc/plugins/vlc_http.h",
+        "build/x86/include/vlc/plugins/vlc_httpd.h",
+        "build/x86/include/vlc/plugins/vlc_image.h",
+        "build/x86/include/vlc/plugins/vlc_inhibit.h",
+        "build/x86/include/vlc/plugins/vlc_input.h",
+        "build/x86/include/vlc/plugins/vlc_input_item.h",
+        "build/x86/include/vlc/plugins/vlc_interface.h",
+        "build/x86/include/vlc/plugins/vlc_interrupt.h",
+        "build/x86/include/vlc/plugins/vlc_keystore.h",
+        "build/x86/include/vlc/plugins/vlc_main.h",
+        "build/x86/include/vlc/plugins/vlc_md5.h",
+        "build/x86/include/vlc/plugins/vlc_media_library.h",
+        "build/x86/include/vlc/plugins/vlc_memstream.h",
+        "build/x86/include/vlc/plugins/vlc_messages.h",
+        "build/x86/include/vlc/plugins/vlc_meta.h",
+        "build/x86/include/vlc/plugins/vlc_meta_fetcher.h",
+        "build/x86/include/vlc/plugins/vlc_mime.h",
+        "build/x86/include/vlc/plugins/vlc_modules.h",
+        "build/x86/include/vlc/plugins/vlc_mouse.h",
+        "build/x86/include/vlc/plugins/vlc_mtime.h",
+        "build/x86/include/vlc/plugins/vlc_network.h",
+        "build/x86/include/vlc/plugins/vlc_objects.h",
+        "build/x86/include/vlc/plugins/vlc_opengl.h",
+        "build/x86/include/vlc/plugins/vlc_picture.h",
+        "build/x86/include/vlc/plugins/vlc_picture_fifo.h",
+        "build/x86/include/vlc/plugins/vlc_picture_pool.h",
+        "build/x86/include/vlc/plugins/vlc_playlist.h",
+        "build/x86/include/vlc/plugins/vlc_plugin.h",
+        "build/x86/include/vlc/plugins/vlc_probe.h",
+        "build/x86/include/vlc/plugins/vlc_rand.h",
+        "build/x86/include/vlc/plugins/vlc_renderer_discovery.h",
+        "build/x86/include/vlc/plugins/vlc_services_discovery.h",
+        "build/x86/include/vlc/plugins/vlc_sout.h",
+        "build/x86/include/vlc/plugins/vlc_spu.h",
+        "build/x86/include/vlc/plugins/vlc_stream.h",
+        "build/x86/include/vlc/plugins/vlc_stream_extractor.h",
+        "build/x86/include/vlc/plugins/vlc_strings.h",
+        "build/x86/include/vlc/plugins/vlc_subpicture.h",
+        "build/x86/include/vlc/plugins/vlc_text_style.h",
+        "build/x86/include/vlc/plugins/vlc_threads.h",
+        "build/x86/include/vlc/plugins/vlc_timestamp_helper.h",
+        "build/x86/include/vlc/plugins/vlc_tls.h",
+        "build/x86/include/vlc/plugins/vlc_url.h",
+        "build/x86/include/vlc/plugins/vlc_variables.h",
+        "build/x86/include/vlc/plugins/vlc_video_splitter.h",
+        "build/x86/include/vlc/plugins/vlc_viewpoint.h",
+        "build/x86/include/vlc/plugins/vlc_vlm.h",
+        "build/x86/include/vlc/plugins/vlc_vout.h",
+        "build/x86/include/vlc/plugins/vlc_vout_display.h",
+        "build/x86/include/vlc/plugins/vlc_vout_osd.h",
+        "build/x86/include/vlc/plugins/vlc_vout_window.h",
+        "build/x86/include/vlc/plugins/vlc_xlib.h",
+        "build/x86/include/vlc/plugins/vlc_xml.h",
+        "build/x86/include/vlc/vlc.h",
+        "build/x86/libvlc.dll",
+        "build/x86/libvlc.lib",
+        "build/x86/libvlccore.dll",
+        "build/x86/libvlccore.lib",
+        "build/x86/lua/extensions/VLSub.luac",
+        "build/x86/lua/http/css/main.css",
+        "build/x86/lua/http/css/mobile.css",
+        "build/x86/lua/http/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-icons_222222_256x240.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-icons_228ef1_256x240.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-icons_ef8c08_256x240.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-icons_ffd27a_256x240.png",
+        "build/x86/lua/http/css/ui-lightness/images/ui-icons_ffffff_256x240.png",
+        "build/x86/lua/http/css/ui-lightness/jquery-ui-1.8.13.custom.css",
+        "build/x86/lua/http/custom.lua",
+        "build/x86/lua/http/dialogs/batch_window.html",
+        "build/x86/lua/http/dialogs/browse_window.html",
+        "build/x86/lua/http/dialogs/create_stream.html",
+        "build/x86/lua/http/dialogs/equalizer_window.html",
+        "build/x86/lua/http/dialogs/error_window.html",
+        "build/x86/lua/http/dialogs/mosaic_window.html",
+        "build/x86/lua/http/dialogs/offset_window.html",
+        "build/x86/lua/http/dialogs/stream_config_window.html",
+        "build/x86/lua/http/dialogs/stream_window.html",
+        "build/x86/lua/http/favicon.ico",
+        "build/x86/lua/http/images/Audio-48.png",
+        "build/x86/lua/http/images/Back-48.png",
+        "build/x86/lua/http/images/Folder-48.png",
+        "build/x86/lua/http/images/Other-48.png",
+        "build/x86/lua/http/images/Video-48.png",
+        "build/x86/lua/http/images/buttons.png",
+        "build/x86/lua/http/images/speaker-32.png",
+        "build/x86/lua/http/images/vlc-48.png",
+        "build/x86/lua/http/images/vlc16x16.png",
+        "build/x86/lua/http/index.html",
+        "build/x86/lua/http/js/common.js",
+        "build/x86/lua/http/js/controllers.js",
+        "build/x86/lua/http/js/jquery.jstree.js",
+        "build/x86/lua/http/js/ui.js",
+        "build/x86/lua/http/mobile.html",
+        "build/x86/lua/http/mobile_browse.html",
+        "build/x86/lua/http/mobile_equalizer.html",
+        "build/x86/lua/http/mobile_view.html",
+        "build/x86/lua/http/requests/README.txt",
+        "build/x86/lua/http/requests/browse.json",
+        "build/x86/lua/http/requests/browse.xml",
+        "build/x86/lua/http/requests/playlist.json",
+        "build/x86/lua/http/requests/playlist.xml",
+        "build/x86/lua/http/requests/playlist_jstree.xml",
+        "build/x86/lua/http/requests/status.json",
+        "build/x86/lua/http/requests/status.xml",
+        "build/x86/lua/http/requests/vlm.xml",
+        "build/x86/lua/http/requests/vlm_cmd.xml",
+        "build/x86/lua/http/view.html",
+        "build/x86/lua/http/vlm.html",
+        "build/x86/lua/http/vlm_export.html",
+        "build/x86/lua/intf/cli.luac",
+        "build/x86/lua/intf/dummy.luac",
+        "build/x86/lua/intf/dumpmeta.luac",
+        "build/x86/lua/intf/http.luac",
+        "build/x86/lua/intf/luac.luac",
+        "build/x86/lua/intf/modules/host.luac",
+        "build/x86/lua/intf/modules/httprequests.luac",
+        "build/x86/lua/intf/telnet.luac",
+        "build/x86/lua/meta/art/00_musicbrainz.luac",
+        "build/x86/lua/meta/art/01_googleimage.luac",
+        "build/x86/lua/meta/art/02_frenchtv.luac",
+        "build/x86/lua/meta/art/03_lastfm.luac",
+        "build/x86/lua/meta/reader/filename.luac",
+        "build/x86/lua/modules/common.luac",
+        "build/x86/lua/modules/dkjson.luac",
+        "build/x86/lua/modules/sandbox.luac",
+        "build/x86/lua/modules/simplexml.luac",
+        "build/x86/lua/playlist/anevia_streams.luac",
+        "build/x86/lua/playlist/anevia_xml.luac",
+        "build/x86/lua/playlist/appletrailers.luac",
+        "build/x86/lua/playlist/bbc_co_uk.luac",
+        "build/x86/lua/playlist/cue.luac",
+        "build/x86/lua/playlist/dailymotion.luac",
+        "build/x86/lua/playlist/jamendo.luac",
+        "build/x86/lua/playlist/koreus.luac",
+        "build/x86/lua/playlist/liveleak.luac",
+        "build/x86/lua/playlist/newgrounds.luac",
+        "build/x86/lua/playlist/rockbox_fm_presets.luac",
+        "build/x86/lua/playlist/soundcloud.luac",
+        "build/x86/lua/playlist/twitch.luac",
+        "build/x86/lua/playlist/vimeo.luac",
+        "build/x86/lua/playlist/vocaroo.luac",
+        "build/x86/lua/playlist/youtube.luac",
+        "build/x86/lua/sd/icecast.luac",
+        "build/x86/lua/sd/jamendo.luac",
+        "build/x86/plugins/access/libaccess_concat_plugin.dll",
+        "build/x86/plugins/access/libaccess_imem_plugin.dll",
+        "build/x86/plugins/access/libaccess_mms_plugin.dll",
+        "build/x86/plugins/access/libaccess_srt_plugin.dll",
+        "build/x86/plugins/access/libaccess_wasapi_plugin.dll",
+        "build/x86/plugins/access/libattachment_plugin.dll",
+        "build/x86/plugins/access/libbluray-awt-j2se-1.3.2.jar",
+        "build/x86/plugins/access/libbluray-j2se-1.3.2.jar",
+        "build/x86/plugins/access/libcdda_plugin.dll",
+        "build/x86/plugins/access/libdcp_plugin.dll",
+        "build/x86/plugins/access/libdtv_plugin.dll",
+        "build/x86/plugins/access/libfilesystem_plugin.dll",
+        "build/x86/plugins/access/libftp_plugin.dll",
+        "build/x86/plugins/access/libhttp_plugin.dll",
+        "build/x86/plugins/access/libhttps_plugin.dll",
+        "build/x86/plugins/access/libidummy_plugin.dll",
+        "build/x86/plugins/access/libimem_plugin.dll",
+        "build/x86/plugins/access/liblibbluray_plugin.dll",
+        "build/x86/plugins/access/liblive555_plugin.dll",
+        "build/x86/plugins/access/libnfs_plugin.dll",
+        "build/x86/plugins/access/librist_plugin.dll",
+        "build/x86/plugins/access/librtp_plugin.dll",
+        "build/x86/plugins/access/libsatip_plugin.dll",
+        "build/x86/plugins/access/libscreen_plugin.dll",
+        "build/x86/plugins/access/libsdp_plugin.dll",
+        "build/x86/plugins/access/libsftp_plugin.dll",
+        "build/x86/plugins/access/libshm_plugin.dll",
+        "build/x86/plugins/access/libsmb_plugin.dll",
+        "build/x86/plugins/access/libtcp_plugin.dll",
+        "build/x86/plugins/access/libtimecode_plugin.dll",
+        "build/x86/plugins/access/libudp_plugin.dll",
+        "build/x86/plugins/access/libvcd_plugin.dll",
+        "build/x86/plugins/access/libvdr_plugin.dll",
+        "build/x86/plugins/access_output/libaccess_output_dummy_plugin.dll",
+        "build/x86/plugins/access_output/libaccess_output_file_plugin.dll",
+        "build/x86/plugins/access_output/libaccess_output_http_plugin.dll",
+        "build/x86/plugins/access_output/libaccess_output_livehttp_plugin.dll",
+        "build/x86/plugins/access_output/libaccess_output_rist_plugin.dll",
+        "build/x86/plugins/access_output/libaccess_output_shout_plugin.dll",
+        "build/x86/plugins/access_output/libaccess_output_srt_plugin.dll",
+        "build/x86/plugins/access_output/libaccess_output_udp_plugin.dll",
+        "build/x86/plugins/audio_filter/libaudio_format_plugin.dll",
+        "build/x86/plugins/audio_filter/libaudiobargraph_a_plugin.dll",
+        "build/x86/plugins/audio_filter/libchorus_flanger_plugin.dll",
+        "build/x86/plugins/audio_filter/libcompressor_plugin.dll",
+        "build/x86/plugins/audio_filter/libequalizer_plugin.dll",
+        "build/x86/plugins/audio_filter/libgain_plugin.dll",
+        "build/x86/plugins/audio_filter/libkaraoke_plugin.dll",
+        "build/x86/plugins/audio_filter/libnormvol_plugin.dll",
+        "build/x86/plugins/audio_filter/libparam_eq_plugin.dll",
+        "build/x86/plugins/audio_filter/libremap_plugin.dll",
+        "build/x86/plugins/audio_filter/libscaletempo_pitch_plugin.dll",
+        "build/x86/plugins/audio_filter/libscaletempo_plugin.dll",
+        "build/x86/plugins/audio_filter/libsimple_channel_mixer_plugin.dll",
+        "build/x86/plugins/audio_filter/libspatialaudio_plugin.dll",
+        "build/x86/plugins/audio_filter/libspatializer_plugin.dll",
+        "build/x86/plugins/audio_filter/libspeex_resampler_plugin.dll",
+        "build/x86/plugins/audio_filter/libstereo_widen_plugin.dll",
+        "build/x86/plugins/audio_filter/libtospdif_plugin.dll",
+        "build/x86/plugins/audio_filter/libtrivial_channel_mixer_plugin.dll",
+        "build/x86/plugins/audio_filter/libugly_resampler_plugin.dll",
+        "build/x86/plugins/audio_mixer/libfloat_mixer_plugin.dll",
+        "build/x86/plugins/audio_mixer/libinteger_mixer_plugin.dll",
+        "build/x86/plugins/audio_output/libadummy_plugin.dll",
+        "build/x86/plugins/audio_output/libafile_plugin.dll",
+        "build/x86/plugins/audio_output/libamem_plugin.dll",
+        "build/x86/plugins/audio_output/libdirectsound_plugin.dll",
+        "build/x86/plugins/audio_output/libmmdevice_plugin.dll",
+        "build/x86/plugins/audio_output/libwasapi_plugin.dll",
+        "build/x86/plugins/audio_output/libwaveout_plugin.dll",
+        "build/x86/plugins/codec/libadpcm_plugin.dll",
+        "build/x86/plugins/codec/libaes3_plugin.dll",
+        "build/x86/plugins/codec/libaom_plugin.dll",
+        "build/x86/plugins/codec/libaraw_plugin.dll",
+        "build/x86/plugins/codec/libavcodec_plugin.dll",
+        "build/x86/plugins/codec/libcc_plugin.dll",
+        "build/x86/plugins/codec/libcdg_plugin.dll",
+        "build/x86/plugins/codec/libcrystalhd_plugin.dll",
+        "build/x86/plugins/codec/libcvdsub_plugin.dll",
+        "build/x86/plugins/codec/libd3d11va_plugin.dll",
+        "build/x86/plugins/codec/libdav1d_plugin.dll",
+        "build/x86/plugins/codec/libddummy_plugin.dll",
+        "build/x86/plugins/codec/libdmo_plugin.dll",
+        "build/x86/plugins/codec/libdvbsub_plugin.dll",
+        "build/x86/plugins/codec/libdxva2_plugin.dll",
+        "build/x86/plugins/codec/libedummy_plugin.dll",
+        "build/x86/plugins/codec/libflac_plugin.dll",
+        "build/x86/plugins/codec/libfluidsynth_plugin.dll",
+        "build/x86/plugins/codec/libg711_plugin.dll",
+        "build/x86/plugins/codec/libjpeg_plugin.dll",
+        "build/x86/plugins/codec/libkate_plugin.dll",
+        "build/x86/plugins/codec/liblibass_plugin.dll",
+        "build/x86/plugins/codec/liblpcm_plugin.dll",
+        "build/x86/plugins/codec/libmft_plugin.dll",
+        "build/x86/plugins/codec/libmpg123_plugin.dll",
+        "build/x86/plugins/codec/liboggspots_plugin.dll",
+        "build/x86/plugins/codec/libopus_plugin.dll",
+        "build/x86/plugins/codec/libpng_plugin.dll",
+        "build/x86/plugins/codec/libqsv_plugin.dll",
+        "build/x86/plugins/codec/librawvideo_plugin.dll",
+        "build/x86/plugins/codec/librtpvideo_plugin.dll",
+        "build/x86/plugins/codec/libschroedinger_plugin.dll",
+        "build/x86/plugins/codec/libscte18_plugin.dll",
+        "build/x86/plugins/codec/libscte27_plugin.dll",
+        "build/x86/plugins/codec/libsdl_image_plugin.dll",
+        "build/x86/plugins/codec/libspdif_plugin.dll",
+        "build/x86/plugins/codec/libspeex_plugin.dll",
+        "build/x86/plugins/codec/libspudec_plugin.dll",
+        "build/x86/plugins/codec/libstl_plugin.dll",
+        "build/x86/plugins/codec/libsubsdec_plugin.dll",
+        "build/x86/plugins/codec/libsubstx3g_plugin.dll",
+        "build/x86/plugins/codec/libsubsusf_plugin.dll",
+        "build/x86/plugins/codec/libsvcdsub_plugin.dll",
+        "build/x86/plugins/codec/libtextst_plugin.dll",
+        "build/x86/plugins/codec/libtheora_plugin.dll",
+        "build/x86/plugins/codec/libttml_plugin.dll",
+        "build/x86/plugins/codec/libtwolame_plugin.dll",
+        "build/x86/plugins/codec/libuleaddvaudio_plugin.dll",
+        "build/x86/plugins/codec/libvorbis_plugin.dll",
+        "build/x86/plugins/codec/libvpx_plugin.dll",
+        "build/x86/plugins/codec/libwebvtt_plugin.dll",
+        "build/x86/plugins/codec/libx26410b_plugin.dll",
+        "build/x86/plugins/codec/libzvbi_plugin.dll",
+        "build/x86/plugins/d3d11/libdirect3d11_filters_plugin.dll",
+        "build/x86/plugins/d3d9/libdirect3d9_filters_plugin.dll",
+        "build/x86/plugins/demux/libadaptive_plugin.dll",
+        "build/x86/plugins/demux/libaiff_plugin.dll",
+        "build/x86/plugins/demux/libasf_plugin.dll",
+        "build/x86/plugins/demux/libau_plugin.dll",
+        "build/x86/plugins/demux/libavi_plugin.dll",
+        "build/x86/plugins/demux/libcaf_plugin.dll",
+        "build/x86/plugins/demux/libdemux_cdg_plugin.dll",
+        "build/x86/plugins/demux/libdemux_chromecast_plugin.dll",
+        "build/x86/plugins/demux/libdemux_stl_plugin.dll",
+        "build/x86/plugins/demux/libdemuxdump_plugin.dll",
+        "build/x86/plugins/demux/libdiracsys_plugin.dll",
+        "build/x86/plugins/demux/libdirectory_demux_plugin.dll",
+        "build/x86/plugins/demux/libes_plugin.dll",
+        "build/x86/plugins/demux/libflacsys_plugin.dll",
+        "build/x86/plugins/demux/libgme_plugin.dll",
+        "build/x86/plugins/demux/libh26x_plugin.dll",
+        "build/x86/plugins/demux/libimage_plugin.dll",
+        "build/x86/plugins/demux/libmjpeg_plugin.dll",
+        "build/x86/plugins/demux/libmkv_plugin.dll",
+        "build/x86/plugins/demux/libmod_plugin.dll",
+        "build/x86/plugins/demux/libmp4_plugin.dll",
+        "build/x86/plugins/demux/libmpgv_plugin.dll",
+        "build/x86/plugins/demux/libnoseek_plugin.dll",
+        "build/x86/plugins/demux/libnsc_plugin.dll",
+        "build/x86/plugins/demux/libnsv_plugin.dll",
+        "build/x86/plugins/demux/libnuv_plugin.dll",
+        "build/x86/plugins/demux/libogg_plugin.dll",
+        "build/x86/plugins/demux/libplaylist_plugin.dll",
+        "build/x86/plugins/demux/libps_plugin.dll",
+        "build/x86/plugins/demux/libpva_plugin.dll",
+        "build/x86/plugins/demux/librawaud_plugin.dll",
+        "build/x86/plugins/demux/librawdv_plugin.dll",
+        "build/x86/plugins/demux/librawvid_plugin.dll",
+        "build/x86/plugins/demux/libsmf_plugin.dll",
+        "build/x86/plugins/demux/libsubtitle_plugin.dll",
+        "build/x86/plugins/demux/libts_plugin.dll",
+        "build/x86/plugins/demux/libtta_plugin.dll",
+        "build/x86/plugins/demux/libty_plugin.dll",
+        "build/x86/plugins/demux/libvc1_plugin.dll",
+        "build/x86/plugins/demux/libvobsub_plugin.dll",
+        "build/x86/plugins/demux/libvoc_plugin.dll",
+        "build/x86/plugins/demux/libwav_plugin.dll",
+        "build/x86/plugins/demux/libxa_plugin.dll",
+        "build/x86/plugins/keystore/libfile_keystore_plugin.dll",
+        "build/x86/plugins/keystore/libmemory_keystore_plugin.dll",
+        "build/x86/plugins/logger/libconsole_logger_plugin.dll",
+        "build/x86/plugins/lua/liblua_plugin.dll",
+        "build/x86/plugins/meta_engine/libfolder_plugin.dll",
+        "build/x86/plugins/meta_engine/libtaglib_plugin.dll",
+        "build/x86/plugins/misc/libaddonsfsstorage_plugin.dll",
+        "build/x86/plugins/misc/libaddonsvorepository_plugin.dll",
+        "build/x86/plugins/misc/libfingerprinter_plugin.dll",
+        "build/x86/plugins/misc/libgnutls_plugin.dll",
+        "build/x86/plugins/misc/libxml_plugin.dll",
+        "build/x86/plugins/mux/libmux_asf_plugin.dll",
+        "build/x86/plugins/mux/libmux_avi_plugin.dll",
+        "build/x86/plugins/mux/libmux_dummy_plugin.dll",
+        "build/x86/plugins/mux/libmux_mp4_plugin.dll",
+        "build/x86/plugins/mux/libmux_mpjpeg_plugin.dll",
+        "build/x86/plugins/mux/libmux_ogg_plugin.dll",
+        "build/x86/plugins/mux/libmux_ps_plugin.dll",
+        "build/x86/plugins/mux/libmux_ts_plugin.dll",
+        "build/x86/plugins/mux/libmux_wav_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_av1_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_copy_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_dirac_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_dts_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_flac_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_h264_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_hevc_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_mlp_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_mpeg4audio_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_mpeg4video_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_mpegaudio_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_mpegvideo_plugin.dll",
+        "build/x86/plugins/packetizer/libpacketizer_vc1_plugin.dll",
+        "build/x86/plugins/services_discovery/libmicrodns_plugin.dll",
+        "build/x86/plugins/services_discovery/libupnp_plugin.dll",
+        "build/x86/plugins/services_discovery/libwindrive_plugin.dll",
+        "build/x86/plugins/spu/libaudiobargraph_v_plugin.dll",
+        "build/x86/plugins/spu/liblogo_plugin.dll",
+        "build/x86/plugins/spu/libmarq_plugin.dll",
+        "build/x86/plugins/spu/libmosaic_plugin.dll",
+        "build/x86/plugins/spu/libremoteosd_plugin.dll",
+        "build/x86/plugins/spu/librss_plugin.dll",
+        "build/x86/plugins/spu/libsubsdelay_plugin.dll",
+        "build/x86/plugins/stream_extractor/libarchive_plugin.dll",
+        "build/x86/plugins/stream_filter/libadf_plugin.dll",
+        "build/x86/plugins/stream_filter/libaribcam_plugin.dll",
+        "build/x86/plugins/stream_filter/libcache_block_plugin.dll",
+        "build/x86/plugins/stream_filter/libcache_read_plugin.dll",
+        "build/x86/plugins/stream_filter/libhds_plugin.dll",
+        "build/x86/plugins/stream_filter/libinflate_plugin.dll",
+        "build/x86/plugins/stream_filter/libprefetch_plugin.dll",
+        "build/x86/plugins/stream_filter/librecord_plugin.dll",
+        "build/x86/plugins/stream_filter/libskiptags_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_autodel_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_bridge_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_chromaprint_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_chromecast_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_delay_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_description_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_display_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_dummy_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_duplicate_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_es_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_gather_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_mosaic_bridge_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_record_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_setid_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_smem_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_standard_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_stats_plugin.dll",
+        "build/x86/plugins/stream_out/libstream_out_transcode_plugin.dll",
+        "build/x86/plugins/text_renderer/libfreetype_plugin.dll",
+        "build/x86/plugins/text_renderer/libsapi_plugin.dll",
+        "build/x86/plugins/text_renderer/libtdummy_plugin.dll",
+        "build/x86/plugins/video_chroma/libchain_plugin.dll",
+        "build/x86/plugins/video_chroma/libgrey_yuv_plugin.dll",
+        "build/x86/plugins/video_chroma/libi420_10_p010_plugin.dll",
+        "build/x86/plugins/video_chroma/libi420_nv12_plugin.dll",
+        "build/x86/plugins/video_chroma/libi420_rgb_mmx_plugin.dll",
+        "build/x86/plugins/video_chroma/libi420_rgb_plugin.dll",
+        "build/x86/plugins/video_chroma/libi420_rgb_sse2_plugin.dll",
+        "build/x86/plugins/video_chroma/libi420_yuy2_mmx_plugin.dll",
+        "build/x86/plugins/video_chroma/libi420_yuy2_plugin.dll",
+        "build/x86/plugins/video_chroma/libi420_yuy2_sse2_plugin.dll",
+        "build/x86/plugins/video_chroma/libi422_i420_plugin.dll",
+        "build/x86/plugins/video_chroma/libi422_yuy2_mmx_plugin.dll",
+        "build/x86/plugins/video_chroma/libi422_yuy2_plugin.dll",
+        "build/x86/plugins/video_chroma/libi422_yuy2_sse2_plugin.dll",
+        "build/x86/plugins/video_chroma/librv32_plugin.dll",
+        "build/x86/plugins/video_chroma/libswscale_plugin.dll",
+        "build/x86/plugins/video_chroma/libyuvp_plugin.dll",
+        "build/x86/plugins/video_chroma/libyuy2_i420_plugin.dll",
+        "build/x86/plugins/video_chroma/libyuy2_i422_plugin.dll",
+        "build/x86/plugins/video_filter/libadjust_plugin.dll",
+        "build/x86/plugins/video_filter/libalphamask_plugin.dll",
+        "build/x86/plugins/video_filter/libanaglyph_plugin.dll",
+        "build/x86/plugins/video_filter/libantiflicker_plugin.dll",
+        "build/x86/plugins/video_filter/libball_plugin.dll",
+        "build/x86/plugins/video_filter/libblend_plugin.dll",
+        "build/x86/plugins/video_filter/libblendbench_plugin.dll",
+        "build/x86/plugins/video_filter/libbluescreen_plugin.dll",
+        "build/x86/plugins/video_filter/libcanvas_plugin.dll",
+        "build/x86/plugins/video_filter/libcolorthres_plugin.dll",
+        "build/x86/plugins/video_filter/libcroppadd_plugin.dll",
+        "build/x86/plugins/video_filter/libdeinterlace_plugin.dll",
+        "build/x86/plugins/video_filter/libedgedetection_plugin.dll",
+        "build/x86/plugins/video_filter/liberase_plugin.dll",
+        "build/x86/plugins/video_filter/libextract_plugin.dll",
+        "build/x86/plugins/video_filter/libfps_plugin.dll",
+        "build/x86/plugins/video_filter/libfreeze_plugin.dll",
+        "build/x86/plugins/video_filter/libgaussianblur_plugin.dll",
+        "build/x86/plugins/video_filter/libgradfun_plugin.dll",
+        "build/x86/plugins/video_filter/libgradient_plugin.dll",
+        "build/x86/plugins/video_filter/libgrain_plugin.dll",
+        "build/x86/plugins/video_filter/libhqdn3d_plugin.dll",
+        "build/x86/plugins/video_filter/libinvert_plugin.dll",
+        "build/x86/plugins/video_filter/libmagnify_plugin.dll",
+        "build/x86/plugins/video_filter/libmirror_plugin.dll",
+        "build/x86/plugins/video_filter/libmotionblur_plugin.dll",
+        "build/x86/plugins/video_filter/libmotiondetect_plugin.dll",
+        "build/x86/plugins/video_filter/liboldmovie_plugin.dll",
+        "build/x86/plugins/video_filter/libposterize_plugin.dll",
+        "build/x86/plugins/video_filter/libpsychedelic_plugin.dll",
+        "build/x86/plugins/video_filter/libpuzzle_plugin.dll",
+        "build/x86/plugins/video_filter/libripple_plugin.dll",
+        "build/x86/plugins/video_filter/libscale_plugin.dll",
+        "build/x86/plugins/video_filter/libscene_plugin.dll",
+        "build/x86/plugins/video_filter/libsepia_plugin.dll",
+        "build/x86/plugins/video_filter/libsharpen_plugin.dll",
+        "build/x86/plugins/video_filter/libtransform_plugin.dll",
+        "build/x86/plugins/video_filter/libvhs_plugin.dll",
+        "build/x86/plugins/video_filter/libwave_plugin.dll",
+        "build/x86/plugins/video_output/libcaca_plugin.dll",
+        "build/x86/plugins/video_output/libdirect3d11_plugin.dll",
+        "build/x86/plugins/video_output/libdirect3d9_plugin.dll",
+        "build/x86/plugins/video_output/libdirectdraw_plugin.dll",
+        "build/x86/plugins/video_output/libdrawable_plugin.dll",
+        "build/x86/plugins/video_output/libflaschen_plugin.dll",
+        "build/x86/plugins/video_output/libgl_plugin.dll",
+        "build/x86/plugins/video_output/libglinterop_dxva2_plugin.dll",
+        "build/x86/plugins/video_output/libglwin32_plugin.dll",
+        "build/x86/plugins/video_output/libvdummy_plugin.dll",
+        "build/x86/plugins/video_output/libvmem_plugin.dll",
+        "build/x86/plugins/video_output/libwgl_plugin.dll",
+        "build/x86/plugins/video_output/libwingdi_plugin.dll",
+        "build/x86/plugins/video_output/libwinhibit_plugin.dll",
+        "build/x86/plugins/video_output/libyuv_plugin.dll",
+        "build/x86/plugins/video_splitter/libclone_plugin.dll",
+        "build/x86/plugins/video_splitter/libpanoramix_plugin.dll",
+        "build/x86/plugins/video_splitter/libwall_plugin.dll",
+        "build/x86/plugins/visualization/libglspectrum_plugin.dll",
+        "build/x86/plugins/visualization/libgoom_plugin.dll",
+        "build/x86/plugins/visualization/libprojectm_plugin.dll",
+        "build/x86/plugins/visualization/libvisual_plugin.dll",
+        "build/x86/vlc.lib",
+        "build/x86/vlccore.lib",
+        "icon.png",
+        "videolan.libvlc.windows.3.0.21.nupkg.sha512",
+        "videolan.libvlc.windows.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LibVLCSharp >= 3.9.0",
+      "NAudio >= 2.2.1",
+      "OpenTK >= 4.8.2",
+      "Swashbuckle.AspNetCore >= 6.9.0",
+      "VideoLAN.LibVLC.Windows >= 3.0.21"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KraftWork\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\BackendPlayer\\BackendPlayer.csproj",
+      "projectName": "BackendPlayer",
+      "projectPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\BackendPlayer\\BackendPlayer.csproj",
+      "packagesPath": "C:\\Users\\KraftWork\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\BackendPlayer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\KraftWork\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "LibVLCSharp": {
+            "target": "Package",
+            "version": "[3.9.0, )"
+          },
+          "NAudio": {
+            "target": "Package",
+            "version": "[2.2.1, )"
+          },
+          "OpenTK": {
+            "target": "Package",
+            "version": "[4.8.2, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.9.0, )"
+          },
+          "VideoLAN.LibVLC.Windows": {
+            "target": "Package",
+            "version": "[3.0.21, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
