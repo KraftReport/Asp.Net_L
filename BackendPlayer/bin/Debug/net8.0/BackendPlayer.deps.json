@@ -8,21 +8,31 @@
     ".NETCoreApp,Version=v8.0": {
       "BackendPlayer/1.0.0": {
         "dependencies": {
+          "LibVLCSharp": "3.9.0",
           "NAudio": "2.2.1",
-          "OpenTK.OpenAL": "4.7.7",
-          "Swashbuckle.AspNetCore": "6.4.0"
+          "OpenTK": "4.8.2",
+          "Swashbuckle.AspNetCore": "6.9.0",
+          "VideoLAN.LibVLC.Windows": "3.0.21"
         },
         "runtime": {
           "BackendPlayer.dll": {}
         }
       },
+      "LibVLCSharp/3.9.0": {
+        "runtime": {
+          "lib/net8.0/LibVLCSharp.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.NETCore.Platforms/3.1.0": {},
-      "Microsoft.OpenApi/1.2.3": {
+      "Microsoft.OpenApi/1.6.14": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "assemblyVersion": "1.2.3.0",
-            "fileVersion": "1.2.3.0"
+            "assemblyVersion": "1.6.14.0",
+            "fileVersion": "1.6.14.0"
           }
         }
       },
@@ -101,7 +111,40 @@
           }
         }
       },
-      "OpenTK.Core/4.7.7": {
+      "OpenTK/4.8.2": {
+        "dependencies": {
+          "OpenTK.Audio.OpenAL": "4.8.2",
+          "OpenTK.Compute": "4.8.2",
+          "OpenTK.Core": "4.8.2",
+          "OpenTK.Graphics": "4.8.2",
+          "OpenTK.Input": "4.8.2",
+          "OpenTK.Mathematics": "4.8.2",
+          "OpenTK.Windowing.Common": "4.8.2",
+          "OpenTK.Windowing.Desktop": "4.8.2",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2"
+        }
+      },
+      "OpenTK.Audio.OpenAL/4.8.2": {
+        "dependencies": {
+          "OpenTK.Core": "4.8.2",
+          "OpenTK.Mathematics": "4.8.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Audio.OpenAL.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Compute/4.8.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Compute.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Core/4.8.2": {
         "runtime": {
           "lib/netstandard2.1/OpenTK.Core.dll": {
             "assemblyVersion": "4.0.0.0",
@@ -109,7 +152,27 @@
           }
         }
       },
-      "OpenTK.Mathematics/4.7.7": {
+      "OpenTK.Graphics/4.8.2": {
+        "dependencies": {
+          "OpenTK.Core": "4.8.2",
+          "OpenTK.Mathematics": "4.8.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Graphics.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Input/4.8.2": {
+        "runtime": {
+          "lib/netstandard2.0/OpenTK.Input.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Mathematics/4.8.2": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
         },
@@ -120,53 +183,113 @@
           }
         }
       },
-      "OpenTK.OpenAL/4.7.7": {
+      "OpenTK.redist.glfw/3.3.8.39": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libglfw-wayland.so.3.3": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libglfw.so.3.3": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libglfw.3.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libglfw.3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/glfw3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/glfw3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.Common/4.8.2": {
         "dependencies": {
-          "OpenTK.Core": "4.7.7",
-          "OpenTK.Mathematics": "4.7.7"
+          "OpenTK.Core": "4.8.2",
+          "OpenTK.Mathematics": "4.8.2"
         },
         "runtime": {
-          "lib/netcoreapp3.1/OpenTK.OpenAL.dll": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Common.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.0.0.0"
           }
         }
       },
-      "Swashbuckle.AspNetCore/6.4.0": {
+      "OpenTK.Windowing.Desktop/4.8.2": {
+        "dependencies": {
+          "OpenTK.Core": "4.8.2",
+          "OpenTK.Mathematics": "4.8.2",
+          "OpenTK.Windowing.Common": "4.8.2",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.GraphicsLibraryFramework/4.8.2": {
+        "dependencies": {
+          "OpenTK.Core": "4.8.2",
+          "OpenTK.redist.glfw": "3.3.8.39"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/6.9.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
-          "Swashbuckle.AspNetCore.Swagger": "6.4.0",
-          "Swashbuckle.AspNetCore.SwaggerGen": "6.4.0",
-          "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
+          "Swashbuckle.AspNetCore.Swagger": "6.9.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.9.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.9.0"
         }
       },
-      "Swashbuckle.AspNetCore.Swagger/6.4.0": {
+      "Swashbuckle.AspNetCore.Swagger/6.9.0": {
         "dependencies": {
-          "Microsoft.OpenApi": "1.2.3"
+          "Microsoft.OpenApi": "1.6.14"
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "assemblyVersion": "6.4.0.0",
-            "fileVersion": "6.4.0.0"
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.9.0.0",
+            "fileVersion": "6.9.0.799"
           }
         }
       },
-      "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
+      "Swashbuckle.AspNetCore.SwaggerGen/6.9.0": {
         "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "6.4.0"
+          "Swashbuckle.AspNetCore.Swagger": "6.9.0"
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "assemblyVersion": "6.4.0.0",
-            "fileVersion": "6.4.0.0"
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "6.9.0.0",
+            "fileVersion": "6.9.0.799"
           }
         }
       },
-      "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
+      "Swashbuckle.AspNetCore.SwaggerUI/6.9.0": {
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "assemblyVersion": "6.4.0.0",
-            "fileVersion": "6.4.0.0"
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "6.9.0.0",
+            "fileVersion": "6.9.0.799"
           }
         }
       },
@@ -177,7 +300,8 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
-      "System.Security.Principal.Windows/4.7.0": {}
+      "System.Security.Principal.Windows/4.7.0": {},
+      "VideoLAN.LibVLC.Windows/3.0.21": {}
     }
   },
   "libraries": {
@@ -185,6 +309,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "LibVLCSharp/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wydvN5kotK5y/ZRC04/F6YUqesJCzdixaItRkR8L0/nOLSs2/BJ7rKRbU7BxkxpKIBqlN8EpuXxH/fQEZEHtuw==",
+      "path": "libvlcsharp/3.9.0",
+      "hashPath": "libvlcsharp.3.9.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
@@ -200,12 +331,12 @@
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
     },
-    "Microsoft.OpenApi/1.2.3": {
+    "Microsoft.OpenApi/1.6.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
-      "path": "microsoft.openapi/1.2.3",
-      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+      "sha512": "sha512-tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
+      "path": "microsoft.openapi/1.6.14",
+      "hashPath": "microsoft.openapi.1.6.14.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",
@@ -256,54 +387,110 @@
       "path": "naudio.winmm/2.2.1",
       "hashPath": "naudio.winmm.2.2.1.nupkg.sha512"
     },
-    "OpenTK.Core/4.7.7": {
+    "OpenTK/4.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YlBGXGelHbXKabe2u6EOXkooK8rkFxh97VJlK3M4D0vzrZJltL5aHnB15I+W1adUJVI2P3e16qXJaGd7VsLfgA==",
-      "path": "opentk.core/4.7.7",
-      "hashPath": "opentk.core.4.7.7.nupkg.sha512"
+      "sha512": "sha512-s2bqkD0glaX5Zbrv0Nj91zcefGrwq+nAp7SnXw14Z22Wj1nVE9CWkEyKX8tha1EdxqSRwKdP6gi+xzZXs4nK4Q==",
+      "path": "opentk/4.8.2",
+      "hashPath": "opentk.4.8.2.nupkg.sha512"
     },
-    "OpenTK.Mathematics/4.7.7": {
+    "OpenTK.Audio.OpenAL/4.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tx6/xM8sdj7OQQp1Q8+xH25jSceU/muvlVircBPvPSPe5OdEtxgOk1OHZrSPu2c4u7u1id5lGf3dWKn8IQdU3g==",
-      "path": "opentk.mathematics/4.7.7",
-      "hashPath": "opentk.mathematics.4.7.7.nupkg.sha512"
+      "sha512": "sha512-/Xe0luzJiVOvJ8YXGMY/YLZsGsb0/7Ms09isb/WxkKWjLyuiB2OIflZ49VHmumZpQDz2PUgwqOt2fucviLOmuw==",
+      "path": "opentk.audio.openal/4.8.2",
+      "hashPath": "opentk.audio.openal.4.8.2.nupkg.sha512"
     },
-    "OpenTK.OpenAL/4.7.7": {
+    "OpenTK.Compute/4.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5OQhnGgg3tEi+RSw3BWwQkGoews1axpYFvT9q34lr1nBUplSVS6h9IIsnOpBHBqY+dt0Ff3DXTj8YVXTAt9XMQ==",
-      "path": "opentk.openal/4.7.7",
-      "hashPath": "opentk.openal.4.7.7.nupkg.sha512"
+      "sha512": "sha512-n3gBbXOTCkvkNjSOKkVpoxfF/QXzo+cPWKtzObm4f/J+5mOE8odHKXgPn1765Tnu2Ou2ImvdXi/bUFQt/V5Qiw==",
+      "path": "opentk.compute/4.8.2",
+      "hashPath": "opentk.compute.4.8.2.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore/6.4.0": {
+    "OpenTK.Core/4.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
-      "path": "swashbuckle.aspnetcore/6.4.0",
-      "hashPath": "swashbuckle.aspnetcore.6.4.0.nupkg.sha512"
+      "sha512": "sha512-BS5IM1W/BK9BtmsEnYT/RGv+KDK0Zrnw8nDDGvK45ywBjMLv+qBRB+Vkx5sQ4Jjy7btLxxqrPHmT3wt5N/PcxA==",
+      "path": "opentk.core/4.8.2",
+      "hashPath": "opentk.core.4.8.2.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore.Swagger/6.4.0": {
+    "OpenTK.Graphics/4.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nl4SBgGM+cmthUcpwO/w1lUjevdDHAqRvfUoe4Xp/Uvuzt9mzGUwyFCqa3ODBAcZYBiFoKvrYwz0rabslJvSmQ==",
-      "path": "swashbuckle.aspnetcore.swagger/6.4.0",
-      "hashPath": "swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512"
+      "sha512": "sha512-qpbyWqdO+yEFVFinKwEWKgi1Jgd0fVSgHbB7d5I8ozI9RL/SKZSNmJDxLjTMSQImJtFixmATcLEWwvEceJ/JsQ==",
+      "path": "opentk.graphics/4.8.2",
+      "hashPath": "opentk.graphics.4.8.2.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
+    "OpenTK.Input/4.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lXhcUBVqKrPFAQF7e/ZeDfb5PMgE8n5t6L5B6/BQSpiwxgHzmBcx8Msu42zLYFTvR5PIqE9Q9lZvSQAcwCxJjw==",
-      "path": "swashbuckle.aspnetcore.swaggergen/6.4.0",
-      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512"
+      "sha512": "sha512-BGs7STF0/o4kNJ1pWXko4I3IwEhieOHVgJFzXzo5m1tI4zMKjBqmzuc4GGfCu+Gtiv33vRYx3dt9f659nr5J8w==",
+      "path": "opentk.input/4.8.2",
+      "hashPath": "opentk.input.4.8.2.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
+    "OpenTK.Mathematics/4.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
-      "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
-      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+      "sha512": "sha512-A8D3eBWi/LKndvTQQ9o9uwyQJUjGORfWCn/gOvX0jIwmTctkLGnOdw5kw4JbRnzfrhZoSIaqZ7MYWWhIkasORw==",
+      "path": "opentk.mathematics/4.8.2",
+      "hashPath": "opentk.mathematics.4.8.2.nupkg.sha512"
+    },
+    "OpenTK.redist.glfw/3.3.8.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JzjaBzHTyKenUk9CXOYIqA/v7VMnjFnqmd3SKR3I1YpuOTu/H3ohyy3o+ZfMCQ6IRKs7CLfSPXMarKLvwD0WgQ==",
+      "path": "opentk.redist.glfw/3.3.8.39",
+      "hashPath": "opentk.redist.glfw.3.3.8.39.nupkg.sha512"
+    },
+    "OpenTK.Windowing.Common/4.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cE7w2AboX/cxtOl7UWa1rTnH4uUoCEg9rtppN6d1/8GOfKUW8LjO6bjEePrRk9LzRZL+5dky3nfw6ZONn5ItyA==",
+      "path": "opentk.windowing.common/4.8.2",
+      "hashPath": "opentk.windowing.common.4.8.2.nupkg.sha512"
+    },
+    "OpenTK.Windowing.Desktop/4.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SlEuiAllLgE03/jJbloCOD1iNtBpnhMuVb510ccA/ILp//mzXHeRKsz7zFJ1ct7yIxe5U2WExXx52Tan++p11Q==",
+      "path": "opentk.windowing.desktop/4.8.2",
+      "hashPath": "opentk.windowing.desktop.4.8.2.nupkg.sha512"
+    },
+    "OpenTK.Windowing.GraphicsLibraryFramework/4.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o50PgKL8G0Pqs7Lo7hu1ru+5X5l03aht5jaeik7McXFgVaBJzMLhMhZkiferx4bbcC9Rq597BOknDwqE/bsLOw==",
+      "path": "opentk.windowing.graphicslibraryframework/4.8.2",
+      "hashPath": "opentk.windowing.graphicslibraryframework.4.8.2.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/6.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lvI+XHF21tkwXd2nDCLGJsdhdUYsY3Ax2fWUlvw81Oa6EedtnIAf5tThy8ZnPcz/9/TwsLgjgtX9ifOCIjbEPA==",
+      "path": "swashbuckle.aspnetcore/6.9.0",
+      "hashPath": "swashbuckle.aspnetcore.6.9.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P316kpxx5DnDvJwNWW8iTAXkh9DVenAxFGe9v4OUS0gil+vitH7F1feXhCtVeHN/616EFNTMh4pV2lcr9kkw/w==",
+      "path": "swashbuckle.aspnetcore.swagger/6.9.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.9.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FjeMR3fBzwVc5plfYjoHw9ptf8SOWMupvO9X35J5EgzT3L9dRqSxa+cBKzL8PwCyemY0xNrggQSB5+MFWx1axg==",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.9.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.9.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0OxlWBFLl2gUESZX/K7QCTz9KctKy0VxHTvLIBcyWGD4z/fv5MCMW02qzYGcReLJr4yBnNDRzApKtLh6oBpe9A==",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.9.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.9.0.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/5.0.0": {
       "type": "package",
@@ -325,6 +512,13 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "VideoLAN.LibVLC.Windows/3.0.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1b1yjZPIzS2+s6YZv9Z5Co/q2srIvo03ZToPvZblWreeyeFGkLDwX7WZat8AxCB9uMQV6VUnms67SgQqko7Z0w==",
+      "path": "videolan.libvlc.windows/3.0.21",
+      "hashPath": "videolan.libvlc.windows.3.0.21.nupkg.sha512"
     }
   }
 }

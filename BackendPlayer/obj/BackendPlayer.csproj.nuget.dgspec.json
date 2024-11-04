@@ -50,17 +50,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "LibVLCSharp": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
             "NAudio": {
               "target": "Package",
               "version": "[2.2.1, )"
             },
-            "OpenTK.OpenAL": {
+            "OpenTK": {
               "target": "Package",
-              "version": "[4.7.7, )"
+              "version": "[4.8.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.9.0, )"
+            },
+            "VideoLAN.LibVLC.Windows": {
+              "target": "Package",
+              "version": "[3.0.21, )"
             }
           },
           "imports": [

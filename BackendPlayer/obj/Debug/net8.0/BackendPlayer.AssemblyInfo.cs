@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackendPlayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce7c4d77e061cff5125aacf802b0815f2d011da2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fee685a7d14b34ce9c2f5f4edd21635f3d45eb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackendPlayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackendPlayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

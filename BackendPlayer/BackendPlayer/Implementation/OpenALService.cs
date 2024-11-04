@@ -10,35 +10,31 @@ namespace BackendPlayer.BackendPlayer.Implementation
 {
     public class OpenALService : IMusicPlayer
     {
-
+    
         private int buffer;
         private int source;
         private ALFormat format;
         private byte[] audioData;
         private int sampleRate;
         private bool isPaused;
-        public OpenALService()
-        {
-            if(buffer == 0 && source == 0)
-            {
-                buffer = AL.GenBuffer();
-                source = AL.GenSource(); 
-            }
-        }
-
+  
         public void Load(string filePath)
-        { 
+        {
+      
+                buffer = AL.GenBuffer();
+                source = AL.GenSource();
+            
             using (var mp3Reader = new Mp3FileReader(filePath))
             using (var pcmStream = WaveFormatConversionStream.CreatePcmStream(mp3Reader))
             using (var memoryStream = new MemoryStream())
-            { 
+            {
                 pcmStream.CopyTo(memoryStream);
                 audioData = memoryStream.ToArray();
-                 
+
                 format = pcmStream.WaveFormat.Channels == 2 ? ALFormat.Stereo16 : ALFormat.Mono16;
                 sampleRate = pcmStream.WaveFormat.SampleRate;
             }
-             
+
             GCHandle handle = GCHandle.Alloc(audioData, GCHandleType.Pinned);
             try
             {
@@ -62,7 +58,7 @@ namespace BackendPlayer.BackendPlayer.Implementation
             }
             else
             {
-                Stop();  
+                Stop();
                 AL.SourcePlay(source);
             }
         }
@@ -76,7 +72,7 @@ namespace BackendPlayer.BackendPlayer.Implementation
         public void Stop()
         {
             AL.SourceStop(source);
-            AL.SourceRewind(source);  
+            AL.SourceRewind(source);
             isPaused = false;
         }
 
@@ -89,7 +85,7 @@ namespace BackendPlayer.BackendPlayer.Implementation
         {
             Stop();
             AL.DeleteSource(source);
-            AL.DeleteBuffer(buffer); 
+            AL.DeleteBuffer(buffer);
         }
     }
 }
