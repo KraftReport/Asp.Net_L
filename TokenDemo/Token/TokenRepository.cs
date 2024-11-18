@@ -15,7 +15,7 @@ namespace TokenDemo.Token
 
         public async Task<bool> SaveRefreshToken(RefreshToken refreshToken)
         {
-            await refreshTokens.AddAsync(refreshToken)  ;
+            await refreshTokens.AddAsync(refreshToken);
             return await applicationDbContext.SaveChangesAsync() > 0;
         }
 
