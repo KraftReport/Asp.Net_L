@@ -3,6 +3,9 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)system.text.encodings.web\8.0.0\buildTransitive\netcoreapp2.0\System.Text.Encodings.Web.targets" Condition="Exists('$(NuGetPackageRoot)system.text.encodings.web\8.0.0\buildTransitive\netcoreapp2.0\System.Text.Encodings.Web.targets')" />
     <Import Project="$(NuGetPackageRoot)system.text.json\8.0.5\buildTransitive\netcoreapp2.0\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\8.0.5\buildTransitive\netcoreapp2.0\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.formats.asn1\8.0.1\buildTransitive\netcoreapp2.0\System.Formats.Asn1.targets" Condition="Exists('$(NuGetPackageRoot)system.formats.asn1\8.0.1\buildTransitive\netcoreapp2.0\System.Formats.Asn1.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.security.cryptography.pkcs\8.0.1\buildTransitive\netcoreapp2.0\System.Security.Cryptography.Pkcs.targets" Condition="Exists('$(NuGetPackageRoot)system.security.cryptography.pkcs\8.0.1\buildTransitive\netcoreapp2.0\System.Security.Cryptography.Pkcs.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.security.cryptography.xml\8.0.2\buildTransitive\netcoreapp2.0\System.Security.Cryptography.Xml.targets" Condition="Exists('$(NuGetPackageRoot)system.security.cryptography.xml\8.0.2\buildTransitive\netcoreapp2.0\System.Security.Cryptography.Xml.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.bcl.timeprovider\8.0.1\buildTransitive\netcoreapp2.0\Microsoft.Bcl.TimeProvider.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.bcl.timeprovider\8.0.1\buildTransitive\netcoreapp2.0\Microsoft.Bcl.TimeProvider.targets')" />
   </ImportGroup>
 </Project>

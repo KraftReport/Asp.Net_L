@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.2, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.2.0, )"
