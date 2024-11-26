@@ -41,9 +41,61 @@ namespace TokenDemo.Token
             claims: claims,
             expires: myanmarDateTime.AddMinutes(3),
             signingCredentials: sigingingMethod
-            );
-            
+            );  
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public string GenerateJwtRefreshToken()
+        {
+            var keyByte = Encoding.UTF8.GetBytes(SECRET);
+            var key = new SymmetricSecurityKey(keyByte);
+            var sigingingMethod = new SigningCredentials(key,SecurityAlgorithms.HmacSha256);
+            var myanmarTime = changeMyanmarTime(DateTime.UtcNow);
+            var token = new JwtSecurityToken(
+                expires : myanmarTime.AddDays(1),
+                signingCredentials : sigingingMethod
+                );
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public string ValidateRefreshToken(string refreshToken)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            
+            if(tokenHandler.ReadToken(refreshToken) == null)
+            {
+                return "this is not jwt token ";
+            }
+
+            var jwt = tokenHandler.ReadToken(refreshToken);
+
+            if (!ValidateTokenExpirationTime(refreshToken))
+            {
+                return "refresh token is expired";
+            }
+            
+            if(!ValidateSymmetricKey(refreshToken))
+            {
+                return "not a valid refresh token generated from server";
+            } 
+
+            return $"access token -> {GenerateAccessToken()}  refresh token -> {GenerateJwtRefreshToken()}";
+        }
+
+        private bool ValidateSymmetricKey(string token)
+        {
+            var tokenPart = token.Split('.');
+            var headerAndPayload = $"{tokenPart[0]}.{tokenPart[1]}";
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SECRET));
+            using(var hmac = new HMACSHA256(securityKey.Key))
+            {
+                var computedValue = hmac.ComputeHash(Encoding.UTF8.GetBytes(headerAndPayload));
+                if(Base64UrlEncoder.Encode(computedValue) != tokenPart[2])
+                {
+                    return false;
+                } 
+                return true;
+            }
         }
          
         public bool ValidateTokenExpirationTime(string token)
