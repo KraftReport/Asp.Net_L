@@ -3,52 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\jwtfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\jwtfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\refreshtokenprocessresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\refreshtokenprocessresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\cryptographyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\cryptographyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\cryptomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\cryptomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\jwtfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\jwtfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\cryptographyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\cryptographyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\refreshtokenprocessresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\refreshtokenprocessresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\token\\cryptomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:token\\cryptomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D8D44F3-E2AF-4BC2-8EB8-74ED89403EE5}|TokenDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\tokendemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,16 +86,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\TokenService.cs",
               "RelativeDocumentMoniker": "Token\\TokenService.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\TokenService.cs",
               "RelativeToolTip": "Token\\TokenService.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAvwEwAAAAQAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAIAwwGQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T07:30:41.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T07:30:41.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "Token\\TokenRepository.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\TokenRepository.cs",
+              "RelativeToolTip": "Token\\TokenRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:04:05.324Z"
             },
             {
               "$type": "Document",
@@ -105,27 +116,62 @@
               "RelativeDocumentMoniker": "Token\\JwtFilter.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\JwtFilter.cs",
               "RelativeToolTip": "Token\\JwtFilter.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAowFAAAABAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBYAAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T04:04:07.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Token\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Token\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T04:03:57.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T04:04:07.728Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "Controllers\\TokenController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAA5wDYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T08:12:14.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwCUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T08:14:16.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T07:35:47.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CryptographyService.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\CryptographyService.cs",
+              "RelativeDocumentMoniker": "Token\\CryptographyService.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\CryptographyService.cs",
+              "RelativeToolTip": "Token\\CryptographyService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAMwDMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:13:43.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RefreshTokenProcessResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\RefreshTokenProcessResponseModel.cs",
               "RelativeDocumentMoniker": "Token\\RefreshTokenProcessResponseModel.cs",
@@ -133,38 +179,11 @@
               "RelativeToolTip": "Token\\RefreshTokenProcessResponseModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:26:39.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T08:26:39.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TokenController.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "Controllers\\TokenController.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAkwGQAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:12:14.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CryptographyService.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\CryptographyService.cs",
-              "RelativeDocumentMoniker": "Token\\CryptographyService.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\CryptographyService.cs",
-              "RelativeToolTip": "Token\\CryptographyService.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAcwDMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:13:43.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\RefreshToken.cs",
               "RelativeDocumentMoniker": "Token\\RefreshToken.cs",
@@ -172,12 +191,23 @@
               "RelativeToolTip": "Token\\RefreshToken.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T04:04:05.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T04:04:05.891Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Token\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Token\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:03:57.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -189,19 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAUwCQAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:14:16.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CryptoModel.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\CryptoModel.cs",
               "RelativeDocumentMoniker": "Token\\CryptoModel.cs",
@@ -209,32 +227,7 @@
               "RelativeToolTip": "Token\\CryptoModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:32:28.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TokenRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\TokenRepository.cs",
-              "RelativeDocumentMoniker": "Token\\TokenRepository.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Token\\TokenRepository.cs",
-              "RelativeToolTip": "Token\\TokenRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T04:04:05.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\TokenDemo\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAUwA8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:35:47.873Z"
+              "WhenOpened": "2024-11-20T08:32:28.1Z"
             },
             {
               "$type": "Document",
