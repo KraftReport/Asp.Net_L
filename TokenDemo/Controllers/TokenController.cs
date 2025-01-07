@@ -86,5 +86,19 @@ namespace TokenDemo.Controllers
         {
             return Ok(_cryptographyService.DoCheckSum(data));
         }
+
+        [HttpPost]
+        [Route("jwt-refresh-token")]
+        public IActionResult JwtRefreshToken()
+        {
+            return Ok(_tokenService.GenerateJwtRefreshToken());
+        }
+
+        [HttpPost]
+        [Route("validate-jwt-refresh-token")]
+        public IActionResult ValidateJwtRefreshToken([FromBody]string token)
+        {
+            return Ok(_tokenService.ValidateRefreshToken(token));
+        }
     }
 }
