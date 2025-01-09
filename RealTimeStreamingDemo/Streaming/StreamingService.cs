@@ -21,6 +21,7 @@ namespace RealTimeStreamingDemo.Streaming
             using(var _httpClient = new HttpClient())
             using(var form = new MultipartFormDataContent())
             {
+                _httpClient.DefaultRequestHeaders.ConnectionClose = false; 
                 _httpClient.Timeout = TimeSpan.FromMinutes(15);
                 var fs = File.OpenRead(uploadRequestModel.VideoUrl); 
                 form.Add(new StringContent(uploadRequestModel.Policy), "policy");
@@ -32,7 +33,7 @@ namespace RealTimeStreamingDemo.Streaming
                 form.Add(new StringContent("201"), "success_action_status");
                 form.Add(new StringContent(""), "success_action_redirect");
                 form.Add(new StreamContent(fs), "file", Path.GetFileName(uploadRequestModel.VideoUrl));
-                form.Headers.ContentType = MediaTypeHeaderValue.Parse("application/octet-stream");
+              //  form.Headers.ContentType = MediaTypeHeaderValue.Parse("application/octet-stream");
                 var response = await _httpClient.PostAsync(uploadRequestModel.UploadLink, form);
                 return response.IsSuccessStatusCode;
             }
