@@ -29,6 +29,16 @@ namespace RealTimeStreamingDemo
             services.AddControllers();
 
             services.AddScoped<StreamingService>();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("allowReactFrontend", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +52,8 @@ namespace RealTimeStreamingDemo
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("allowReactFrontend");
 
             app.UseAuthorization();
 
