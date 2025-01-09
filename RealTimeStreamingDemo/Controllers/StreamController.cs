@@ -18,9 +18,9 @@ namespace RealTimeStreamingDemo.Controllers
 
         [HttpPost]
         [Route("upload")]
-        public async Task<IActionResult> Upload(UploadRequestModel uploadRequestModel)
+        public async Task<IActionResult> Upload([FromForm]string url,[FromForm]string title)
         {
-            return Ok(await streamingService.UploadVideoToVdoCipherServer(uploadRequestModel));
+            return Ok(await streamingService.UploadVideo(url,title));
         }
 
         [HttpPost]
@@ -29,5 +29,6 @@ namespace RealTimeStreamingDemo.Controllers
         {
             return Ok(streamingService.GetOtpAndPlaybackInfo(videoId));
         }
+         
     }
 }
