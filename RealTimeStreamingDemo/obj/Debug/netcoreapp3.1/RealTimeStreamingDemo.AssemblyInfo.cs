@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RealTimeStreamingDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a3d56513f1f8be3c37b6fdd406978f21e4e5119")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6db244c4bd2e43a0ccb8bc7ddaba45c0bd93060")]
 [assembly: System.Reflection.AssemblyProductAttribute("RealTimeStreamingDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RealTimeStreamingDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
