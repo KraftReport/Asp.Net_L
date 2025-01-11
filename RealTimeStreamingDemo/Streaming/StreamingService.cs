@@ -23,7 +23,7 @@ namespace RealTimeStreamingDemo.Streaming
             {
                 _httpClient.DefaultRequestHeaders.ConnectionClose = false; 
                 _httpClient.Timeout = TimeSpan.FromMinutes(15);
-                var fs = File.OpenRead(uploadRequestModel.VideoUrl); 
+                var fs = /*File.OpenRead(uploadRequestModel.VideoUrl);*/ uploadRequestModel.file.OpenReadStream(); 
                 form.Add(new StringContent(uploadRequestModel.Policy), "policy");
                 form.Add(new StringContent(uploadRequestModel.Key), "key");
                 form.Add(new StringContent(uploadRequestModel.Signature), "x-amz-signature");
@@ -32,12 +32,14 @@ namespace RealTimeStreamingDemo.Streaming
                 form.Add(new StringContent(uploadRequestModel.Credential), "x-amz-credential");
                 form.Add(new StringContent("201"), "success_action_status");
                 form.Add(new StringContent(""), "success_action_redirect");
-                form.Add(new StreamContent(fs), "file", Path.GetFileName(uploadRequestModel.VideoUrl));
+                form.Add(new StreamContent(fs), "file", uploadRequestModel.title);
               //  form.Headers.ContentType = MediaTypeHeaderValue.Parse("application/octet-stream");
                 var response = await _httpClient.PostAsync(uploadRequestModel.UploadLink, form);
                 return response.IsSuccessStatusCode;
             }
         }
+
+
 
         public string GetOtpAndPlaybackInfo(string videoId)
         {
@@ -53,11 +55,12 @@ namespace RealTimeStreamingDemo.Streaming
             return response.Content;
         }
 
-        public async Task<string> UploadVideo(string videoUrl,string title)
+        public async Task<string> UploadVideo(/*string videoUrl,*/string title,IFormFile file)
         {
             var credentials = GetUploadCredentials(title);
             var dto = new UploadRequestModel
             {
+                file = file,
                 Algorithm = credentials.ClientPayload.XAmzAlgorithm,
                 Credential = credentials.ClientPayload.XAmzCredential,
                 Date = credentials.ClientPayload.XAmzDate,
@@ -65,7 +68,8 @@ namespace RealTimeStreamingDemo.Streaming
                 Policy = credentials.ClientPayload.Policy,
                 Signature = credentials.ClientPayload.XAmzSignature,
                 UploadLink = credentials.ClientPayload.UploadLink,
-                VideoUrl = videoUrl,
+                title = title,
+              /*  VideoUrl = videoUrl,*/
             };
             await UploadVideoToVdoCipherServer(dto);
             return credentials.VideoId;

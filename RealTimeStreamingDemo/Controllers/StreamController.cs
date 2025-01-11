@@ -18,9 +18,9 @@ namespace RealTimeStreamingDemo.Controllers
 
         [HttpPost]
         [Route("upload")]
-        public async Task<IActionResult> Upload([FromForm]string url,[FromForm]string title)
+        public async Task<IActionResult> Upload(/*[FromForm]string url,*/[FromForm]string title, [FromForm]IFormFile file)
         {
-            return Ok(await streamingService.UploadVideo(url,title));
+            return Ok(await streamingService.UploadVideo(/*url,*/title,file));
         }
 
         [HttpPost]
