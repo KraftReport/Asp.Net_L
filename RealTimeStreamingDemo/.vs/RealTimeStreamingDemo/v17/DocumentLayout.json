@@ -35,8 +35,8 @@
       "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Streaming\\ClientPayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Streaming\\ClientPayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\streaming\\clientpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:streaming\\clientpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,8 +58,7 @@
               "RelativeToolTip": "Controllers\\StreamController.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAEwB0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T05:10:07.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T05:10:07.262Z"
             },
             {
               "$type": "Document",
@@ -81,7 +80,7 @@
               "RelativeDocumentMoniker": "Streaming\\StreamingService.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Streaming\\StreamingService.cs",
               "RelativeToolTip": "Streaming\\StreamingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T04:24:54.659Z",
               "EditorCaption": ""
@@ -96,8 +95,7 @@
               "RelativeToolTip": "Startup.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAwwCIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T04:24:05.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T04:24:05.273Z"
             },
             {
               "$type": "Document",
@@ -121,8 +119,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAkwBkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T05:11:49.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T05:11:49.772Z"
             },
             {
               "$type": "Document",
@@ -134,8 +131,7 @@
               "RelativeToolTip": "Streaming\\CredentialResponseModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T05:04:14.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T05:04:14.415Z"
             },
             {
               "$type": "Document",
