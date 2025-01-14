@@ -75,6 +75,9 @@ namespace RealTimeStreamingDemo.Streaming
             return credentials.VideoId;
         }
 
+
+         
+
         private CredentialResponseModel GetUploadCredentials(string title)
         {
             using(var client = new RestClient("https://dev.vdocipher.com"))
@@ -103,5 +106,6 @@ namespace RealTimeStreamingDemo.Streaming
                 }; 
             }
         }
+
     }
 }
