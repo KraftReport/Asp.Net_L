@@ -35,43 +35,27 @@ namespace RealTimeStreamingDemo.Controllers
             return Ok(streamingService.GetOtpAndPlaybackInfo(videoId));
         }
 
-        [HttpGet]
-        [Route("audio-stream")]
-        public async Task<IActionResult> AudioStream()
+        [HttpPost]
+        [Route("split")]
+        public IActionResult Split([FromForm]string filePath)
         {
-            var audioFilePath = "C:/Users/KraftWork/Desktop/BaDin/snnncnmt.mp3";
-            var icecastUrl = "http://localhost:8000/stream.mp3";
-            var sourcePassword = "hackme";
-
             try
             {
-                using (var httpClient = new HttpClient())
-                { 
-                    var authHeader = Convert.ToBase64String(Encoding.UTF8.GetBytes($"source:{sourcePassword}"));
-                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", authHeader);
-                     
-                    using (var fileStream = new FileStream(audioFilePath, FileMode.Open, FileAccess.Read))
-                    {
-                        var content = new StreamContent(fileStream);
-                        content.Headers.ContentType = new MediaTypeHeaderValue("audio/mpeg");
-                         
-                        var response = await httpClient.PostAsync(icecastUrl, content);
-
-                        if (response.IsSuccessStatusCode)
-                        {
-                            return Ok("Streaming started successfully.");
-                        }
-                        else
-                        {
-                            return BadRequest($"Failed to start streaming. Status code: {response.StatusCode}. Message: {await response.Content.ReadAsStringAsync()}");
-                        }
-                    }
-                }
+                streamingService.GenerateStreamingFiles(filePath);
+                return Ok("ok"); 
             }
-            catch (Exception ex)
+            catch(Exception e)
             {
-                return BadRequest($"An error occurred: {ex.Message}");
-            }
+                throw new Exception("error creating streaming files");
+            } 
+        } 
+
+        [HttpPost]
+        [Route("change-key-location")]
+        public IActionResult ChangeKeyLocation([FromForm]string m3u8FilePath, [FromForm]string newKeyFileLocation)
+        {
+            streamingService.EditKeyFileLocation(m3u8FilePath, newKeyFileLocation);
+            return Ok("ok");
         }
 
 

@@ -15,6 +15,10 @@
       "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:streaming\\credentialresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\streaming\\uploadrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:streaming\\uploadrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,21 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StreamController.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Controllers\\StreamController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StreamController.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Controllers\\StreamController.cs",
-              "RelativeToolTip": "Controllers\\StreamController.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAqwC0AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T05:10:07.262Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -69,21 +56,10 @@
               "RelativeDocumentMoniker": "Streaming\\StreamingService.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Streaming\\StreamingService.cs",
               "RelativeToolTip": "Streaming\\StreamingService.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAqwE4AAAAIAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAIwKcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T04:24:54.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T05:13:12.698Z"
+              "WhenOpened": "2025-01-07T04:24:54.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -95,11 +71,12 @@
               "RelativeToolTip": "Streaming\\CredentialResponseModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T05:04:14.415Z"
+              "WhenOpened": "2025-01-08T05:04:14.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UploadRequestModel.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Streaming\\UploadRequestModel.cs",
               "RelativeDocumentMoniker": "Streaming\\UploadRequestModel.cs",
@@ -111,19 +88,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBkAAAABAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T05:11:49.772Z"
+              "WhenOpened": "2025-01-07T05:11:49.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StreamController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Controllers\\StreamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StreamController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Controllers\\StreamController.cs",
+              "RelativeToolTip": "Controllers\\StreamController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAvwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T05:10:07.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T05:13:12.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",

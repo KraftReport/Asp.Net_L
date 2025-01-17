@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using RestSharp;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace RealTimeStreamingDemo.Streaming
@@ -76,7 +78,55 @@ namespace RealTimeStreamingDemo.Streaming
         }
 
 
-         
+        
+        public async void GenerateStreamingFiles(string inputFilePath)
+        {
+            inputFilePath.Replace("\\", "/");
+            var outPutPath = Path.Combine("C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo","Resources","index.m3u8").Replace("\\","/");
+            var segmentedFilePath = Path.Combine("C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo", "Resources", "output%d.ts").Replace("\\","/");
+            var keyInfoPath = Path.Combine("http://localhost:9000", "encryption.info");
+            var command = $" -y -i {inputFilePath.Replace("\\", "/")} -hls_time 15 -c copy -hls_key_info_file {keyInfoPath.Replace("\\", "/")} -hls_playlist_type vod -hls_segment_filename {segmentedFilePath.Replace("\\", "/")} {outPutPath.Replace("\\", "/")}";
+             
+
+          /*  Directory.CreateDirectory(outPutPath); */
+
+            var info = new ProcessStartInfo()
+            {
+                FileName = "ffmpeg",
+                Arguments = command,
+                CreateNoWindow = true,
+                UseShellExecute = false,
+                RedirectStandardError = true,
+                RedirectStandardOutput = true,
+                WorkingDirectory = "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Resources",
+            };
+
+            try
+            {
+                using(var process = new Process() { StartInfo = info})
+                {
+                    process.Start();
+                    var output = process.StandardOutput.ReadToEndAsync();
+                    var error =   process.StandardError.ReadToEndAsync();
+                    process.WaitForExit();
+
+                    if (process.ExitCode != 0)
+                    {
+                        var errorOutput = await error;
+                        throw new Exception($"Process exited with code {process.ExitCode}. Error: {errorOutput}");
+                    }
+
+                    await output;
+
+                }
+                
+
+            }catch (Exception ex)
+            {
+                throw new Exception(ex.Message, ex);
+            }
+        }
+        
 
         private CredentialResponseModel GetUploadCredentials(string title)
         {
@@ -105,6 +155,17 @@ namespace RealTimeStreamingDemo.Streaming
                     VideoId = videoId
                 }; 
             }
+        }
+
+        public void EditKeyFileLocation(string m3u8FilePath,string newKeyFileLocation)
+        {
+            var fileContent = File.ReadAllText(m3u8FilePath);
+
+            var pattern = @"(#EXT-X-KEY:METHOD=AES-128,URI="")(.*?)("")";
+
+            var updatedContent = Regex.Replace(fileContent, pattern, $"$1{newKeyFileLocation}$3");
+
+            File.WriteAllText(m3u8FilePath, updatedContent); 
         }
 
     }
