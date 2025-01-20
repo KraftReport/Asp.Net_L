@@ -1,11 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RealTimeStreamingDemo.Streaming;
-using System;
-using System.IO;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
+using System; 
 using System.Threading.Tasks;
 
 namespace RealTimeStreamingDemo.Controllers
@@ -56,6 +52,38 @@ namespace RealTimeStreamingDemo.Controllers
         {
             streamingService.EditKeyFileLocation(m3u8FilePath, newKeyFileLocation);
             return Ok("ok");
+        }
+
+        [HttpPost]
+        [Route("change-ts-location")]   
+        public IActionResult ChangeTsLocation([FromForm]string m3u8FilePath, [FromForm]string newTsFileLocation)
+        {
+            streamingService.EditTsFileLocation(m3u8FilePath, newTsFileLocation);
+            return Ok("ok");
+        }
+
+        [HttpGet]
+        [Route("get-otk")]
+        public IActionResult GetOtk(string token)
+        {
+            try
+            {
+                var fileBytes = System.IO.File.ReadAllBytes($"C:\\Users\\KraftWork\\Desktop\\wow\\{token}\\encryption.key");
+                //System.IO.File.Delete($"http://localhost:9002/{token}/encryption.key");
+                System.IO.File.Delete("C:\\Users\\KraftWork\\Desktop\\wow\\12345\\encryption.key");
+                return File(fileBytes, "application/octet-stream", "encryption.key");
+            }
+            catch
+            {
+                return NotFound("token is invalid");
+            }
+        }
+
+        [HttpGet]
+        [Route("hello")]
+        public IActionResult Hello()
+        {
+            return Ok("hello");
         }
 
 
