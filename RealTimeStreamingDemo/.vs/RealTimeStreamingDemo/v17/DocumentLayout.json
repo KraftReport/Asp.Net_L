@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:streaming\\streamingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\streaming\\uploadrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:streaming\\uploadrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\streaming\\credentialresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:streaming\\credentialresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\streaming\\uploadrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|solutionrelative:streaming\\uploadrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D698D5F5-454B-4127-8918-E18FE22CAC34}|RealTimeStreamingDemo.csproj|c:\\users\\kraftwork\\desktop\\gitworkspace\\asp.net_l\\realtimestreamingdemo\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,14 +56,14 @@
               "RelativeDocumentMoniker": "Streaming\\StreamingService.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Streaming\\StreamingService.cs",
               "RelativeToolTip": "Streaming\\StreamingService.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAIwKcAAAA9AAAA",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAqwLcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T04:24:54.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CredentialResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Streaming\\CredentialResponseModel.cs",
               "RelativeDocumentMoniker": "Streaming\\CredentialResponseModel.cs",
@@ -71,24 +71,24 @@
               "RelativeToolTip": "Streaming\\CredentialResponseModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T05:04:14.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T05:04:14.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "UploadRequestModel.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Streaming\\UploadRequestModel.cs",
               "RelativeDocumentMoniker": "Streaming\\UploadRequestModel.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Streaming\\UploadRequestModel.cs",
               "RelativeToolTip": "Streaming\\UploadRequestModel.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wA8AAAApAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:24:15.027Z"
+              "WhenOpened": "2025-01-07T07:24:15.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -96,8 +96,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAwwBUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T05:11:49.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T05:11:49.772Z"
             },
             {
               "$type": "Document",
@@ -107,7 +106,7 @@
               "RelativeDocumentMoniker": "Controllers\\StreamController.cs",
               "ToolTip": "C:\\Users\\KraftWork\\Desktop\\GitWorkSpace\\Asp.Net_L\\RealTimeStreamingDemo\\Controllers\\StreamController.cs",
               "RelativeToolTip": "Controllers\\StreamController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAvwDoAAAAJAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAIwEYAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T05:10:07.262Z",
               "EditorCaption": ""

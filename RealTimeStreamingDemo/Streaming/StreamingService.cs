@@ -168,5 +168,20 @@ namespace RealTimeStreamingDemo.Streaming
             File.WriteAllText(m3u8FilePath, updatedContent); 
         }
 
+        public void EditTsFileLocation(string m3u8FilePath,string newTsFileLocation)
+        {
+            var fileContent = File.ReadAllText(m3u8FilePath);
+
+            var pattern = @"^(#EXTINF:\d+.\d+,\s*)output(\d+\.ts)$";
+
+            fileContent = Regex.Replace(fileContent, pattern, m =>
+            {
+                var firstLinePart = m.Groups[1].Value;
+                var seconeLinePart = m.Groups[2].Value;
+                return $"{firstLinePart}{newTsFileLocation}{seconeLinePart}";
+            }, RegexOptions.Multiline); 
+            File.WriteAllText(m3u8FilePath,fileContent); 
+        }
+
     }
 }
