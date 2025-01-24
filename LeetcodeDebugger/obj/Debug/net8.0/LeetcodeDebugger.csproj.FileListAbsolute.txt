@@ -1,0 +1,15 @@
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\bin\Debug\net8.0\LeetcodeDebugger.exe
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\bin\Debug\net8.0\LeetcodeDebugger.deps.json
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\bin\Debug\net8.0\LeetcodeDebugger.runtimeconfig.json
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\bin\Debug\net8.0\LeetcodeDebugger.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\bin\Debug\net8.0\LeetcodeDebugger.pdb
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\LeetcodeDebugger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\LeetcodeDebugger.AssemblyInfoInputs.cache
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\LeetcodeDebugger.AssemblyInfo.cs
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\LeetcodeDebugger.csproj.CoreCompileInputs.cache
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\LeetcodeDebugger.sourcelink.json
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\LeetcodeDebugger.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\refint\LeetcodeDebugger.dll
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\LeetcodeDebugger.pdb
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\LeetcodeDebugger.genruntimeconfig.cache
+C:\Users\KraftWork\Desktop\GitWorkSpace\Asp.Net_L\LeetcodeDebugger\obj\Debug\net8.0\ref\LeetcodeDebugger.dll
